@@ -1,0 +1,1271 @@
+@prefix this: <http://purl.org/np/RArAFrdM4rux7Cwl-lT_a4JzGk9tcGItbpd7ykkbD3S2M> .
+@prefix sub: <http://purl.org/np/RArAFrdM4rux7Cwl-lT_a4JzGk9tcGItbpd7ykkbD3S2M#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  <https://w3id.org/biolink/vocab/FDA_adverse_event_level> rdfs:label "FDA adverse event level - " .
+  
+  <https://w3id.org/biolink/vocab/FDA_approval_status> rdfs:label "FDA approval status - " .
+  
+  <https://w3id.org/biolink/vocab/actively_involved_in> rdfs:label "actively involved in - holds between a continuant and a process or function, where the continuant actively contributes to part or all of the process or function it realizes" .
+  
+  <https://w3id.org/biolink/vocab/address> rdfs:label "address - the particulars of the place where someone or an organization is situated. For now, this slot is a simple text \"blob\" containing all relevant details of the given location for fitness of purpose. For the moment, this \"address\" can include other contact details such as email and phone number(?)." .
+  
+  <https://w3id.org/biolink/vocab/adjusted_p_value> rdfs:label "adjusted p value - The adjusted p-value is the probability of obtaining test results at least as extreme as the results actually observed, under the assumption that the null hypothesis is correct, adjusted for multiple comparisons. P is always italicized and capitalized. The actual P value* should be expressed (P=. 04) rather than expressing a statement of inequality (P<. 05), unless P<." .
+  
+  <https://w3id.org/biolink/vocab/affected_by> rdfs:label "affected by - describes an entity of which the state or quality is affected by another existing entity." .
+  
+  <https://w3id.org/biolink/vocab/affects> rdfs:label "affects - describes an entity that has a direct affect on the state or quality of another existing entity. Use of the 'affects' predicate implies that the affected entity already exists, unlike predicates such as 'affects risk for' and 'prevents, where the outcome is something that may or may not come to be." .
+  
+  <https://w3id.org/biolink/vocab/affects_risk_for> rdfs:label "affects risk for - holds between two entities where exposure to one entity alters the chance of developing the other" .
+  
+  <https://w3id.org/biolink/vocab/affiliation> rdfs:label "affiliation - a professional relationship between one provider (often a person) within another provider (often an organization). Target provider identity should be specified by a CURIE. Providers may have multiple affiliations." .
+  
+  <https://w3id.org/biolink/vocab/agent_id> rdfs:label "agent id - Different classes of agents have distinct preferred identifiers. For publishers, use the ISBN publisher code. See https://grp.isbn-international.org/ for publisher code lookups. For editors, authors and individual providers, use the individual's ORCID if available; Otherwise, a ScopusID, ResearchID or Google Scholar ID ('GSID') may be used if the author ORCID is unknown. Institutional agents could be identified by an International Standard Name Identifier ('ISNI') code." .
+  
+  <https://w3id.org/biolink/vocab/agent_name> rdfs:label "agent name - it is recommended that an author's 'name' property be formatted as \"surname, firstname initial.\"" .
+  
+  <https://w3id.org/biolink/vocab/aggregator_knowledge_source> rdfs:label "aggregator knowledge source - An intermediate aggregator resource from which knowledge expressed in an Association was retrieved downstream of the original source, on its path to its current serialized form." .
+  
+  <https://w3id.org/biolink/vocab/ameliorates> rdfs:label "ameliorates - A relationship between an entity (e.g. a genotype, genetic variation, chemical, or environmental exposure, clinical intervention) and a condition (a phenotype or disease), where the presence of the entity reduces or eliminates some or all aspects of the condition." .
+  
+  <https://w3id.org/biolink/vocab/anatomical_context_qualifier> rdfs:label "anatomical context qualifier - A statement qualifier representing an anatomical location where an relationship expressed in an association took place (can be a tissue, cell type, or sub-cellular location)." .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_association_object>
+    rdfs:label "anatomical entity to anatomical entity association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_association_subject>
+    rdfs:label "anatomical entity to anatomical entity association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_ontogenic_association_object>
+    rdfs:label "anatomical entity to anatomical entity ontogenic association object - the structure at an earlier time" .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_ontogenic_association_predicate>
+    rdfs:label "anatomical entity to anatomical entity ontogenic association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_ontogenic_association_subject>
+    rdfs:label "anatomical entity to anatomical entity ontogenic association subject - the structure at a later time" .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_part_of_association_object>
+    rdfs:label "anatomical entity to anatomical entity part of association object - the whole" .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_part_of_association_predicate>
+    rdfs:label "anatomical entity to anatomical entity part of association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/anatomical_entity_to_anatomical_entity_part_of_association_subject>
+    rdfs:label "anatomical entity to anatomical entity part of association subject - the part" .
+  
+  <https://w3id.org/biolink/vocab/animal_model_available_from> rdfs:label "animal model available from - " .
+  
+  <https://w3id.org/biolink/vocab/article_iso_abbreviation> rdfs:label "article iso abbreviation - Optional value, if used locally as a convenience, is set to the iso abbreviation of the 'published in' parent." .
+  
+  <https://w3id.org/biolink/vocab/article_published_in> rdfs:label "article published in - The enclosing parent serial containing the article should have industry-standard identifier from ISSN." .
+  
+  <https://w3id.org/biolink/vocab/aspect_qualifier> rdfs:label "aspect qualifier - Composes with the core concept to describe new concepts of a different ontological type. e.g. a process in which the core concept participates, a function/activity/role held by the core concept, or a characteristic/quality that inheres in the core concept. The purpose of the aspect slot is to indicate what aspect is being affected in an 'affects' association." .
+  
+  <https://w3id.org/biolink/vocab/assesses> rdfs:label "assesses - The effect of a thing on a target was interrogated in some assay. A relationship between some perturbing agent (usually a chemical compound) and some target entity, where the affect of the perturbing agent on the target entity was interrogated in a particular assay. The target might be a particular protein, tissue, phenotype, whole organism, cell line, or other type of biological entity." .
+  
+  <https://w3id.org/biolink/vocab/associated_environmental_context> rdfs:label "associated environmental context - An attribute that can be applied to an association where the association holds between two entities located or occurring in a particular environment. For example, two microbial taxa may interact in the context of a human gut; a disease may give rise to a particular phenotype in a particular environmental exposure. # TODO: add examples of values for this property." .
+  
+  <https://w3id.org/biolink/vocab/associated_with> rdfs:label "associated with - Expresses a relationship between two named things where the relationship is typically generated statistically (though not in all cases), and is weaker than its child, 'correlated with', but stronger than its parent, 'related to'. This relationship holds between two concepts represented by variables for which a statistical dependence is demonstrated. E.g. the statement “Atrial Fibrillation (Afib) is associated with Myocardial Infarction (MI)” asserts that having Afib is not statistically independent from whether a patient will also have MI. Note that in Translator associations, the subject and object concepts may map exactly to the statistical variables, or represent related entities for which the variables serve as proxies in an Association (e.g. diseases, chemical entities or processes)." .
+  
+  <https://w3id.org/biolink/vocab/associated_with_decreased_likelihood_of> rdfs:label
+      "associated with decreased likelihood of - Expresses a relationship between two named things where the relationship is typically generated statistically and the state or fact of something is less probable." .
+  
+  <https://w3id.org/biolink/vocab/associated_with_increased_likelihood_of> rdfs:label
+      "associated with increased likelihood of - Expresses a relationship between two named things where the relationship is typically generated statistically and the state or fact of something is more probable." .
+  
+  <https://w3id.org/biolink/vocab/associated_with_likelihood_of> rdfs:label "associated with likelihood of - A a relationship that holds between two concepts represented by variables for which a statistical dependence is demonstrated, wherein the state or value of one variable predicts the future state or value of the other. E.g. the statement “An Atrial Fibrillation (Afib) diagnosis is associated with likelihood of a Myocardial Infarction (MI) diagnosis” asserts that the state of having Afib is associated with an increased or decreased likelihood that a patient will later exhibit MI." .
+  
+  <https://w3id.org/biolink/vocab/associated_with_resistance_to> rdfs:label "associated with resistance to - A relation that holds between a named thing and a chemical that specifies that the change in the named thing is found to be associated with the degree of resistance to treatment by the chemical." .
+  
+  <https://w3id.org/biolink/vocab/associated_with_sensitivity_to> rdfs:label "associated with sensitivity to - A relation that holds between a named thing and a chemical that specifies that the change in the named thing is found to be associated with the degree of sensitivity to treatment by the chemical." .
+  
+  <https://w3id.org/biolink/vocab/association_category> rdfs:label """association category - Name of the high level ontology class in which this entity is categorized. Corresponds to the label for the biolink entity type class.
+ * In a neo4j database this MAY correspond to the neo4j label tag.
+ * In an RDF database it should be a biolink model class URI.
+This field is multi-valued. It should include values for ancestors of the biolink class; for example, a protein such as Shh would have category values `biolink:Protein`, `biolink:GeneProduct`, `biolink:MolecularEntity`, ...
+In an RDF database, nodes will typically have an rdf:type triples. This can be to the most specific biolink class, or potentially to a class more specific than something in biolink. For example, a sequence feature `f` may have a rdf:type assertion to a SO class such as TF_binding_site, which is more specific than anything in biolink. Here we would have categories {biolink:GenomicEntity, biolink:MolecularEntity, biolink:NamedThing}""" .
+  
+  <https://w3id.org/biolink/vocab/association_slot> rdfs:label "association slot - any slot that relates an association to another entity" .
+  
+  <https://w3id.org/biolink/vocab/association_type> rdfs:label "association type - rdf:type of biolink:Association should be fixed at rdf:Statement" .
+  
+  <https://w3id.org/biolink/vocab/attribute_name> rdfs:label "attribute name - The human-readable 'attribute name' can be set to a string which reflects its context of interpretation, e.g. SEPIO evidence/provenance/confidence annotation or it can default to the name associated with the 'has attribute type' slot ontology term." .
+  
+  <https://w3id.org/biolink/vocab/author> rdfs:label "author - an instance of one (co-)creator primarily responsible for a written work" .
+  
+  <https://w3id.org/biolink/vocab/authors> rdfs:label "authors - connects an publication to the list of authors who contributed to the publication. This property should be a comma-delimited list of author names. It is recommended that an author's name be formatted as \"surname, firstname initial.\". Note that this property is a node annotation expressing the citation list of authorship which might typically otherwise be more completely documented in biolink:PublicationToProviderAssociation defined edges which point to full details about an author and possibly, some qualifiers which clarify the specific status of a given author in the publication." .
+  
+  <https://w3id.org/biolink/vocab/available_from> rdfs:label "available from - " .
+  
+  <https://w3id.org/biolink/vocab/base_coordinate> rdfs:label "base coordinate - A position in the base coordinate system. Base coordinates start at position 1 instead of position 0." .
+  
+  <https://w3id.org/biolink/vocab/behavior_to_behavioral_feature_association_object>
+    rdfs:label "behavior to behavioral feature association object - behavioral feature that is the object of the association" .
+  
+  <https://w3id.org/biolink/vocab/behavior_to_behavioral_feature_association_subject>
+    rdfs:label "behavior to behavioral feature association subject - behavior that is the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/binds> rdfs:label "binds - A causal mechanism mediated by the direct contact between effector and target chemical or biomolecular entity, which form a stable physical interaction." .
+  
+  <https://w3id.org/biolink/vocab/biological_role_mixin> rdfs:label "biological role mixin - A role played by the chemical entity or part thereof within a biological context." .
+  
+  <https://w3id.org/biolink/vocab/biomarker_for> rdfs:label "biomarker for - holds between a measurable chemical entity and a disease or phenotypic feature, where the entity is used as an indicator of the presence or state of the disease or feature." .
+  
+  <https://w3id.org/biolink/vocab/bonferonni_adjusted_p_value> rdfs:label "bonferonni adjusted p value - The Bonferroni correction is an adjustment made to P values when several dependent or independent statistical tests are being performed simultaneously on a single data set. To perform a Bonferroni correction, divide the critical P value (α) by the number of comparisons being made. P is always italicized and capitalized. The actual P value* should be expressed (P=. 04) rather than expressing a statement of inequality (P<. 05), unless P<." .
+  
+  <https://w3id.org/biolink/vocab/book_chapter_published_in> rdfs:label "book chapter published in - The enclosing parent book containing the chapter should have industry-standard identifier from ISBN." .
+  
+  <https://w3id.org/biolink/vocab/book_id> rdfs:label "book id - Books should have industry-standard identifier such as from ISBN." .
+  
+  <https://w3id.org/biolink/vocab/book_type> rdfs:label "book type - Should generally be set to an ontology class defined term for 'book'." .
+  
+  <https://w3id.org/biolink/vocab/broad_match> rdfs:label "broad match - a list of terms from different schemas or terminology systems that have a broader, more general meaning. Broader terms are typically shown as parents in a hierarchy or tree." .
+  
+  <https://w3id.org/biolink/vocab/broad_matches> rdfs:label "broad matches - A list of terms from different schemas or terminology systems that have a broader meaning. Such terms often describe a more general concept from different ontological perspectives." .
+  
+  <https://w3id.org/biolink/vocab/capable_of> rdfs:label "capable of - holds between a physical entity and process or function, where the continuant alone has the ability to carry out the process or function." .
+  
+  <https://w3id.org/biolink/vocab/case_to_entity_association_mixin_subject> rdfs:label
+      "case to entity association mixin subject - the case (e.g. patient) that has the property" .
+  
+  <https://w3id.org/biolink/vocab/catalyst_qualifier> rdfs:label "catalyst qualifier - a qualifier that connects an association between two causally connected entities (for example, two chemical entities, or a chemical entity in that changes location) and the gene product, gene, or complex that enables or catalyzes the change." .
+  
+  <https://w3id.org/biolink/vocab/category> rdfs:label """category - Name of the high level ontology class in which this entity is categorized. Corresponds to the label for the biolink entity type class.
+ * In a neo4j database this MAY correspond to the neo4j label tag.
+ * In an RDF database it should be a biolink model class URI.
+This field is multi-valued. It should include values for ancestors of the biolink class; for example, a protein such as Shh would have category values `biolink:Protein`, `biolink:GeneProduct`, `biolink:MolecularEntity`, ...
+In an RDF database, nodes will typically have an rdf:type triples. This can be to the most specific biolink class, or potentially to a class more specific than something in biolink. For example, a sequence feature `f` may have a rdf:type assertion to a SO class such as TF_binding_site, which is more specific than anything in biolink. Here we would have categories {biolink:GenomicEntity, biolink:MolecularEntity, biolink:NamedThing}""" .
+  
+  <https://w3id.org/biolink/vocab/causal_mechanism_qualifier> rdfs:label "causal mechanism qualifier - A statement qualifier representing a type of molecular control mechanism through which an effect of a chemical on a gene or gene product is mediated (e.g. 'agonism', 'inhibition', 'allosteric modulation', 'channel blocker')" .
+  
+  <https://w3id.org/biolink/vocab/caused_by> rdfs:label "caused by - holds between two entities where the occurrence, existence, or activity of one is caused by the occurrence or generation of the other" .
+  
+  <https://w3id.org/biolink/vocab/causes> rdfs:label "causes - holds between two entities where the occurrence, existence, or activity of one causes the occurrence or generation of the other" .
+  
+  <https://w3id.org/biolink/vocab/cell_line_as_a_model_of_disease_association_subject>
+    rdfs:label "cell line as a model of disease association subject - A cell line derived from an organismal entity with a disease state that is used as a model of that disease." .
+  
+  <https://w3id.org/biolink/vocab/cell_line_to_disease_or_phenotypic_feature_association_subject>
+    rdfs:label "cell line to disease or phenotypic feature association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/cell_line_to_entity_association_mixin_subject> rdfs:label
+      "cell line to entity association mixin subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chapter> rdfs:label "chapter - chapter of a book" .
+  
+  <https://w3id.org/biolink/vocab/chemical_affects_gene_association_anatomical_context_qualifier>
+    rdfs:label "chemical affects gene association anatomical context qualifier - A statement qualifier representing an anatomical location where an relationship expressed in an association took place (can be a tissue, cell type, or sub-cellular location)." .
+  
+  <https://w3id.org/biolink/vocab/chemical_affects_gene_association_causal_mechanism_qualifier>
+    rdfs:label "chemical affects gene association causal mechanism qualifier - A statement qualifier representing a type of molecular control mechanism through which an effect of a chemical on a gene or gene product is mediated (e.g. 'agonism', 'inhibition', 'allosteric modulation', 'channel blocker')" .
+  
+  <https://w3id.org/biolink/vocab/chemical_affects_gene_association_object> rdfs:label
+      "chemical affects gene association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_affects_gene_association_predicate> rdfs:label
+      "chemical affects gene association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/chemical_affects_gene_association_qualified_predicate>
+    rdfs:label "chemical affects gene association qualified predicate - Predicate to be used in an association when subject and object qualifiers are present and the full reading of the statement requires a qualification to the predicate in use in order to refine or increase the specificity of the full statement reading. This qualifier holds a relationship to be used instead of that expressed by the primary predicate, in a ‘full statement’ reading of the association, where qualifier-based semantics are included. This is necessary only in cases where the primary predicate does not work in a full statement reading." .
+  
+  <https://w3id.org/biolink/vocab/chemical_affects_gene_association_species_context_qualifier>
+    rdfs:label "chemical affects gene association species context qualifier - A statement qualifier representing a taxonomic category of species in which a relationship expressed in an association took place." .
+  
+  <https://w3id.org/biolink/vocab/chemical_affects_gene_association_subject> rdfs:label
+      "chemical affects gene association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_entity_assesses_named_thing_association_object>
+    rdfs:label "chemical entity assesses named thing association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_entity_assesses_named_thing_association_predicate>
+    rdfs:label "chemical entity assesses named thing association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/chemical_entity_assesses_named_thing_association_subject>
+    rdfs:label "chemical entity assesses named thing association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_entity_or_gene_or_gene_product_regulates_gene_association_object>
+    rdfs:label "chemical entity or gene or gene product regulates gene association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_entity_or_gene_or_gene_product_regulates_gene_association_predicate>
+    rdfs:label "chemical entity or gene or gene product regulates gene association predicate - the direction is always from regulator to regulated" .
+  
+  <https://w3id.org/biolink/vocab/chemical_entity_or_gene_or_gene_product_regulates_gene_association_subject>
+    rdfs:label "chemical entity or gene or gene product regulates gene association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_entity_to_entity_association_mixin_subject>
+    rdfs:label "chemical entity to entity association mixin subject - the chemical entity that is an interactor" .
+  
+  <https://w3id.org/biolink/vocab/chemical_gene_interaction_association_anatomical_context_qualifier>
+    rdfs:label "chemical gene interaction association anatomical context qualifier - A statement qualifier representing an anatomical location where an relationship expressed in an association took place (can be a tissue, cell type, or sub-cellular location)." .
+  
+  <https://w3id.org/biolink/vocab/chemical_gene_interaction_association_object> rdfs:label
+      "chemical gene interaction association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_gene_interaction_association_predicate> rdfs:label
+      "chemical gene interaction association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/chemical_gene_interaction_association_subject> rdfs:label
+      "chemical gene interaction association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/chemical_or_drug_or_treatment_side_effect_disease_or_phenotypic_feature_association_predicate>
+    rdfs:label "chemical or drug or treatment side effect disease or phenotypic feature association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/chemical_or_drug_or_treatment_to_disease_or_phenotypic_feature_association_predicate>
+    rdfs:label "chemical or drug or treatment to disease or phenotypic feature association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/chemical_role_mixin> rdfs:label "chemical role mixin - A role played by the chemical entity or part thereof within a chemical context." .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_chemical_association_object> rdfs:label
+      "chemical to chemical association object - the chemical element that is the target of the statement" .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_chemical_derivation_association_catalyst_qualifier>
+    rdfs:label "chemical to chemical derivation association catalyst qualifier - this connects the derivation edge to the chemical entity that catalyzes the reaction that causes the subject chemical to transform into the object chemical." .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_chemical_derivation_association_object>
+    rdfs:label "chemical to chemical derivation association object - the downstream chemical entity" .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_chemical_derivation_association_predicate>
+    rdfs:label "chemical to chemical derivation association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_chemical_derivation_association_subject>
+    rdfs:label "chemical to chemical derivation association subject - the upstream chemical entity" .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_disease_or_phenotypic_feature_association_object>
+    rdfs:label "chemical to disease or phenotypic feature association object - the disease or phenotype that is affected by the chemical" .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_entity_association_mixin_subject> rdfs:label
+      "chemical to entity association mixin subject - the chemical entity or entity that is an interactor" .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_pathway_association_object> rdfs:label
+      "chemical to pathway association object - the pathway that is affected by the chemical" .
+  
+  <https://w3id.org/biolink/vocab/chemical_to_pathway_association_subject> rdfs:label
+      "chemical to pathway association subject - the chemical entity that is affecting the pathway" .
+  
+  <https://w3id.org/biolink/vocab/chemically_similar_to> rdfs:label "chemically similar to - holds between one small molecule entity and another that it approximates for purposes of scientific study, in virtue of its exhibiting similar features of the studied entity." .
+  
+  <https://w3id.org/biolink/vocab/chi_squared_statistic> rdfs:label "chi squared statistic - represents the chi-squared statistic computed from observations" .
+  
+  <https://w3id.org/biolink/vocab/clinical_finding_has_attribute> rdfs:label "clinical finding has attribute - connects any entity to an attribute" .
+  
+  <https://w3id.org/biolink/vocab/clinical_measurement_has_attribute_type> rdfs:label
+      "clinical measurement has attribute type - connects an attribute to a class that describes it" .
+  
+  <https://w3id.org/biolink/vocab/clinical_modifier_qualifier> rdfs:label "clinical modifier qualifier - the method or process of administering a pharmaceutical compound to achieve a therapeutic effect in humans or animals." .
+  
+  <https://w3id.org/biolink/vocab/close_match> rdfs:label "close match - a list of terms from different schemas or terminology systems that have a semantically similar but not strictly equivalent, broader, or narrower meaning. Such terms often describe the same general concept from different ontological perspectives (e.g. drug as a type of chemical entity versus drug as a type of role borne by a chemical entity)." .
+  
+  <https://w3id.org/biolink/vocab/coexists_with> rdfs:label "coexists with - holds between two entities that are co-located in the same aggregate object, process, or spatio-temporal region" .
+  
+  <https://w3id.org/biolink/vocab/coexpressed_with> rdfs:label "coexpressed with - holds between any two genes or gene products, in which both are generally expressed within a single defined experimental context." .
+  
+  <https://w3id.org/biolink/vocab/colocalizes_with> rdfs:label "colocalizes with - holds between two entities that are observed to be located in the same place." .
+  
+  <https://w3id.org/biolink/vocab/composed_primarily_of> rdfs:label "composed primarily of - x composed_primarily_of_y if:more than half of the mass of x is made from parts of y." .
+  
+  <https://w3id.org/biolink/vocab/concept_count_object> rdfs:label "concept count object - The number of instances in a dataset/cohort whose records contain the concept in the object slot of an association." .
+  
+  <https://w3id.org/biolink/vocab/concept_count_subject> rdfs:label "concept count subject - The number of instances in a dataset/cohort whose records contain the concept in the subject slot of an association." .
+  
+  <https://w3id.org/biolink/vocab/concept_pair_count> rdfs:label "concept pair count - The number of instances in a dataset/cohort whose records contain both the subject and object concept of an association." .
+  
+  <https://w3id.org/biolink/vocab/condition_associated_with_gene> rdfs:label "condition associated with gene - holds between a gene and a disease or phenotypic feature that may be influenced, contribute to, or be correlated with the gene or its alleles/products" .
+  
+  <https://w3id.org/biolink/vocab/context_qualifier> rdfs:label "context qualifier - Restricts the setting/context/location where the core concept (or qualified core concept) resides or occurs." .
+  
+  <https://w3id.org/biolink/vocab/contraindicated_for> rdfs:label "contraindicated for - Holds between a drug and a disease or phenotype, such that a person with that disease should not be treated with the drug." .
+  
+  <https://w3id.org/biolink/vocab/contributes_to> rdfs:label "contributes to - holds between two entities where the occurrence, existence, or activity of one causes or contributes to the occurrence or generation of the other" .
+  
+  <https://w3id.org/biolink/vocab/contributor_association_object> rdfs:label "contributor association object - agent helping to realise the given entity (e.g. such as a publication)" .
+  
+  <https://w3id.org/biolink/vocab/contributor_association_predicate> rdfs:label "contributor association predicate - generally one of the predicate values 'provider', 'publisher', 'editor' or 'author'" .
+  
+  <https://w3id.org/biolink/vocab/contributor_association_qualifiers> rdfs:label "contributor association qualifiers - this field can be used to annotate special characteristics of an agent relationship, such as the fact that a given author agent of a publication is the 'corresponding author'" .
+  
+  <https://w3id.org/biolink/vocab/contributor_association_subject> rdfs:label "contributor association subject - information content entity which an agent has helped realise" .
+  
+  <https://w3id.org/biolink/vocab/correlated_with> rdfs:label "correlated with - A relationship that holds between two concepts represented by variables for which a statistical dependence is demonstrated using a correlation analysis method." .
+  
+  <https://w3id.org/biolink/vocab/creation_date> rdfs:label "creation date - date on which an entity was created. This can be applied to nodes or edges" .
+  
+  <https://w3id.org/biolink/vocab/decreased_likelihood_associated_with> rdfs:label "decreased likelihood associated with - " .
+  
+  <https://w3id.org/biolink/vocab/decreases_amount_or_activity_of> rdfs:label "decreases amount or activity of - A grouping mixin to help with searching for all the predicates that decrease the amount or activity of the object." .
+  
+  <https://w3id.org/biolink/vocab/decreases_response_to> rdfs:label "decreases response to - holds between two chemical entities where the action or effect of one decreases the susceptibility of a biological entity or system (e.g. an organism, cell, cellular component, macromolecular machine mixin, biological or pathological process) to the other" .
+  
+  <https://w3id.org/biolink/vocab/derivative_qualifier> rdfs:label "derivative qualifier - A qualifier that composes with a core subject/object concept to describe something that is derived from the core concept. For example, the qualifier ‘metabolite’ combines with a ‘Chemical X’ core concept to express the composed concept ‘a metabolite of Chemical X’." .
+  
+  <https://w3id.org/biolink/vocab/derives_from> rdfs:label "derives from - holds between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity" .
+  
+  <https://w3id.org/biolink/vocab/derives_into> rdfs:label "derives into - holds between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity" .
+  
+  <https://w3id.org/biolink/vocab/description> rdfs:label "description - a human-readable description of an entity" .
+  
+  <https://w3id.org/biolink/vocab/diagnoses> rdfs:label "diagnoses - a relationship that identifies the nature of (an illness or other problem) by examination of the symptoms." .
+  
+  <https://w3id.org/biolink/vocab/direction_qualifier> rdfs:label "direction qualifier - Composes with the core concept (+ aspect if provided) to describe a change in its direction or degree." .
+  
+  <https://w3id.org/biolink/vocab/directly_physically_interacts_with> rdfs:label "directly physically interacts with - A causal mechanism mediated by a direct contact between the effector and target entities (this contact may be weak or strong, transient or stable)." .
+  
+  <https://w3id.org/biolink/vocab/disease_has_basis_in> rdfs:label "disease has basis in - A relation that holds between a disease and an entity where the state of the entity has contribution to the disease." .
+  
+  <https://w3id.org/biolink/vocab/disease_has_location> rdfs:label "disease has location - A relationship between a disease and an anatomical entity where the disease has one or more features that are located in that entity." .
+  
+  <https://w3id.org/biolink/vocab/disease_or_phenotypic_feature_to_entity_association_mixin_subject>
+    rdfs:label "disease or phenotypic feature to entity association mixin subject - disease or phenotype" .
+  
+  <https://w3id.org/biolink/vocab/disease_or_phenotypic_feature_to_genetic_inheritance_association_object>
+    rdfs:label "disease or phenotypic feature to genetic inheritance association object - genetic inheritance associated with the specified disease or phenotypic feature." .
+  
+  <https://w3id.org/biolink/vocab/disease_or_phenotypic_feature_to_genetic_inheritance_association_predicate>
+    rdfs:label "disease or phenotypic feature to genetic inheritance association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/disease_or_phenotypic_feature_to_location_association_object>
+    rdfs:label "disease or phenotypic feature to location association object - anatomical entity in which the disease or feature is found." .
+  
+  <https://w3id.org/biolink/vocab/disease_to_entity_association_mixin_subject> rdfs:label
+      "disease to entity association mixin subject - disease class" .
+  
+  <https://w3id.org/biolink/vocab/disease_to_phenotypic_feature_association_object>
+    rdfs:label "disease to phenotypic feature association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/disease_to_phenotypic_feature_association_subject>
+    rdfs:label "disease to phenotypic feature association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/disrupted_by> rdfs:label "disrupted by - describes a relationship where the structure, function, or occurrence of one entity is degraded or interfered with by another." .
+  
+  <https://w3id.org/biolink/vocab/disrupts> rdfs:label "disrupts - describes a relationship where one entity degrades or interferes with the structure, function, or occurrence of another." .
+  
+  <https://w3id.org/biolink/vocab/drug_regulatory_status_world_wide> rdfs:label "drug regulatory status world wide - An agglomeration of drug regulatory status worldwide. Not specific to FDA." .
+  
+  <https://w3id.org/biolink/vocab/drug_to_entity_association_mixin_subject> rdfs:label
+      "drug to entity association mixin subject - the drug that is an interactor" .
+  
+  <https://w3id.org/biolink/vocab/drug_to_gene_association_object> rdfs:label "drug to gene association object - the gene or gene product that is affected by the drug" .
+  
+  <https://w3id.org/biolink/vocab/druggable_gene_to_disease_association_has_evidence>
+    rdfs:label "druggable gene to disease association has evidence - connects an association to an instance of supporting evidence" .
+  
+  <https://w3id.org/biolink/vocab/druggable_gene_to_disease_association_predicate> rdfs:label
+      "druggable gene to disease association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/druggable_gene_to_disease_association_subject> rdfs:label
+      "druggable gene to disease association subject - gene in which variation is correlated with the disease in a protective manner, or if the product produced by the gene can be targeted by a small molecule and this leads to a protective or improving disease state." .
+  
+  <https://w3id.org/biolink/vocab/editor> rdfs:label "editor - editor of a compiled work such as a book or a periodical (newspaper or an academic journal). Note that in the case of publications which have a containing \"published in\" node property, the editor association may not be attached directly to the embedded child publication, but only made in between the parent's publication node and the editorial agent of the encompassing publication (e.g. only from the Book referenced by the 'published_in' property of a book chapter Publication node)." .
+  
+  <https://w3id.org/biolink/vocab/enabled_by> rdfs:label "enabled by - holds between a process and a physical entity, where the physical entity executes the process" .
+  
+  <https://w3id.org/biolink/vocab/enables> rdfs:label "enables - holds between a physical entity and a process, where the physical entity executes the process" .
+  
+  <https://w3id.org/biolink/vocab/end_coordinate> rdfs:label "end coordinate - The position at which the subject genomic entity ends on the chromosome or other entity to which it is located on." .
+  
+  <https://w3id.org/biolink/vocab/end_interbase_coordinate> rdfs:label "end interbase coordinate - The position at which the subject nucleic acid entity ends on the chromosome or other entity to which it is located on." .
+  
+  <https://w3id.org/biolink/vocab/entity_to_disease_association_mixin_object> rdfs:label
+      "entity to disease association mixin object - disease" .
+  
+  <https://w3id.org/biolink/vocab/entity_to_disease_or_phenotypic_feature_association_mixin_object>
+    rdfs:label "entity to disease or phenotypic feature association mixin object - disease or phenotype" .
+  
+  <https://w3id.org/biolink/vocab/entity_to_exposure_event_association_mixin_object>
+    rdfs:label "entity to exposure event association mixin object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/entity_to_outcome_association_mixin_object> rdfs:label
+      "entity to outcome association mixin object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/entity_to_phenotypic_feature_association_mixin_object>
+    rdfs:label "entity to phenotypic feature association mixin object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/evidence_count> rdfs:label "evidence count - The number of evidence instances that are connected to an association." .
+  
+  <https://w3id.org/biolink/vocab/exacerbates> rdfs:label "exacerbates - A relationship between an entity (e.g. a chemical, environmental exposure, or some form of genetic variation) and a condition (a phenotype or disease), where the presence of the entity worsens some or all aspects of the condition." .
+  
+  <https://w3id.org/biolink/vocab/exact_match> rdfs:label "exact match - holds between two entities that have strictly equivalent meanings, with a high degree of confidence" .
+  
+  <https://w3id.org/biolink/vocab/exact_matches> rdfs:label "exact matches - A list of terms from different schemas or terminology systems that have an identical meaning. Such terms often describe the same concept from different ontological perspectives." .
+  
+  <https://w3id.org/biolink/vocab/exon_to_transcript_relationship_object> rdfs:label
+      "exon to transcript relationship object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/exon_to_transcript_relationship_subject> rdfs:label
+      "exon to transcript relationship subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/expected_count> rdfs:label "expected count - The expected (calculated) number of instances in a dataset/cohort whose records contain both the subject and object concept of an association if the subject and object concepts are independent." .
+  
+  <https://w3id.org/biolink/vocab/exposure_event_to_phenotypic_feature_association_subject>
+    rdfs:label "exposure event to phenotypic feature association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/expressed_in> rdfs:label "expressed in - holds between a gene or gene product and an anatomical entity in which it is expressed" .
+  
+  <https://w3id.org/biolink/vocab/expresses> rdfs:label "expresses - holds between an anatomical entity and gene or gene product that is expressed there" .
+  
+  <https://w3id.org/biolink/vocab/expression_site> rdfs:label "expression site - location in which gene or protein expression takes place. May be cell, tissue, or organ." .
+  
+  <https://w3id.org/biolink/vocab/extraction_confidence_score> rdfs:label "extraction confidence score - A quantitative confidence value that represents the probability of obtaining a result at least as extreme as that actually obtained, assuming that the actual value was the result of chance alone." .
+  
+  <https://w3id.org/biolink/vocab/food_component_of> rdfs:label "food component of - holds between a one or more chemical entities present in food, irrespective of nutritional value (i.e. could also be a contaminant or additive)" .
+  
+  <https://w3id.org/biolink/vocab/form_or_variant_qualifier> rdfs:label "form or variant qualifier - A qualifier that composes with a core subject/object concept to define a specific type, variant, alternative version of this concept. The composed concept remains a subtype or instance of the core concept. For example, the qualifier ‘mutation’ combines with the core concept ‘Gene X’ to express the compose concept ‘a mutation of Gene X’." .
+  
+  <https://w3id.org/biolink/vocab/frequency_qualifier> rdfs:label "frequency qualifier - a qualifier used in a phenotypic association to state how frequent the phenotype is observed in the subject" .
+  
+  <https://w3id.org/biolink/vocab/full_name> rdfs:label "full name - a long-form human readable name for a thing" .
+  
+  <https://w3id.org/biolink/vocab/functional_association_object> rdfs:label "functional association object - class describing the activity, process or localization of the gene product" .
+  
+  <https://w3id.org/biolink/vocab/functional_association_subject> rdfs:label "functional association subject - gene, product or macromolecular complex that has the function associated with the GO term" .
+  
+  <https://w3id.org/biolink/vocab/gene_as_a_model_of_disease_association_subject> rdfs:label
+      "gene as a model of disease association subject - A gene that has a role in modeling the disease. This may be a model organism ortholog of a known disease gene, or it may be a gene whose mutants recapitulate core features of the disease." .
+  
+  <https://w3id.org/biolink/vocab/gene_associated_with_condition> rdfs:label "gene associated with condition - holds between a gene and a disease or phenotypic feature that the gene or its alleles/products may influence, contribute to, or correlate with" .
+  
+  <https://w3id.org/biolink/vocab/gene_expression_mixin_quantifier_qualifier> rdfs:label
+      "gene expression mixin quantifier qualifier - Optional quantitative value indicating degree of expression." .
+  
+  <https://w3id.org/biolink/vocab/gene_fusion_with> rdfs:label "gene fusion with - holds between two independent genes that have fused through translocation, interstitial deletion, or chromosomal inversion to form a new, hybrid gene. Fusion genes are often implicated in various neoplasms and cancers." .
+  
+  <https://w3id.org/biolink/vocab/gene_has_variant_that_contributes_to_disease_association_object>
+    rdfs:label "gene has variant that contributes to disease association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_has_variant_that_contributes_to_disease_association_predicate>
+    rdfs:label "gene has variant that contributes to disease association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/gene_has_variant_that_contributes_to_disease_association_subject>
+    rdfs:label "gene has variant that contributes to disease association subject - A gene that has a role in modeling the disease. This may be a model organism ortholog of a known disease gene, or it may be a gene whose mutants recapitulate core features of the disease." .
+  
+  <https://w3id.org/biolink/vocab/gene_product_of> rdfs:label "gene product of - definition x has gene product of y if and only if y is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of thatf process is either y or something that is ribosomally translated from x" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_disease_association_object> rdfs:label "gene to disease association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_disease_association_subject> rdfs:label "gene to disease association subject - gene in which variation is correlated with the disease, may be protective or causative or associative, or as a model" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_entity_association_mixin_subject> rdfs:label
+      "gene to entity association mixin subject - gene that is the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_expression_site_association_object> rdfs:label
+      "gene to expression site association object - location in which the gene is expressed" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_expression_site_association_predicate> rdfs:label
+      "gene to expression site association predicate - expression relationship" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_expression_site_association_quantifier_qualifier>
+    rdfs:label "gene to expression site association quantifier qualifier - can be used to indicate magnitude, or also ranking" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_expression_site_association_stage_qualifier>
+    rdfs:label "gene to expression site association stage qualifier - stage at which the gene is expressed in the site" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_expression_site_association_subject> rdfs:label
+      "gene to expression site association subject - Gene or gene product positively within the specified anatomical entity (or subclass, i.e. cellular component) location." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_association_object> rdfs:label "gene to gene association object - the object gene in the association. If the relation is symmetric, subject vs object is arbitrary. We allow a gene product to stand as a proxy for the gene or vice versa." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_association_subject> rdfs:label "gene to gene association subject - the subject gene in the association. If the relation is symmetric, subject vs object is arbitrary. We allow a gene product to stand as a proxy for the gene or vice versa." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_coexpression_association_predicate> rdfs:label
+      "gene to gene coexpression association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_family_association_object> rdfs:label
+      "gene to gene family association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_family_association_predicate> rdfs:label
+      "gene to gene family association predicate - membership of the gene in the given gene family." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_family_association_subject> rdfs:label
+      "gene to gene family association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_homology_association_object> rdfs:label
+      "gene to gene homology association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_homology_association_predicate> rdfs:label
+      "gene to gene homology association predicate - homology relationship type" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_homology_association_subject> rdfs:label
+      "gene to gene homology association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_product_relationship_object> rdfs:label
+      "gene to gene product relationship object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_product_relationship_predicate> rdfs:label
+      "gene to gene product relationship predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_gene_product_relationship_subject> rdfs:label
+      "gene to gene product relationship subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_go_term_association_object> rdfs:label "gene to go term association object - class describing the activity, process or localization of the gene product" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_go_term_association_subject> rdfs:label "gene to go term association subject - gene, product or macromolecular complex that has the function associated with the GO term" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_pathway_association_object> rdfs:label "gene to pathway association object - the pathway that includes or is affected by the gene or gene product" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_pathway_association_subject> rdfs:label "gene to pathway association subject - the gene or gene product entity that participates or influences the pathway" .
+  
+  <https://w3id.org/biolink/vocab/gene_to_phenotypic_feature_association_object> rdfs:label
+      "gene to phenotypic feature association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/gene_to_phenotypic_feature_association_subject> rdfs:label
+      "gene to phenotypic feature association subject - gene in which variation is correlated with the phenotypic feature" .
+  
+  <https://w3id.org/biolink/vocab/genetic_association> rdfs:label "genetic association - Co-occurrence of a certain allele of a genetic marker and the phenotype of interest in the same individuals at above-chance level" .
+  
+  <https://w3id.org/biolink/vocab/genetic_neighborhood_of> rdfs:label "genetic neighborhood of - holds between two genes located nearby one another on a chromosome. " .
+  
+  <https://w3id.org/biolink/vocab/genetically_interacts_with> rdfs:label "genetically interacts with - holds between two genes whose phenotypic effects are dependent on each other in some way - such that their combined phenotypic effects are the result of some interaction between the activity of their gene products. Examples include epistasis and synthetic lethality." .
+  
+  <https://w3id.org/biolink/vocab/genome_build> rdfs:label "genome build - The version of the genome on which a feature is located. For example, GRCh38 for Homo sapiens." .
+  
+  <https://w3id.org/biolink/vocab/genomic_sequence_localization_object> rdfs:label "genomic sequence localization object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/genomic_sequence_localization_predicate> rdfs:label
+      "genomic sequence localization predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/genomic_sequence_localization_subject> rdfs:label
+      "genomic sequence localization subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/genotype_as_a_model_of_disease_association_subject>
+    rdfs:label "genotype as a model of disease association subject - A genotype that has a role in modeling the disease." .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_disease_association_object> rdfs:label
+      "genotype to disease association object - a disease that is associated with that genotype" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_disease_association_predicate> rdfs:label
+      "genotype to disease association predicate - E.g. is pathogenic for" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_disease_association_subject> rdfs:label
+      "genotype to disease association subject - a genotype that is associated in some way with a disease state" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_entity_association_mixin_subject> rdfs:label
+      "genotype to entity association mixin subject - genotype that is the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_gene_association_object> rdfs:label "genotype to gene association object - gene implicated in genotype" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_gene_association_predicate> rdfs:label
+      "genotype to gene association predicate - the relationship type used to connect genotype to gene" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_gene_association_subject> rdfs:label "genotype to gene association subject - parent genotype" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_genotype_part_association_object> rdfs:label
+      "genotype to genotype part association object - child genotype" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_genotype_part_association_predicate> rdfs:label
+      "genotype to genotype part association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_genotype_part_association_subject> rdfs:label
+      "genotype to genotype part association subject - parent genotype" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_phenotypic_feature_association_predicate>
+    rdfs:label "genotype to phenotypic feature association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_phenotypic_feature_association_subject>
+    rdfs:label "genotype to phenotypic feature association subject - genotype that is associated with the phenotypic feature" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_variant_association_object> rdfs:label
+      "genotype to variant association object - gene implicated in genotype" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_variant_association_predicate> rdfs:label
+      "genotype to variant association predicate - the relationship type used to connect genotype to gene" .
+  
+  <https://w3id.org/biolink/vocab/genotype_to_variant_association_subject> rdfs:label
+      "genotype to variant association subject - parent genotype" .
+  
+  <https://w3id.org/biolink/vocab/has_active_ingredient> rdfs:label "has active ingredient - holds between a drug and a molecular entity in which the latter is a part of the former, and is a biologically active component" .
+  
+  <https://w3id.org/biolink/vocab/has_adverse_event> rdfs:label "has adverse event - An untoward medical occurrence in a patient or clinical investigation subject that happens during treatment with a therapeutic agent. Adverse events may be caused by something other than the drug or therapy being given and may include abnormal laboratory finding, symptoms, or diseases temporally associated with the treatment, whether or not considered related to the treatment. Adverse events are unintended effects that occur when a medication is administered correctly." .
+  
+  <https://w3id.org/biolink/vocab/has_attribute> rdfs:label "has attribute - connects any entity to an attribute" .
+  
+  <https://w3id.org/biolink/vocab/has_attribute_type> rdfs:label "has attribute type - connects an attribute to a class that describes it" .
+  
+  <https://w3id.org/biolink/vocab/has_biological_sequence> rdfs:label "has biological sequence - connects a genomic feature to its sequence" .
+  
+  <https://w3id.org/biolink/vocab/has_biomarker> rdfs:label "has biomarker - holds between a disease or phenotypic feature and a measurable chemical entity that is used as an indicator of the presence or state of the disease or feature. # metabolite" .
+  
+  <https://w3id.org/biolink/vocab/has_chemical_formula> rdfs:label "has chemical formula - description of chemical compound based on element symbols" .
+  
+  <https://w3id.org/biolink/vocab/has_chemical_role> rdfs:label "has chemical role - A role is particular behaviour which a chemical entity may exhibit." .
+  
+  <https://w3id.org/biolink/vocab/has_completed> rdfs:label "has completed - holds between an entity and a process that the entity is capable of and has completed" .
+  
+  <https://w3id.org/biolink/vocab/has_confidence_level> rdfs:label "has confidence level - connects an association to a qualitative term denoting the level of confidence" .
+  
+  <https://w3id.org/biolink/vocab/has_constituent> rdfs:label "has constituent - one or more molecular entities within a chemical mixture" .
+  
+  <https://w3id.org/biolink/vocab/has_count> rdfs:label "has count - number of things with a particular property" .
+  
+  <https://w3id.org/biolink/vocab/has_device> rdfs:label "has device - connects an entity to one or more (medical) devices" .
+  
+  <https://w3id.org/biolink/vocab/has_drug> rdfs:label "has drug - connects an entity to one or more drugs" .
+  
+  <https://w3id.org/biolink/vocab/has_evidence> rdfs:label "has evidence - connects an association to an instance of supporting evidence" .
+  
+  <https://w3id.org/biolink/vocab/has_excipient> rdfs:label "has excipient - holds between a drug and a molecular entities in which the latter is a part of the former, and is a biologically inactive component" .
+  
+  <https://w3id.org/biolink/vocab/has_food_component> rdfs:label "has food component - holds between food and one or more chemical entities composing it, irrespective of nutritional value (i.e. could also be a contaminant or additive)" .
+  
+  <https://w3id.org/biolink/vocab/has_gene> rdfs:label "has gene - connects an entity associated with one or more genes" .
+  
+  <https://w3id.org/biolink/vocab/has_gene_or_gene_product> rdfs:label "has gene or gene product - connects an entity with one or more gene or gene products" .
+  
+  <https://w3id.org/biolink/vocab/has_gene_product> rdfs:label "has gene product - holds between a gene and a transcribed and/or translated product generated from it" .
+  
+  <https://w3id.org/biolink/vocab/has_input> rdfs:label "has input - holds between a process and a continuant, where the continuant is an input into the process" .
+  
+  <https://w3id.org/biolink/vocab/has_member> rdfs:label "has member - Defines a mereological relation between a collection and an item." .
+  
+  <https://w3id.org/biolink/vocab/has_metabolite> rdfs:label "has metabolite - holds between two molecular entities in which the second one is derived from the first one as a product of metabolism" .
+  
+  <https://w3id.org/biolink/vocab/has_mode_of_inheritance> rdfs:label "has mode of inheritance - Relates a disease or phenotypic feature to its observed genetic segregation and assumed associated underlying DNA manifestation (i.e. autosomal, sex or mitochondrial chromosome)." .
+  
+  <https://w3id.org/biolink/vocab/has_molecular_consequence> rdfs:label "has molecular consequence - connects a sequence variant to a class describing the molecular consequence. E.g. SO:0001583" .
+  
+  <https://w3id.org/biolink/vocab/has_not_completed> rdfs:label "has not completed - holds between an entity and a process that the entity is capable of, but has not completed" .
+  
+  <https://w3id.org/biolink/vocab/has_numeric_value> rdfs:label "has numeric value - connects a quantity value to a number" .
+  
+  <https://w3id.org/biolink/vocab/has_nutrient> rdfs:label "has nutrient - one or more nutrients which are growth factors for a living organism" .
+  
+  <https://w3id.org/biolink/vocab/has_output> rdfs:label "has output - holds between a process and a continuant, where the continuant is an output of the process" .
+  
+  <https://w3id.org/biolink/vocab/has_part> rdfs:label "has part - holds between wholes and their parts (material entities or processes)" .
+  
+  <https://w3id.org/biolink/vocab/has_participant> rdfs:label "has participant - holds between a process and a continuant, where the continuant is somehow involved in the process" .
+  
+  <https://w3id.org/biolink/vocab/has_percentage> rdfs:label "has percentage - equivalent to has quotient multiplied by 100" .
+  
+  <https://w3id.org/biolink/vocab/has_phenotype> rdfs:label "has phenotype - holds between a biological entity and a phenotype, where a phenotype is construed broadly as any kind of quality of an organism part, a collection of these qualities, or a change in quality or qualities (e.g. abnormally increased temperature). In SNOMEDCT, disorders with keyword 'characterized by' should translate into this predicate." .
+  
+  <https://w3id.org/biolink/vocab/has_plasma_membrane_part> rdfs:label "has plasma membrane part - Holds between a cell c and a protein complex or protein p if and only if that cell has as part a plasma_membrane[GO:0005886], and that plasma membrane has p as part." .
+  
+  <https://w3id.org/biolink/vocab/has_procedure> rdfs:label "has procedure - connects an entity to one or more (medical) procedures" .
+  
+  <https://w3id.org/biolink/vocab/has_qualitative_value> rdfs:label "has qualitative value - connects an attribute to a value" .
+  
+  <https://w3id.org/biolink/vocab/has_quantitative_value> rdfs:label "has quantitative value - connects an attribute to a value" .
+  
+  <https://w3id.org/biolink/vocab/has_receptor> rdfs:label "has receptor - the organism or organism part being exposed" .
+  
+  <https://w3id.org/biolink/vocab/has_route> rdfs:label "has route - the process that results in the stressor coming into direct contact with the receptor" .
+  
+  <https://w3id.org/biolink/vocab/has_sequence_location> rdfs:label "has sequence location - holds between two nucleic acid entities when the subject can be localized in sequence coordinates on the object. For example, between an exon and a chromosome/contig." .
+  
+  <https://w3id.org/biolink/vocab/has_side_effect> rdfs:label "has side effect - An unintended, but predictable, secondary effect shown to be correlated with a therapeutic agent, drug or treatment. Side effects happen at normal, recommended doses or treatments, and are unrelated to the intended purpose of the medication." .
+  
+  <https://w3id.org/biolink/vocab/has_stressor> rdfs:label "has stressor - the process or entity that the receptor is being exposed to" .
+  
+  <https://w3id.org/biolink/vocab/has_supporting_study_result> rdfs:label "has supporting study result - connects an association to an instance of supporting study result" .
+  
+  <https://w3id.org/biolink/vocab/has_topic> rdfs:label "has topic - Connects a node to a vocabulary term or ontology class that describes some aspect of the entity. In general specific characterization is preferred. See https://github.com/biolink/biolink-model/issues/238" .
+  
+  <https://w3id.org/biolink/vocab/has_total> rdfs:label "has total - total number of things in a particular reference set" .
+  
+  <https://w3id.org/biolink/vocab/has_unit> rdfs:label "has unit - connects a quantity value to a unit" .
+  
+  <https://w3id.org/biolink/vocab/has_variant_part> rdfs:label "has variant part - holds between a nucleic acid entity and a nucleic acid entity that is a sub-component of it" .
+  
+  <https://w3id.org/biolink/vocab/highest_FDA_approval_status> rdfs:label "highest FDA approval status - Should be the highest level of FDA approval this chemical entity or device has, regardless of which disease, condition or phenotype it is currently being reviewed to treat. For specific levels of FDA approval for a specific condition, disease, phenotype, etc., see the association slot, 'FDA approval status.'" .
+  
+  <https://w3id.org/biolink/vocab/homologous_to> rdfs:label "homologous to - holds between two biological entities that have common evolutionary origin" .
+  
+  <https://w3id.org/biolink/vocab/id> rdfs:label "id - A unique identifier for an entity. Must be either a CURIE shorthand for a URI or a complete URI" .
+  
+  <https://w3id.org/biolink/vocab/in_cell_population_with> rdfs:label "in cell population with - holds between two genes or gene products that are expressed in the same cell type or population" .
+  
+  <https://w3id.org/biolink/vocab/in_complex_with> rdfs:label "in complex with - holds between two genes or gene products that are part of (or code for products that are part of) in the same macromolecular complex" .
+  
+  <https://w3id.org/biolink/vocab/in_linkage_disequilibrium_with> rdfs:label "in linkage disequilibrium with - holds between two sequence variants, the presence of which are correlated in a population" .
+  
+  <https://w3id.org/biolink/vocab/in_pathway_with> rdfs:label "in pathway with - holds between two genes or gene products that are part of in the same biological pathway" .
+  
+  <https://w3id.org/biolink/vocab/in_taxon> rdfs:label "in taxon - connects an entity to its taxonomic classification. Only certain kinds of entities can be taxonomically classified; see 'thing with taxon'" .
+  
+  <https://w3id.org/biolink/vocab/increased_likelihood_associated_with> rdfs:label "increased likelihood associated with - " .
+  
+  <https://w3id.org/biolink/vocab/increases_amount_or_activity_of> rdfs:label "increases amount or activity of - A grouping mixin to help with searching for all the predicates that increase the amount or activity of the object." .
+  
+  <https://w3id.org/biolink/vocab/increases_response_to> rdfs:label "increases response to - holds between two chemical entities where the action or effect of one increases the susceptibility of a biological entity or system (e.g. an organism, cell, cellular component, macromolecular machine mixin, biological or pathological process) to the other" .
+  
+  <https://w3id.org/biolink/vocab/information_content_entity_to_named_thing_association_object>
+    rdfs:label "information content entity to named thing association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/information_content_entity_to_named_thing_association_predicate>
+    rdfs:label "information content entity to named thing association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/information_content_entity_to_named_thing_association_subject>
+    rdfs:label "information content entity to named thing association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/interacts_with> rdfs:label "interacts with - holds between any two entities that directly or indirectly interact with each other" .
+  
+  <https://w3id.org/biolink/vocab/interbase_coordinate> rdfs:label "interbase coordinate - A position in interbase coordinates. Interbase coordinates start at position 0 instead of position 1. This is applied to a sequence localization edge." .
+  
+  <https://w3id.org/biolink/vocab/iri> rdfs:label "iri - An IRI for an entity. This is determined by the id using expansion rules." .
+  
+  <https://w3id.org/biolink/vocab/is_active_ingredient_of> rdfs:label "is active ingredient of - holds between a molecular entity and a drug, in which the former is a part of the latter, and is a biologically active component" .
+  
+  <https://w3id.org/biolink/vocab/is_excipient_of> rdfs:label "is excipient of - holds between a molecular entity and a drug in which the former is a part of the latter, and is a biologically inactive component" .
+  
+  <https://w3id.org/biolink/vocab/is_frameshift_variant_of> rdfs:label "is frameshift variant of - holds between a sequence variant and a gene, such the sequence variant causes a disruption of the translational reading frame, because the number of nucleotides inserted or deleted is not a multiple of three." .
+  
+  <https://w3id.org/biolink/vocab/is_metabolite> rdfs:label "is metabolite - indicates whether a molecular entity is a metabolite" .
+  
+  <https://w3id.org/biolink/vocab/is_metabolite_of> rdfs:label "is metabolite of - holds between two molecular entities in which the first one is derived from the second one as a product of metabolism" .
+  
+  <https://w3id.org/biolink/vocab/is_missense_variant_of> rdfs:label "is missense variant of - holds between a gene and a sequence variant, such the sequence variant results in a different amino acid sequence but where the length is preserved." .
+  
+  <https://w3id.org/biolink/vocab/is_nearby_variant_of> rdfs:label "is nearby variant of - holds between a sequence variant and a gene sequence that the variant is genomically close to." .
+  
+  <https://w3id.org/biolink/vocab/is_non_coding_variant_of> rdfs:label "is non coding variant of - holds between a sequence variant and a gene, where the variant does not affect the coding sequence" .
+  
+  <https://w3id.org/biolink/vocab/is_nonsense_variant_of> rdfs:label "is nonsense variant of - holds between a sequence variant and a gene, such the sequence variant results in a premature stop codon" .
+  
+  <https://w3id.org/biolink/vocab/is_sequence_variant_of> rdfs:label "is sequence variant of - holds between a sequence variant and a nucleic acid entity" .
+  
+  <https://w3id.org/biolink/vocab/is_splice_site_variant_of> rdfs:label "is splice site variant of - holds between a sequence variant and a gene, such the sequence variant is in the canonical splice site of one of the gene's exons." .
+  
+  <https://w3id.org/biolink/vocab/is_supplement> rdfs:label "is supplement - " .
+  
+  <https://w3id.org/biolink/vocab/is_synonymous_variant_of> rdfs:label "is synonymous variant of - holds between a sequence variant and a gene, such the sequence variant is in the coding sequence of the gene, but results in the same amino acid sequence" .
+  
+  <https://w3id.org/biolink/vocab/is_toxic> rdfs:label "is toxic - " .
+  
+  <https://w3id.org/biolink/vocab/iso_abbreviation> rdfs:label "iso abbreviation - Standard abbreviation for periodicals in the International Organization for Standardization (ISO) 4 system See https://www.issn.org/services/online-services/access-to-the-ltwa/. If the 'published in' property is set, then the iso abbreviation pertains to the broader publication context (the journal) within which the given publication node is embedded, not the publication itself." .
+  
+  <https://w3id.org/biolink/vocab/issue> rdfs:label "issue - issue of a newspaper, a scientific journal or magazine for reference purpose" .
+  
+  <https://w3id.org/biolink/vocab/keywords> rdfs:label "keywords - keywords tagging a publication" .
+  
+  <https://w3id.org/biolink/vocab/knowledge_source> rdfs:label "knowledge source - An Information Resource from which the knowledge expressed in an Association was retrieved, directly or indirectly. This can be any resource through which the knowledge passed on its way to its currently serialized form. In practice, implementers should use one of the more specific subtypes of this generic property." .
+  
+  <https://w3id.org/biolink/vocab/latitude> rdfs:label "latitude - latitude" .
+  
+  <https://w3id.org/biolink/vocab/likelihood_associated_with> rdfs:label "likelihood associated with - " .
+  
+  <https://w3id.org/biolink/vocab/ln_ratio> rdfs:label "ln ratio - the natural log of the ratio of co-occurrence to expected" .
+  
+  <https://w3id.org/biolink/vocab/ln_ratio_confidence_interval> rdfs:label "ln ratio confidence interval - The 99% confidence interval for the ln_ratio calculation (i.e. the range of values within which the true value has a 99% chance of falling)" .
+  
+  <https://w3id.org/biolink/vocab/located_in> rdfs:label "located in - holds between a material entity and a material entity or site within which it is located (but of which it is not considered a part)" .
+  
+  <https://w3id.org/biolink/vocab/location_of> rdfs:label "location of - holds between material entity or site and a material entity that is located within it (but not considered a part of it)" .
+  
+  <https://w3id.org/biolink/vocab/longitude> rdfs:label "longitude - longitude" .
+  
+  <https://w3id.org/biolink/vocab/macromolecular_machine_mixin_name> rdfs:label "macromolecular machine mixin name - genes are typically designated by a short symbol and a full name. We map the symbol to the default display name and use an additional slot for full name" .
+  
+  <https://w3id.org/biolink/vocab/macromolecular_machine_to_biological_process_association_object>
+    rdfs:label "macromolecular machine to biological process association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/macromolecular_machine_to_cellular_component_association_object>
+    rdfs:label "macromolecular machine to cellular component association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/macromolecular_machine_to_entity_association_mixin_subject>
+    rdfs:label "macromolecular machine to entity association mixin subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/macromolecular_machine_to_molecular_activity_association_object>
+    rdfs:label "macromolecular machine to molecular activity association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/manifestation_of> rdfs:label "manifestation of - that part of a phenomenon which is directly observable or visibly expressed, or which gives evidence to the underlying process; used in SemMedDB for linking things like dysfunctions and processes to some disease or syndrome" .
+  
+  <https://w3id.org/biolink/vocab/mapped_predicate> rdfs:label "mapped predicate - The predicate that is being replaced by the fully qualified representation of predicate + subject and object qualifiers. Only to be used in test data and mapping data to help with the transition to the fully qualified predicate model. Not to be used in knowledge graphs." .
+  
+  <https://w3id.org/biolink/vocab/material_sample_derivation_association_object> rdfs:label
+      "material sample derivation association object - the material entity the sample was derived from. This may be another material sample, or any other material entity, including for example an organism, a geographic feature, or some environmental material." .
+  
+  <https://w3id.org/biolink/vocab/material_sample_derivation_association_predicate>
+    rdfs:label "material sample derivation association predicate - derivation relationship" .
+  
+  <https://w3id.org/biolink/vocab/material_sample_derivation_association_subject> rdfs:label
+      "material sample derivation association subject - the material sample being described" .
+  
+  <https://w3id.org/biolink/vocab/material_sample_to_entity_association_mixin_subject>
+    rdfs:label "material sample to entity association mixin subject - the material sample being described" .
+  
+  <https://w3id.org/biolink/vocab/max_tolerated_dose> rdfs:label "max tolerated dose - The highest dose of a drug or treatment that does not cause unacceptable side effects. The maximum tolerated dose is determined in clinical trials by testing increasing doses on different groups of people until the highest dose with acceptable side effects is found. Also called MTD." .
+  
+  <https://w3id.org/biolink/vocab/mechanism_of_action> rdfs:label "mechanism of action - a boolean flag to indicate if the edge is part of a path or subgraph of a knowledge graph that constitutes the mechanism of action for a result." .
+  
+  <https://w3id.org/biolink/vocab/member_of> rdfs:label "member of - Defines a mereological relation between a item and a collection." .
+  
+  <https://w3id.org/biolink/vocab/mentioned_by> rdfs:label "mentioned by - refers to is a relation between one named thing and the information content entity that it makes reference to." .
+  
+  <https://w3id.org/biolink/vocab/mentions> rdfs:label "mentions - refers to is a relation between one information content entity and the named thing that it makes reference to." .
+  
+  <https://w3id.org/biolink/vocab/mesh_terms> rdfs:label "mesh terms - mesh terms tagging a publication" .
+  
+  <https://w3id.org/biolink/vocab/model_of> rdfs:label "model of - holds between a thing and some other thing it approximates for purposes of scientific study, in virtue of its exhibiting similar features of the studied entity." .
+  
+  <https://w3id.org/biolink/vocab/model_to_disease_association_mixin_predicate> rdfs:label
+      "model to disease association mixin predicate - The relationship to the disease" .
+  
+  <https://w3id.org/biolink/vocab/model_to_disease_association_mixin_subject> rdfs:label
+      "model to disease association mixin subject - The entity that serves as the model of the disease. This may be an organism, a strain of organism, a genotype or variant that exhibits similar features, or a gene that when mutated exhibits features of the disease" .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_enabled_by> rdfs:label "molecular activity enabled by - The gene product, gene, or complex that catalyzes the reaction" .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_has_input> rdfs:label "molecular activity has input - A chemical entity that is the input for the reaction" .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_has_output> rdfs:label "molecular activity has output - A chemical entity that is the output for the reaction" .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_to_chemical_entity_association_object>
+    rdfs:label "molecular activity to chemical entity association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_to_chemical_entity_association_subject>
+    rdfs:label "molecular activity to chemical entity association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_to_molecular_activity_association_object>
+    rdfs:label "molecular activity to molecular activity association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_to_molecular_activity_association_subject>
+    rdfs:label "molecular activity to molecular activity association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_to_pathway_association_object>
+    rdfs:label "molecular activity to pathway association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_to_pathway_association_predicate>
+    rdfs:label "molecular activity to pathway association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/molecular_activity_to_pathway_association_subject>
+    rdfs:label "molecular activity to pathway association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/name> rdfs:label "name - A human-readable name for an attribute or entity." .
+  
+  <https://w3id.org/biolink/vocab/named_thing_associated_with_likelihood_of_named_thing_association_predicate>
+    rdfs:label "named thing associated with likelihood of named thing association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/named_thing_category> rdfs:label """named thing category - Name of the high level ontology class in which this entity is categorized. Corresponds to the label for the biolink entity type class.
+ * In a neo4j database this MAY correspond to the neo4j label tag.
+ * In an RDF database it should be a biolink model class URI.
+This field is multi-valued. It should include values for ancestors of the biolink class; for example, a protein such as Shh would have category values `biolink:Protein`, `biolink:GeneProduct`, `biolink:MolecularEntity`, ...
+In an RDF database, nodes will typically have an rdf:type triples. This can be to the most specific biolink class, or potentially to a class more specific than something in biolink. For example, a sequence feature `f` may have a rdf:type assertion to a SO class such as TF_binding_site, which is more specific than anything in biolink. Here we would have categories {biolink:GenomicEntity, biolink:MolecularEntity, biolink:NamedThing}""" .
+  
+  <https://w3id.org/biolink/vocab/narrow_match> rdfs:label "narrow match - a list of terms from different schemas or terminology systems that have a narrower, more specific meaning. Narrower terms are typically shown as children in a hierarchy or tree." .
+  
+  <https://w3id.org/biolink/vocab/narrow_matches> rdfs:label "narrow matches - A list of terms from different schemas or terminology systems that have a narrower meaning. Such terms often describe a more specific concept from different ontological perspectives." .
+  
+  <https://w3id.org/biolink/vocab/negated> rdfs:label "negated - if set to true, then the association is negated i.e. is not true" .
+  
+  <https://w3id.org/biolink/vocab/negatively_correlated_with> rdfs:label "negatively correlated with - A relationship that holds between two concepts represented by variables for which a statistical correlation is demonstrated, wherein variable values move in opposite directions (i.e. increased in one or presence of one correlates with a decrease or absence of the other)." .
+  
+  <https://w3id.org/biolink/vocab/node_property> rdfs:label "node property - A grouping for any property that holds between a node and a value" .
+  
+  <https://w3id.org/biolink/vocab/nutrient_of> rdfs:label "nutrient of - holds between a one or more chemical entities present in food, irrespective of nutritional value (i.e. could also be a contaminant or additive)" .
+  
+  <https://w3id.org/biolink/vocab/object> rdfs:label "object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/object_location_in_text> rdfs:label "object location in text - Character offsets for the text span(s) in the supporting text corresponding to the object concept of the extracted assertion" .
+  
+  <https://w3id.org/biolink/vocab/occurs_in> rdfs:label "occurs in - holds between a process and a material entity or site within which the process occurs" .
+  
+  <https://w3id.org/biolink/vocab/occurs_together_in_literature_with> rdfs:label "occurs together in literature with - holds between two entities where their co-occurrence is correlated by counts of publications in which both occur, using some threshold of occurrence as defined by the edge provider." .
+  
+  <https://w3id.org/biolink/vocab/onset_qualifier> rdfs:label "onset qualifier - a qualifier used in a phenotypic association to state when the phenotype appears is in the subject" .
+  
+  <https://w3id.org/biolink/vocab/opposite_of> rdfs:label "opposite of - x is the opposite of y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x). (This description is from RO. Needs to be rephrased)." .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_entity_association_subject> rdfs:label
+      "organism taxon to entity association subject - organism taxon that is the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_environment_association_object>
+    rdfs:label "organism taxon to environment association object - the environment in which the organism occurs" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_environment_association_predicate>
+    rdfs:label "organism taxon to environment association predicate - predicate describing the relationship between the taxon and the environment" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_environment_association_subject>
+    rdfs:label "organism taxon to environment association subject - the taxon that is the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_association_object>
+    rdfs:label "organism taxon to organism taxon association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_association_subject>
+    rdfs:label "organism taxon to organism taxon association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_interaction_associated_environmental_context>
+    rdfs:label "organism taxon to organism taxon interaction associated environmental context - the environment in which the two taxa interact" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_interaction_object>
+    rdfs:label "organism taxon to organism taxon interaction object - the taxon that is the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_interaction_predicate>
+    rdfs:label "organism taxon to organism taxon interaction predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_interaction_subject>
+    rdfs:label "organism taxon to organism taxon interaction subject - the taxon that is the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_specialization_object>
+    rdfs:label "organism taxon to organism taxon specialization object - the more general taxon" .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_specialization_predicate>
+    rdfs:label "organism taxon to organism taxon specialization predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/organism_taxon_to_organism_taxon_specialization_subject>
+    rdfs:label "organism taxon to organism taxon specialization subject - the more specific taxon" .
+  
+  <https://w3id.org/biolink/vocab/organism_to_organism_association_object> rdfs:label
+      "organism to organism association object - An association between two individual organisms." .
+  
+  <https://w3id.org/biolink/vocab/organism_to_organism_association_subject> rdfs:label
+      "organism to organism association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/organismal_entity_as_a_model_of_disease_association_subject>
+    rdfs:label "organismal entity as a model of disease association subject - A organismal entity (strain, breed) with a predisposition to a disease, or bred/created specifically to model a disease." .
+  
+  <https://w3id.org/biolink/vocab/organismal_entity_has_attribute> rdfs:label "organismal entity has attribute - may often be an organism attribute" .
+  
+  <https://w3id.org/biolink/vocab/original_object> rdfs:label "original object - used to hold the original object of a relation (or predicate) that an external knowledge source uses before transformation to match the biolink-model specification." .
+  
+  <https://w3id.org/biolink/vocab/original_predicate> rdfs:label "original predicate - used to hold the original relation/predicate that an external knowledge source uses before transformation to match the biolink-model specification." .
+  
+  <https://w3id.org/biolink/vocab/original_subject> rdfs:label "original subject - used to hold the original subject of a relation (or predicate) that an external knowledge source uses before transformation to match the biolink-model specification." .
+  
+  <https://w3id.org/biolink/vocab/orthologous_to> rdfs:label "orthologous to - a homology relationship between entities (typically genes) that diverged after a speciation event." .
+  
+  <https://w3id.org/biolink/vocab/overlaps> rdfs:label "overlaps - holds between entities that overlap in their extents (materials or processes)" .
+  
+  <https://w3id.org/biolink/vocab/p_value> rdfs:label "p value - A quantitative confidence value that represents the probability of obtaining a result at least as extreme as that actually obtained, assuming that the actual value was the result of chance alone." .
+  
+  <https://w3id.org/biolink/vocab/pages> rdfs:label "pages - page number of source referenced for statement or publication" .
+  
+  <https://w3id.org/biolink/vocab/pairwise_gene_to_gene_interaction_predicate> rdfs:label
+      "pairwise gene to gene interaction predicate - interaction relationship type" .
+  
+  <https://w3id.org/biolink/vocab/pairwise_molecular_interaction_id> rdfs:label "pairwise molecular interaction id - identifier for the interaction. This may come from an interaction database such as IMEX." .
+  
+  <https://w3id.org/biolink/vocab/pairwise_molecular_interaction_object> rdfs:label
+      "pairwise molecular interaction object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/pairwise_molecular_interaction_predicate> rdfs:label
+      "pairwise molecular interaction predicate - interaction relationship type" .
+  
+  <https://w3id.org/biolink/vocab/pairwise_molecular_interaction_subject> rdfs:label
+      "pairwise molecular interaction subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/paralogous_to> rdfs:label "paralogous to - a homology relationship that holds between entities (typically genes) that diverged after a duplication event." .
+  
+  <https://w3id.org/biolink/vocab/part_of> rdfs:label "part of - holds between parts and wholes (material entities or processes)" .
+  
+  <https://w3id.org/biolink/vocab/part_qualifier> rdfs:label "part qualifier - defines a specific part/component of the core concept (used in cases there this specific part has no IRI we can use to directly represent it, e.g. 'ESR1 transcript' q: polyA tail)." .
+  
+  <https://w3id.org/biolink/vocab/participates_in> rdfs:label "participates in - holds between a continuant and a process, where the continuant is somehow involved in the process" .
+  
+  <https://w3id.org/biolink/vocab/phase> rdfs:label "phase - The phase for a coding sequence entity. For example, phase of a CDS as represented in a GFF3 with a value of 0, 1 or 2." .
+  
+  <https://w3id.org/biolink/vocab/phenotypic_state> rdfs:label "phenotypic state - in experiments (e.g. gene expression) assaying diseased or unhealthy tissue, the phenotypic state can be put here, e.g. MONDO ID. For healthy tissues, use XXX." .
+  
+  <https://w3id.org/biolink/vocab/physically_interacts_with> rdfs:label "physically interacts with - holds between two entities that make physical contact as part of some interaction. does not imply a causal relationship." .
+  
+  <https://w3id.org/biolink/vocab/population_context_qualifier> rdfs:label "population context qualifier - a biological population (general, study, cohort, etc.) with a specific set of characteristics to constrain an association." .
+  
+  <https://w3id.org/biolink/vocab/population_to_population_association_object> rdfs:label
+      "population to population association object - the population that form the object of the association" .
+  
+  <https://w3id.org/biolink/vocab/population_to_population_association_predicate> rdfs:label
+      "population to population association predicate - A relationship type that holds between the subject and object populations. Standard mereological relations can be used. E.g. subject part-of object, subject overlaps object. Derivation relationships can also be used" .
+  
+  <https://w3id.org/biolink/vocab/population_to_population_association_subject> rdfs:label
+      "population to population association subject - the population that form the subject of the association" .
+  
+  <https://w3id.org/biolink/vocab/positively_correlated_with> rdfs:label "positively correlated with - A relationship that holds between two concepts represented by variables for which a statistical correlation is demonstrated, wherein variable values move together in the same direction (i.e. increased in one or presence of one correlates with an increase or presence of the other)." .
+  
+  <https://w3id.org/biolink/vocab/preceded_by> rdfs:label "preceded by - holds between two processes, where the other is completed before the one begins" .
+  
+  <https://w3id.org/biolink/vocab/precedes> rdfs:label "precedes - holds between two processes, where one completes before the other begins" .
+  
+  <https://w3id.org/biolink/vocab/predicate> rdfs:label "predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/predicate_mappings> rdfs:label "predicate mappings - A collection of relationships that are not used in biolink, but have biolink patterns that can be used to replace them. This is a temporary slot to help with the transition to the fully qualified predicate model in Biolink3." .
+  
+  <https://w3id.org/biolink/vocab/predisposes> rdfs:label "predisposes - holds between two entities where exposure to one entity increases the chance of developing the other" .
+  
+  <https://w3id.org/biolink/vocab/prevented_by> rdfs:label "prevented by - holds between a potential outcome of which the likelihood was reduced by the application or use of an entity." .
+  
+  <https://w3id.org/biolink/vocab/prevents> rdfs:label "prevents - holds between an entity whose application or use reduces the likelihood of a potential outcome. Typically used to associate a chemical entity, exposure, activity, or medical intervention that can prevent the onset a disease or phenotypic feature." .
+  
+  <https://w3id.org/biolink/vocab/primary_knowledge_source> rdfs:label "primary knowledge source - The most upstream source of the knowledge expressed in an Association that an implementer can identify. Performing a rigorous analysis of upstream data providers is expected; every effort is made to catalog the most upstream source of data in this property. Only one data source should be declared primary in any association. \"aggregator knowledge source\" can be used to caputre non-primary sources." .
+  
+  <https://w3id.org/biolink/vocab/produces> rdfs:label "produces - holds between a material entity and a product that is generated through the intentional actions or functioning of the material entity" .
+  
+  <https://w3id.org/biolink/vocab/provided_by> rdfs:label "provided by - The value in this node property represents the knowledge provider that created or assembled the node and all of its attributes. Used internally to represent how a particular node made its way into a knowledge provider or graph." .
+  
+  <https://w3id.org/biolink/vocab/provider> rdfs:label "provider - person, group, organization or project that provides a piece of information (e.g. a knowledge association)." .
+  
+  <https://w3id.org/biolink/vocab/publication_id> rdfs:label "publication id - Different kinds of publication subtypes will have different preferred identifiers (curies when feasible). Precedence of identifiers for scientific articles is as follows: PMID if available; DOI if not; actual alternate CURIE otherwise. Enclosing publications (i.e. referenced by 'published in' node property) such as books and journals, should have industry-standard identifier such as from ISBN and ISSN." .
+  
+  <https://w3id.org/biolink/vocab/publication_name> rdfs:label "publication name - the 'title' of the publication is generally recorded in the 'name' property (inherited from NamedThing). The field name 'title' is now also tagged as an acceptable alias for the node property 'name' (just in case)." .
+  
+  <https://w3id.org/biolink/vocab/publication_pages> rdfs:label "publication pages - When a 2-tuple of page numbers are provided, they represent the start and end page of the publication within its parent publication context. For books, this may be set to the total number of pages of the book." .
+  
+  <https://w3id.org/biolink/vocab/publication_publication_type> rdfs:label "publication publication type - Ontology term for publication type may be drawn from Dublin Core types (https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/), FRBR-aligned Bibliographic Ontology (https://sparontologies.github.io/fabio/current/fabio.html), the MESH publication types (https://www.nlm.nih.gov/mesh/pubtypes.html), the Confederation of Open Access Repositories (COAR) Controlled Vocabulary for Resource Type Genres (http://vocabularies.coar-repositories.org/documentation/resource_types/), Wikidata (https://www.wikidata.org/wiki/Wikidata:Publication_types), or equivalent publication type ontology. When a given publication type ontology term is used within a given knowledge graph, then the CURIE identified term must be documented in the graph as a concept node of biolink:category biolink:OntologyClass." .
+  
+  <https://w3id.org/biolink/vocab/publication_type> rdfs:label "publication type - Ontology term for publication type may be drawn from Dublin Core types (https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/), FRBR-aligned Bibliographic Ontology (https://sparontologies.github.io/fabio/current/fabio.html), the MESH publication types (https://www.nlm.nih.gov/mesh/pubtypes.html), the Confederation of Open Access Repositories (COAR) Controlled Vocabulary for Resource Type Genres (http://vocabularies.coar-repositories.org/documentation/resource_types/), Wikidata (https://www.wikidata.org/wiki/Wikidata:Publication_types), or equivalent publication type ontology. When a given publication type ontology term is used within a given knowledge graph, then the CURIE identified term must be documented in the graph as a concept node of biolink:category biolink:OntologyClass." .
+  
+  <https://w3id.org/biolink/vocab/publications> rdfs:label "publications - One or more publications that report the statement expressed in an Association, or provide information used as evidence supporting this statement." .
+  
+  <https://w3id.org/biolink/vocab/published_in> rdfs:label "published in - CURIE identifier of a broader publication context within which the publication may be placed, e.g. a specified book or journal." .
+  
+  <https://w3id.org/biolink/vocab/publisher> rdfs:label "publisher - organization or person responsible for publishing books, periodicals, podcasts, games or software. Note that in the case of publications which have a containing \"published in\" node property, the publisher association may not be attached directly to the embedded child publication, but only made in between the parent's publication node and the publisher agent of the encompassing publication (e.g. only from the Journal referenced by the 'published_in' property of an journal article Publication node)." .
+  
+  <https://w3id.org/biolink/vocab/qualified_predicate> rdfs:label "qualified predicate - Predicate to be used in an association when subject and object qualifiers are present and the full reading of the statement requires a qualification to the predicate in use in order to refine or increase the specificity of the full statement reading. This qualifier holds a relationship to be used instead of that expressed by the primary predicate, in a ‘full statement’ reading of the association, where qualifier-based semantics are included. This is necessary only in cases where the primary predicate does not work in a full statement reading." .
+  
+  <https://w3id.org/biolink/vocab/qualifier> rdfs:label "qualifier - grouping slot for all qualifiers on an edge. useful for testing compliance with association classes" .
+  
+  <https://w3id.org/biolink/vocab/qualifiers> rdfs:label "qualifiers - connects an association to qualifiers that modify or qualify the meaning of that association" .
+  
+  <https://w3id.org/biolink/vocab/quantifier_qualifier> rdfs:label "quantifier qualifier - A measurable quantity for the object of the association" .
+  
+  <https://w3id.org/biolink/vocab/reaction_direction> rdfs:label "reaction direction - the direction of a reaction as constrained by the direction enum (ie: left_to_right, neutral, etc.)" .
+  
+  <https://w3id.org/biolink/vocab/reaction_side> rdfs:label "reaction side - the side of a reaction being modeled (ie: left or right)" .
+  
+  <https://w3id.org/biolink/vocab/reaction_to_catalyst_association_object> rdfs:label
+      "reaction to catalyst association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/reaction_to_participant_association_subject> rdfs:label
+      "reaction to participant association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/regulates> rdfs:label "regulates - A more specific form of affects, that implies the effect results from a biologically evolved control mechanism. Gene-affects-gene relationships will (almost) always involve regulation. Exogenous/environmental chemical-affects-gene relationships are not cases of regulation in this definition. Instead these would be captured using the 'affects' predicate, or possibly one of the 'interacts with' predicates depending on the nature of the interaction." .
+  
+  <https://w3id.org/biolink/vocab/related_to> rdfs:label "related to - A relationship that is asserted between two named things" .
+  
+  <https://w3id.org/biolink/vocab/related_to_at_concept_level> rdfs:label "related to at concept level - Represents a relationship held between terminology components that describe the conceptual model of a domain." .
+  
+  <https://w3id.org/biolink/vocab/related_to_at_instance_level> rdfs:label "related to at instance level - Represents a relationship held between two instances of a data classes. Much like an assertion component, in an ABox, these represent facts associated with the conceptual model." .
+  
+  <https://w3id.org/biolink/vocab/relative_frequency_object> rdfs:label "relative frequency object - The frequency at which subject and object concepts co-occur in records within a dataset/cohort, relative to the frequency at which the object concept appears in these same records." .
+  
+  <https://w3id.org/biolink/vocab/relative_frequency_object_confidence_interval> rdfs:label
+      "relative frequency object confidence interval - The 99% confidence interval for the relative_frequency_object calculation (i.e. the range of values within which the true value has a 99% chance of falling)" .
+  
+  <https://w3id.org/biolink/vocab/relative_frequency_subject> rdfs:label "relative frequency subject - The frequency at which subject and object concepts co-occur in records within a dataset/cohort, relative to the frequency at which the subject concept appears in these same records." .
+  
+  <https://w3id.org/biolink/vocab/relative_frequency_subject_confidence_interval> rdfs:label
+      "relative frequency subject confidence interval - The 99% confidence interval for the relative_frequency_subject calculation (i.e. the range of values within which the true value has a 99% chance of falling)" .
+  
+  <https://w3id.org/biolink/vocab/resource> rdfs:label "resource - The CURIE for an Information Resource that served as a source of knowledge expressed in an Edge, or a source of data used to generate this knowledge." .
+  
+  <https://w3id.org/biolink/vocab/resource_role> rdfs:label "resource role - The role played by the InformationResource in serving as a source for an Edge. Note that a given Edge should have one and only one 'primary' source, and may have any number of 'aggregator' or 'supporting data' sources." .
+  
+  <https://w3id.org/biolink/vocab/response_affected_by> rdfs:label "response affected by - holds between two chemical entities where the susceptibility of a biological entity or system (e.g. an organism, cell, cellular component, macromolecular machine mixin, biological or pathological process) of one is affected by the action of the other." .
+  
+  <https://w3id.org/biolink/vocab/retrieval_source_resource> rdfs:label "retrieval source resource - The InformationResource that served as a source for the knowledge expressed in an Edge, or data used to generate this knowledge." .
+  
+  <https://w3id.org/biolink/vocab/retrieval_source_resource_role> rdfs:label "retrieval source resource role - The role of the InformationResource in the retrieval of the knowledge expressed in an Edge, or data used to generate this knowledge." .
+  
+  <https://w3id.org/biolink/vocab/retrieval_source_upstream_resources> rdfs:label "retrieval source upstream resources - The InformationResources that served as a source for the InformationResource that served as a source for the knowledge expressed in an Edge, or data used to generate this knowledge." .
+  
+  <https://w3id.org/biolink/vocab/routes_of_delivery> rdfs:label "routes of delivery - the method or process of administering a pharmaceutical compound to achieve a therapeutic effect in humans or animals." .
+  
+  <https://w3id.org/biolink/vocab/same_as> rdfs:label "same as - holds between two entities that are considered equivalent to each other" .
+  
+  <https://w3id.org/biolink/vocab/sequence_feature_relationship_object> rdfs:label "sequence feature relationship object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/sequence_feature_relationship_subject> rdfs:label
+      "sequence feature relationship subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/sequence_localization_attribute> rdfs:label "sequence localization attribute - An attribute that can be applied to a genome sequence localization edge. These edges connect a nucleic acid entity such as an exon to an entity such as a chromosome. Edge properties are used to ascribe specific positional information and other metadata to the localization. In pragmatic terms this can be thought of as columns in a GFF3 line." .
+  
+  <https://w3id.org/biolink/vocab/sequence_variant_has_biological_sequence> rdfs:label
+      "sequence variant has biological sequence - The state of the sequence w.r.t a reference sequence" .
+  
+  <https://w3id.org/biolink/vocab/sequence_variant_has_gene> rdfs:label "sequence variant has gene - Each allele can be associated with any number of genes" .
+  
+  <https://w3id.org/biolink/vocab/sequence_variant_id> rdfs:label "sequence variant id - A unique identifier for an entity. Must be either a CURIE shorthand for a URI or a complete URI" .
+  
+  <https://w3id.org/biolink/vocab/sequence_variant_modulates_treatment_association_object>
+    rdfs:label "sequence variant modulates treatment association object - treatment whose efficacy is modulated by the subject variant" .
+  
+  <https://w3id.org/biolink/vocab/sequence_variant_modulates_treatment_association_subject>
+    rdfs:label "sequence variant modulates treatment association subject - variant that modulates the treatment of some disease" .
+  
+  <https://w3id.org/biolink/vocab/sequence_variant_qualifier> rdfs:label "sequence variant qualifier - a qualifier used in an association with the variant" .
+  
+  <https://w3id.org/biolink/vocab/serial_id> rdfs:label "serial id - Serials (journals) should have industry-standard identifier such as from ISSN." .
+  
+  <https://w3id.org/biolink/vocab/serial_type> rdfs:label "serial type - Should generally be set to an ontology class defined term for 'serial' or 'journal'." .
+  
+  <https://w3id.org/biolink/vocab/severity_qualifier> rdfs:label "severity qualifier - a qualifier used in a phenotypic association to state how severe the phenotype is in the subject" .
+  
+  <https://w3id.org/biolink/vocab/sex_qualifier> rdfs:label "sex qualifier - a qualifier used in a phenotypic association to state whether the association is specific to a particular sex." .
+  
+  <https://w3id.org/biolink/vocab/similar_to> rdfs:label "similar to - holds between an entity and some other entity with similar features." .
+  
+  <https://w3id.org/biolink/vocab/small_molecule_id> rdfs:label "small molecule id - A unique identifier for an entity. Must be either a CURIE shorthand for a URI or a complete URI" .
+  
+  <https://w3id.org/biolink/vocab/socioeconomic_exposure_has_attribute> rdfs:label "socioeconomic exposure has attribute - connects any entity to an attribute" .
+  
+  <https://w3id.org/biolink/vocab/species_context_qualifier> rdfs:label "species context qualifier - A statement qualifier representing a taxonomic category of species in which a relationship expressed in an association took place." .
+  
+  <https://w3id.org/biolink/vocab/stage_qualifier> rdfs:label "stage qualifier - stage during which gene or protein expression of takes place." .
+  
+  <https://w3id.org/biolink/vocab/start_coordinate> rdfs:label "start coordinate - The position at which the subject genomic entity starts on the chromosome or other entity to which it is located on. (ie: the start of the sequence being referenced is 1)." .
+  
+  <https://w3id.org/biolink/vocab/start_interbase_coordinate> rdfs:label "start interbase coordinate - The position at which the subject nucleic acid entity starts on the chromosome or other entity to which it is located on. (ie: the start of the sequence being referenced is 0)." .
+  
+  <https://w3id.org/biolink/vocab/statement_qualifier> rdfs:label "statement qualifier - " .
+  
+  <https://w3id.org/biolink/vocab/stoichiometry> rdfs:label "stoichiometry - the relationship between the relative quantities of substances taking part in a reaction or forming a compound, typically a ratio of whole integers." .
+  
+  <https://w3id.org/biolink/vocab/strand> rdfs:label "strand - The strand on which a feature is located. Has a value of '+' (sense strand or forward strand) or '-' (anti-sense strand or reverse strand)." .
+  
+  <https://w3id.org/biolink/vocab/subclass_of> rdfs:label "subclass of - holds between two classes where the domain class is a specialization of the range class" .
+  
+  <https://w3id.org/biolink/vocab/subject> rdfs:label "subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/subject_location_in_text> rdfs:label "subject location in text - Character offsets for the text span(s) in the supporting text corresponding to the subject concept of the extracted assertion." .
+  
+  <https://w3id.org/biolink/vocab/summary> rdfs:label "summary - executive summary of a publication" .
+  
+  <https://w3id.org/biolink/vocab/superclass_of> rdfs:label "superclass of - holds between two classes where the domain class is a super class of the range class" .
+  
+  <https://w3id.org/biolink/vocab/support_graphs> rdfs:label "support graphs - A list of knowledge graphs that support the existence of this node." .
+  
+  <https://w3id.org/biolink/vocab/supporting_data_set> rdfs:label "supporting data set - A set of data used as evidence to generate the knowledge expressed in an Association (e.g. through computation on, reasoning or inference over the retrieved data)." .
+  
+  <https://w3id.org/biolink/vocab/supporting_data_source> rdfs:label "supporting data source - An Information Resource from which data was retrieved and subsequently used as evidence to generate the knowledge expressed in an Association (e.g. through computation on, reasoning or inference over the retrieved data)." .
+  
+  <https://w3id.org/biolink/vocab/supporting_document_type> rdfs:label "supporting document type - The document type (e.g., Journal Article, Case Study, Preprint) for the supporting document used in a Text Mining Result." .
+  
+  <https://w3id.org/biolink/vocab/supporting_document_year> rdfs:label "supporting document year - The document year (typically the publication year) for the supporting document used in a Text Mining Result." .
+  
+  <https://w3id.org/biolink/vocab/supporting_documents> rdfs:label "supporting documents - One or more referencable documents that report the statement expressed in an Association, or provide information used as evidence supporting this statement." .
+  
+  <https://w3id.org/biolink/vocab/supporting_study_cohort> rdfs:label "supporting study cohort - A description of a study population/cohort that was interrogated to provide evidence for the association (e.g. the inclusion and exclusion criteria)." .
+  
+  <https://w3id.org/biolink/vocab/supporting_study_context> rdfs:label "supporting study context - A term or terms describing the experimental setting/context in which evidence supporting the Association was generated ('context' may be defined by many factors, including taxon, model system (e.g. cell line type), tissue type, disease, etc.)." .
+  
+  <https://w3id.org/biolink/vocab/supporting_study_date_range> rdfs:label "supporting study date range - The date range over which data was collected in a study that provided evidence for an Association." .
+  
+  <https://w3id.org/biolink/vocab/supporting_study_metadata> rdfs:label "supporting study metadata - Information about a study used to generate information used as evidence to support the knowledge expressed in an Association. In practice, data creators should use one of the more specific subtypes of this property." .
+  
+  <https://w3id.org/biolink/vocab/supporting_study_method_description> rdfs:label "supporting study method description - A uri or curie pointing to information about the methodology used to generate data supporting an Association." .
+  
+  <https://w3id.org/biolink/vocab/supporting_study_method_type> rdfs:label "supporting study method type - A type of method that was applied in a study used to generate the information used as evidence (e.g. a type of experimental assay, or statistical calculation, or computational analysis)." .
+  
+  <https://w3id.org/biolink/vocab/supporting_study_size> rdfs:label "supporting study size - The sample size used in a study that provided evidence for the association (e.g. 'n' of a cohort for a clinical study)." .
+  
+  <https://w3id.org/biolink/vocab/supporting_text> rdfs:label "supporting text - The segment of text from a document that supports the mined assertion." .
+  
+  <https://w3id.org/biolink/vocab/supporting_text_section_type> rdfs:label "supporting text section type - The section of the supporting text of a Text Mining Result within the supporting document. This is in the form of the name of the document section (e.g., Abstract, Introduction) that contains the supporting text." .
+  
+  <https://w3id.org/biolink/vocab/symbol> rdfs:label "symbol - Symbol for a particular thing" .
+  
+  <https://w3id.org/biolink/vocab/synonym> rdfs:label "synonym - Alternate human-readable names for a thing" .
+  
+  <https://w3id.org/biolink/vocab/systematic_synonym> rdfs:label "systematic synonym - more commonly used for gene symbols in yeast" .
+  
+  <https://w3id.org/biolink/vocab/target_for> rdfs:label "target for - A gene is a target of a disease when its products are druggable and when a drug interaction with the gene product could have a therapeutic effect" .
+  
+  <https://w3id.org/biolink/vocab/taxon_to_taxon_association_object> rdfs:label "taxon to taxon association object - An association between individuals of different taxa." .
+  
+  <https://w3id.org/biolink/vocab/taxon_to_taxon_association_subject> rdfs:label "taxon to taxon association subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/temporal_context_qualifier> rdfs:label "temporal context qualifier - a constraint of time placed upon the truth value of an association. for time intervales, use temporal interval qualifier." .
+  
+  <https://w3id.org/biolink/vocab/temporal_interval_qualifier> rdfs:label "temporal interval qualifier - a constraint of a time interval placed upon the truth value of an association." .
+  
+  <https://w3id.org/biolink/vocab/temporally_related_to> rdfs:label "temporally related to - holds between two entities with a temporal relationship" .
+  
+  <https://w3id.org/biolink/vocab/timepoint> rdfs:label "timepoint - a point in time" .
+  
+  <https://w3id.org/biolink/vocab/trade_name> rdfs:label "trade name - " .
+  
+  <https://w3id.org/biolink/vocab/transcribed_from> rdfs:label "transcribed from - x is transcribed from y if and only if x is synthesized from template y" .
+  
+  <https://w3id.org/biolink/vocab/transcribed_to> rdfs:label "transcribed to - inverse of transcribed from" .
+  
+  <https://w3id.org/biolink/vocab/transcript_to_gene_relationship_object> rdfs:label
+      "transcript to gene relationship object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/transcript_to_gene_relationship_subject> rdfs:label
+      "transcript to gene relationship subject - connects an association to the subject of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/translates_to> rdfs:label "translates to - x (amino acid chain/polypeptide) is the ribosomal translation of y (transcript) if and only if a ribosome reads y (transcript) through a series of triplet codon-amino acid adaptor activities (GO:0030533) and produces x (amino acid chain/polypeptide)" .
+  
+  <https://w3id.org/biolink/vocab/translation_of> rdfs:label "translation of - inverse of translates to" .
+  
+  <https://w3id.org/biolink/vocab/treated_by> rdfs:label "treated by - holds between a disease or phenotypic feature and a therapeutic process or chemical entity that is used to treat the condition" .
+  
+  <https://w3id.org/biolink/vocab/treats> rdfs:label "treats - holds between a therapeutic procedure or chemical entity and a disease or phenotypic feature that it is used to treat" .
+  
+  <https://w3id.org/biolink/vocab/update_date> rdfs:label "update date - date on which an entity was updated. This can be applied to nodes or edges" .
+  
+  <https://w3id.org/biolink/vocab/upstream_resources> rdfs:label "upstream resources - An upstream InformationResource from which the resource being described directly retrieved a record of the knowledge expressed in the Edge, or data used to generate this knowledge. This is an array because there are cases where a merged Edge holds knowledge that was retrieved from multiple sources. e.g. an Edge provided by the ARAGORN ARA can expressing knowledge it retrieved from both the automat-mychem-info and molepro KPs, which both provided it with records of this single fact." .
+  
+  <https://w3id.org/biolink/vocab/variant_as_a_model_of_disease_association_subject>
+    rdfs:label "variant as a model of disease association subject - A variant that has a role in modeling the disease." .
+  
+  <https://w3id.org/biolink/vocab/variant_to_disease_association_object> rdfs:label
+      "variant to disease association object - a disease that is associated with that variant" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_disease_association_predicate> rdfs:label
+      "variant to disease association predicate - E.g. is pathogenic for" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_disease_association_subject> rdfs:label
+      "variant to disease association subject - a sequence variant in which the allele state is associated in some way with the disease state" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_entity_association_mixin_subject> rdfs:label
+      "variant to entity association mixin subject - a sequence variant in which the allele state is associated with some other entity" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_gene_association_object> rdfs:label "variant to gene association object - connects an association to the object of the association. For example, in a gene-to-phenotype association, the gene is subject and phenotype is object." .
+  
+  <https://w3id.org/biolink/vocab/variant_to_gene_association_predicate> rdfs:label
+      "variant to gene association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/variant_to_gene_expression_association_predicate>
+    rdfs:label "variant to gene expression association predicate - A high-level grouping for the relationship type. AKA minimal predicate. This is analogous to category for nodes." .
+  
+  <https://w3id.org/biolink/vocab/variant_to_phenotypic_feature_association_subject>
+    rdfs:label "variant to phenotypic feature association subject - a sequence variant in which the allele state is associated in some way with the phenotype state" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_population_association_has_count> rdfs:label
+      "variant to population association has count - number in object population that carry a particular allele, aka allele count" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_population_association_has_quotient> rdfs:label
+      "variant to population association has quotient - frequency of allele in population, expressed as a number with allele divided by number in reference population, aka allele frequency" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_population_association_has_total> rdfs:label
+      "variant to population association has total - number all populations that carry a particular allele, aka allele number" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_population_association_object> rdfs:label
+      "variant to population association object - the population that is observed to have the frequency" .
+  
+  <https://w3id.org/biolink/vocab/variant_to_population_association_subject> rdfs:label
+      "variant to population association subject - an allele that has a certain frequency in a given population" .
+  
+  <https://w3id.org/biolink/vocab/volume> rdfs:label "volume - volume of a book or music release in a collection/series or a published collection of journal issues in a serial publication" .
+  
+  <https://w3id.org/biolink/vocab/xenologous_to> rdfs:label "xenologous to - a homology relationship characterized by an interspecies (horizontal) transfer since the common ancestor." .
+  
+  <https://w3id.org/biolink/vocab/xref> rdfs:label "xref - Alternate CURIEs for a thing" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/biolink/biolink-model/master/biolink-model.ttl> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "ZyeFvXIpYeGgQkl3kNfsrbfCW9BKWlY/3UbXaQec60RafxgQxyH86aSt8WfrW6G35aZxEVsASrDKb4E7c8a2NMRJkVafnkZ77puckYo7zmDgyNrw3Ggv+8YI0WfA4x1zU5+YL1oOZnCPAbEkCuBqIoNN15tnYUizrea7667ShAY=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2023-03-31T14:24:26.976+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234 .
+}
