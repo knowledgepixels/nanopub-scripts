@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 cd "$(dirname "$0")"
 
 mkdir -p temp
@@ -7,19 +9,39 @@ if [ ! -f temp/biolink-model.ttl ]; then
   wget -O temp/biolink-model.ttl https://raw.githubusercontent.com/biolink/biolink-model/master/biolink-model.ttl
 fi
 
+rapper -q -i turtle -o ntriples temp/biolink-model.ttl > temp/biolink-model.nt
+
 mkdir -p out
-rapper -q -i turtle -o ntriples temp/biolink-model.ttl \
-  | awk -F' ' \
-      '{
-         if ($2 == "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>") {
-           thing=$1
-           type=$3;
-         }
-         if (thing == $1 && type == "<https://w3id.org/linkml/SlotDefinition>" && $2 == "<http://www.w3.org/2004/02/skos/core#definition>") {
-           print $0;
-         }
-       }' \
-   > out/biolink-rel-definitions.nt
+
+rm -f out/biolink-related-rels.txt
+rm -f out/biolink-rel-definitions.nt
+
+echo "<https://w3id.org/biolink/vocab/related_to>" > temp/rel-todo.txt
+while [ -s temp/rel-todo.txt ]; do
+  E=$(head -1 temp/rel-todo.txt)
+  tail -n +2 temp/rel-todo.txt > temp/rel-todo.txt.tmp
+  mv temp/rel-todo.txt.tmp temp/rel-todo.txt
+  echo "Getting sub-relations of $E..."
+  echo "$E" >> out/biolink-related-rels.txt
+  cat temp/biolink-model.nt \
+    | grep " <https://w3id.org/linkml/is_a> $E ." \
+    | sed -r 's/^(<[^>]+>) .*$/\1/' \
+    >> temp/rel-todo.txt
+done
+
+while read E; do
+  cat temp/biolink-model.nt \
+    | awk -F' ' -v thing="$E" \
+        '{
+           if (thing == $1 && $2 == "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>") {
+             type=$3;
+           }
+           if (thing == $1 && type == "<https://w3id.org/linkml/SlotDefinition>" && $2 == "<http://www.w3.org/2004/02/skos/core#definition>") {
+             print $0;
+           }
+         }' \
+     >> out/biolink-rel-definitions.nt
+done < out/biolink-related-rels.txt
 
 cat out/biolink-rel-definitions.nt \
   | sed -r 's|^(<https://w3id.org/biolink/vocab/([a-zA-Z0-9_\-]+)>) <http://www.w3.org/2004/02/skos/core#definition> "(.*)" .$|\1 rdfs:label "\2 - \3" .|' \
@@ -56,5 +78,7 @@ cat out/biolink-rel-definitions.nt \
   echo "  : dct:creator orcid:0000-0002-1267-0234 ."
   echo "}"
 ) > out/biolink-rel-labels.trig
+
+./np sign  out/biolink-rel-labels.trig
 
 ./np check out/signed.biolink-rel-labels.trig
