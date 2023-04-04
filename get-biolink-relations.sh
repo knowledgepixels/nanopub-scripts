@@ -21,7 +21,6 @@ while [ -s temp/rel-todo.txt ]; do
   E=$(head -1 temp/rel-todo.txt)
   tail -n +2 temp/rel-todo.txt > temp/rel-todo.txt.tmp
   mv temp/rel-todo.txt.tmp temp/rel-todo.txt
-  echo "Getting sub-relations of $E..."
   echo "$E" >> out/biolink-related-rels.txt
   cat temp/biolink-model.nt \
     | grep " <https://w3id.org/linkml/is_a> $E ." \
