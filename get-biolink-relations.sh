@@ -21,7 +21,14 @@ while [ -s temp/rel-todo.txt ]; do
   E=$(head -1 temp/rel-todo.txt)
   tail -n +2 temp/rel-todo.txt > temp/rel-todo.txt.tmp
   mv temp/rel-todo.txt.tmp temp/rel-todo.txt
-  echo "$E" >> out/biolink-related-rels.txt
+  if [ "$E" == "<https://w3id.org/biolink/vocab/contributor>" ]; then continue; fi
+  if [[ "$E" != "<https://w3id.org/biolink/vocab/related_to_at_concept_level>"  &&
+        "$E" != "<https://w3id.org/biolink/vocab/related_to_at_instance_level>" &&
+        "$E" != "<https://w3id.org/biolink/vocab/same_as>" &&
+        ! "$E" =~ '_match>' &&
+        ! "$E" =~ 'class_of>' ]]; then
+    echo "$E" >> out/biolink-related-rels.txt
+  fi
   cat temp/biolink-model.nt \
     | grep " <https://w3id.org/linkml/is_a> $E ." \
     | sed -r 's/^(<[^>]+>) .*$/\1/' \
