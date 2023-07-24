@@ -1,0 +1,570 @@
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041129/> rdfs:label "temperature sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04168/> rdfs:label "inclinometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04329/> rdfs:label "spectrophotometry on filtrate before and after methanol pigment extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0467/> rdfs:label "ETS activity measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041047/> rdfs:label "high performance liquid chromatography - electrospray ionisation quadrupole mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04408/> rdfs:label "anodic stripping voltammetry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041126/> rdfs:label "in-situ conductivity cell (fourth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04165/> rdfs:label "echo sounder (SV=1500m/s)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0464/> rdfs:label "Dataring sensor 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04326/> rdfs:label "spectrophotometry following Caraco and Puccoon 1986 protocol"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041044/> rdfs:label "aethalometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04244/> rdfs:label "linear-response chlorophyll fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041123/> rdfs:label "in-situ thermistor (fourteenth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04162/> rdfs:label "downward-looking acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04323/> rdfs:label "spectrophotometric absorbance at two different wavelengths of CO2-equilibrated fixed alkalinity dye solution"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041041/> rdfs:label "Ferrozine 560nm colorimetric autoanalysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04402/> rdfs:label "single-beam echo sounder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04241/> rdfs:label "ion-selective electrode"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04399/> rdfs:label "shipborne acoustic doppler current profiler (ADCP) beam 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041120/> rdfs:label "in-situ thermistor (eleventh sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04320/> rdfs:label "shipborne wave recorder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0429/> rdfs:label "time series analysis of gut pigment content"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041009/> rdfs:label "accelerometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04396/> rdfs:label "multibeam echo sounder central beam"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04209/> rdfs:label "hydride generation inductively-coupled plasma atomic emission spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04127/> rdfs:label "fixed in-situ pressure sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0426/> rdfs:label "physical measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041006/> rdfs:label "ion exclusion chromatography"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04393/> rdfs:label "ion-exchange chromatography and U-Th mass spectrometry using 229Th-236U spike standard"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04206/> rdfs:label "high temperature Pt catalytic oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04124/> rdfs:label "bathythermograph"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0423/> rdfs:label "optical microscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041003/> rdfs:label "second sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04390/> rdfs:label "in-situ StowAway TidbiT temperature logger"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0499/> rdfs:label "SonTek current meter beam 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041079/> rdfs:label "in-situ current meter beam 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04121/> rdfs:label "autoranging chlorophyll fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041000/> rdfs:label "radioimmunoassay"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041158/> rdfs:label "gas chromatography-negative chemical ionisation mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04358/> rdfs:label "turbulence profiler precision CTD"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04200/> rdfs:label "hand-held mercury thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04197/> rdfs:label "green light transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0496/> rdfs:label "SonTek current meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041076/> rdfs:label "high frequency radar"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04276/> rdfs:label "oxygen sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041155/> rdfs:label "transmissometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04194/> rdfs:label "gas chromatography-mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04355/> rdfs:label "trichromatic spectrophotometry following the Jeffrey and Humphrey protocol"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041073/> rdfs:label "thermal ionization mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04434/> rdfs:label "thermometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041152/> rdfs:label "in-situ acoustic current meter beam 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04191/> rdfs:label "gas chromatography-atomic emission detection"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04352/> rdfs:label "tracked drifting buoy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041070/> rdfs:label "combined Global Navigation Satellite System receiver"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04270/> rdfs:label "nanomolar Nox system after Garside (1982)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04431/> rdfs:label "infra-red laser rangefinder (infra-red LIDAR) (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04159/> rdfs:label "differential pulse polarography"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041038/> rdfs:label "linear-response phycocyanin fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0458/> rdfs:label "CTD"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04238/> rdfs:label "infra-red radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041117/> rdfs:label "in-situ thermistor (eighth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04156/> rdfs:label "current meter high-resolution thermistor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041035/> rdfs:label "sediment profile imager"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0455/> rdfs:label "CO2 quantification by gas analyser"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04235/> rdfs:label "inductively-coupled plasma atomic emission spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041114/> rdfs:label "in-situ thermistor (fifth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04153/> rdfs:label "counting filtrate and residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041032/> rdfs:label "nanomolar ammonium system after Holmes et al (1999)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04314/> rdfs:label "semi-fixed moored in-situ pressure sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0452/> rdfs:label "Aquatracka nephelometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04232/> rdfs:label "in-situ thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041111/> rdfs:label "dry bulb thermometer (third sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04150/> rdfs:label "coulometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S048/> rdfs:label "dot blot hybridisation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04387/> rdfs:label "digital step tide gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041184/> rdfs:label "in-situ thermistor on acoustic doppler current profiler (ADCP) transducer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04118/> rdfs:label "alpha spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0417/> rdfs:label "method of Lowry et al. (1951) modified by Rutter (1967)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S045/> rdfs:label "flow cytometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04384/> rdfs:label "annual layer counting based on ion chromatography chemistry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04115/> rdfs:label "acoustic triangulation from sonar moorings"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041181/> rdfs:label "aerial survey"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0414/> rdfs:label "gravimetry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04112/> rdfs:label "YSI profiling oxygen and temperature probe"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041149/> rdfs:label "in-situ current meter (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041067/> rdfs:label "polarography"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04188/> rdfs:label "gamma spectroscopy (high-purity Ge detector)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04349/> rdfs:label "tidal height sensor3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0487/> rdfs:label "SUV-6 in-situ nitrate analyser at 250nm"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04267/> rdfs:label "moored acoustic doppler current profiler (ADCP) beam 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04428/> rdfs:label "turbulence profiler (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041146/> rdfs:label "in-situ current meter (fourth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041064/> rdfs:label "gas chromatography-reduction gas detection"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04185/> rdfs:label "fluorometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04346/> rdfs:label "through-flow fluorometer plumbed into non-toxic supply"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0484/> rdfs:label "STD"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04264/> rdfs:label "moored acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04425/> rdfs:label "shipborne wave recorder (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041143/> rdfs:label "acoustic doppler current profiler (ADCP) beam 4"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0481/> rdfs:label "Partech 10cm path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04343/> rdfs:label "thermosalinograph conductivity sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04182/> rdfs:label "fluorescence high performance liquid chromatography (HPLC)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041061/> rdfs:label "minimum thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04504/> rdfs:label "platinum resistance thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04261/> rdfs:label "mechanical bathythermograph"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04422/> rdfs:label "in-situ optical backscatter measurement (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041140/> rdfs:label "acoustic doppler current profiler (ADCP) beam 1"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04340/> rdfs:label "thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04501/> rdfs:label "nanomolar ammonium fluorometry after Kerouel and Aminot (1997)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041029/> rdfs:label "chemiluminescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0449/> rdfs:label "AWQMS Quanta platinum resistance thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04229/> rdfs:label "in-situ silicate analysis system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041108/> rdfs:label "ZooSCAN technology"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04147/> rdfs:label "cosine-collector upwelling 570nm radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04308/> rdfs:label "scatterometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0446/> rdfs:label "ADCP bottom tracking refined using GPS fixes"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041026/> rdfs:label "Kongsberg Seatex DPS 116 DGPS"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04226/> rdfs:label "in-situ pulsed electrode"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041105/> rdfs:label "temperature measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0443/> rdfs:label "5 or 10cm path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04305/> rdfs:label "red light transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041023/> rdfs:label "titration against silver nitrate (AgNO3)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04223/> rdfs:label "in-situ optical backscatter measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04299/> rdfs:label "in-situ pump and probe chlorophyll fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041102/> rdfs:label "dry laser diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041099/> rdfs:label "settling tube method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0440/> rdfs:label "25cm path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04141/> rdfs:label "conductivity cell"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04302/> rdfs:label "radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041020/> rdfs:label "neutron activation analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041178/> rdfs:label "model prediction of Medium Resolution Imaging Spectrometer (MERIS) output"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04220/> rdfs:label "in-situ microelectrode"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04378/> rdfs:label "mitochondrial 16s rDNA restriction fragment length polymorphism (RFLP) signature identification"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041096/> rdfs:label "sieving and dry laser diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04296/> rdfs:label "protocol of Slawyk and Raimbault (1995)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041175/> rdfs:label "acidimetry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04375/> rdfs:label "RBR MS-310 micro-salinometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041093/> rdfs:label "silicate analysis system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04106/> rdfs:label "Western dot blot"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04293/> rdfs:label "profiling pressure sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041172/> rdfs:label "gas chromatography-isotope ratio mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04372/> rdfs:label "manual chemical analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041090/> rdfs:label "single turnover fast repetition rate (FRR) fluorometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04290/> rdfs:label "pre-GPS satellite navigation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04103/> rdfs:label "Trimble GPS"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04179/> rdfs:label "flow-injection fluorometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041058/> rdfs:label "hand shear vane"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0478/> rdfs:label "lowered acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04100/> rdfs:label "Sound Ocean Systems Incorporated DGPS"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04258/> rdfs:label "measurement of motor speed"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04419/> rdfs:label "in-situ conductivity cell (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041137/> rdfs:label "in-situ WET Labs FDOM ECO fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04176/> rdfs:label "flow meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04337/> rdfs:label "temperature probe on half tide pressure gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0475/> rdfs:label "Gran titration and Mackereth et al. (1978) freshwater analysis method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041055/> rdfs:label "most probable number method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04255/> rdfs:label "manual colorimetric analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041134/> rdfs:label "oxygen sensor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04173/> rdfs:label "flame photometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04334/> rdfs:label "starboard-mounted pyranometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041052/> rdfs:label "programmable medium-spectral resolution imaging spectrometer (MERIS)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04252/> rdfs:label "manometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04413/> rdfs:label "conductivity cell (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041131/> rdfs:label "acoustic doppler wave array beam 1"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04170/> rdfs:label "ferrospectral 550nm colorimetric autoanalysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04410/> rdfs:label "Sea-Bird SBE 43 sensor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04138/> rdfs:label "colorimetric autoanalysis with liquid waveguide capilliary cell"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041017/> rdfs:label "pyrgeometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0437/> rdfs:label "20cm path length red light transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04217/> rdfs:label "in-situ current meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04135/> rdfs:label "cold vapour atomic fluorescence spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0434/> rdfs:label "2-pi scalar radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041014/> rdfs:label "model prediction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04214/> rdfs:label "in-situ acoustic current meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0431/> rdfs:label "150kHz broadband acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041011/> rdfs:label "Dupont Hydroclimatic Index Methodology"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041169/> rdfs:label "acoustic doppler current profiler (ADCP) vertical beam"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04211/> rdfs:label "in-situ Beckmann probe"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04369/> rdfs:label "waverider"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041087/> rdfs:label "210Pb dating"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04287/> rdfs:label "port-mounted cosine-collector radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041166/> rdfs:label "port-mounted anemometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04366/> rdfs:label "visual estimation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041084/> rdfs:label "upwelling radiance spectral radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041163/> rdfs:label "in-situ linear-response phycoerythrin fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041081/> rdfs:label "Continuous-Flow Isotope Ratio Mass-Spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041160/> rdfs:label "Trimble 5800 GPS System"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0469/> rdfs:label "in-situ nephelometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041049/> rdfs:label "gamma-ray attenuation measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04249/> rdfs:label "low-precision navigational echo sounder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041128/> rdfs:label "in-situ conductivity cell (sixth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041046/> rdfs:label "uranium-thorium isotope dating"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04328/> rdfs:label "spectrophotometry on filtrate"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0466/> rdfs:label "EMP-2000 optical backscatter sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04246/> rdfs:label "liquid chromatography-mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04407/> rdfs:label "digital step gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041125/> rdfs:label "in-situ conductivity cell (third sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04164/> rdfs:label "echo sounder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0463/> rdfs:label "Dataring sensor 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04325/> rdfs:label "spectrophotometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041043/> rdfs:label "in-situ particle counter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04404/> rdfs:label "in-situ Savonius Rotor plus vane current meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041122/> rdfs:label "in-situ thermistor (thirteenth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04322/> rdfs:label "sound velocity profiler"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04161/> rdfs:label "direct reading current meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041040/> rdfs:label "in-situ UV nitrate analyser"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0460/> rdfs:label "Coulter particle counter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04240/> rdfs:label "ion chromatography"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04401/> rdfs:label "shipborne acoustic doppler current profiler (ADCP) beam 4"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04398/> rdfs:label "shipborne acoustic doppler current profiler (ADCP) beam 1"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04129/> rdfs:label "bottom photography"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0428/> rdfs:label "relative UV fluorescence product assay"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041008/> rdfs:label "spectrophotometry on residue after NaOCl bleaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04208/> rdfs:label "humidity sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04395/> rdfs:label "multi-beam echo sounder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04126/> rdfs:label "bench salinometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041005/> rdfs:label "in-situ imaging sonar"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0425/> rdfs:label "optical plankton counter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04392/> rdfs:label "ion probe analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04205/> rdfs:label "high temperature Ni catalytic oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0422/> rdfs:label "observation of egg production incubation experiment"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041002/> rdfs:label "electromagnetic log"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0498/> rdfs:label "SonTek current meter beam 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04199/> rdfs:label "hand-held digital thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0501/> rdfs:label "Kjeldahl method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041078/> rdfs:label "three-dimensional seismic survey array"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04278/> rdfs:label "particle sizer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041157/> rdfs:label "high resolution gas chromatography-high resolution mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041075/> rdfs:label "infra-red kinetic fluorometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04196/> rdfs:label "graphite furnace atomic absorption spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04357/> rdfs:label "turbulence profiler fast temperature sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0495/> rdfs:label "Secchi disk"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04275/> rdfs:label "optical microscopy (coarse fraction) and pipette method (fines)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04436/> rdfs:label "thermosalinograph hull sensor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041154/> rdfs:label "WET Labs transmissometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0492/> rdfs:label "Seatex Seapath DGPS clock"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04193/> rdfs:label "gas chromatography-flame ionisation detection"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04354/> rdfs:label "triaxial fluxgate compass"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041072/> rdfs:label "identification and counting by scanning electron microscopy (SEM)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04272/> rdfs:label "nitrogen absorption"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04433/> rdfs:label "CTD or STD (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041151/> rdfs:label "in-situ acoustic current meter beam 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04190/> rdfs:label "gas chromatography-atomic absorption spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04351/> rdfs:label "titration against standardised acid"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04430/> rdfs:label "waverider (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041119/> rdfs:label "in-situ thermistor (tenth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0457/> rdfs:label "CTC redox dye technique"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04158/> rdfs:label "determined as ammonium"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04319/> rdfs:label "shipborne electro-magnetic log"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041037/> rdfs:label "linear-response CDOM fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04237/> rdfs:label "infra-red gas analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041116/> rdfs:label "in-situ thermistor (seventh sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04316/> rdfs:label "settling velocity tube experiment"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04155/> rdfs:label "counting residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0454/> rdfs:label "Biospherical Instruments 2-pi PAR downwelling light meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041034/> rdfs:label "in-situ impeller plus vane current meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041113/> rdfs:label "in-situ thermistor (fourth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041031/> rdfs:label "Multi-angle absorption photometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04152/> rdfs:label "counting filtrate"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04313/> rdfs:label "semi-fixed moored SonTek current meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0451/> rdfs:label "Aquatracka fluorometer immersed in non-toxic supply"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04231/> rdfs:label "in-situ thermistor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04389/> rdfs:label "in-situ oxygen optode"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041110/> rdfs:label "third sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04310/> rdfs:label "scintillation counting"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0419/> rdfs:label "microscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S047/> rdfs:label "chlorophyll determination"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04386/> rdfs:label "digital float tide gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0416/> rdfs:label "identification and counting by inverse microscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04117/> rdfs:label "alpha plus beta spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S044/> rdfs:label "autofluorescence microscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041183/> rdfs:label "visual estimation of target taxon dominance (100%, >30%, <30%)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04114/> rdfs:label "acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041180/> rdfs:label "altimeter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0413/> rdfs:label "gravimetric determination of loss on ignition"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041/> rdfs:label "elemental analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04380/> rdfs:label "Sea-Bird SBE 35 deep ocean standards thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041069/> rdfs:label "high performance liquid chromatography - inductively coupled plasma mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0489/> rdfs:label "SeaPoint turbidity meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04111/> rdfs:label "X-ray fluorescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04269/> rdfs:label "moving vessel profiler (MVP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041148/> rdfs:label "autonomous platform acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04348/> rdfs:label "tidal height sensor2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04187/> rdfs:label "gamma spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0486/> rdfs:label "SUV-6 in-situ nitrate analyser at 235nm"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041066/> rdfs:label "polymerase chain reaction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04266/> rdfs:label "moored acoustic doppler current profiler (ADCP) beam 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04427/> rdfs:label "thermosalinograph (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041145/> rdfs:label "in vivo iodo-nitro-tetrazolium (INT) salt reduction method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04345/> rdfs:label "thermosalinograph sea temperature sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041063/> rdfs:label "maximum minimum thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04263/> rdfs:label "microwave radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04424/> rdfs:label "in-situ thermistor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041142/> rdfs:label "acoustic doppler current profiler (ADCP) beam 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0480/> rdfs:label "PML/Chelsea Instruments 2-pi PAR upwelling light meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04342/> rdfs:label "thermosalinograph conductivity cell temperature sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04503/> rdfs:label "constant temperature non-dispersive infra-red gas analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041060/> rdfs:label "proton transfer reaction mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04260/> rdfs:label "measuring cylinder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04421/> rdfs:label "in-situ nutrient analysis system (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04500/> rdfs:label "semi-fixed moored inverted echo sounder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04149/> rdfs:label "cosine-collector upwelling PAR radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0448/> rdfs:label "ARGOS satellite positioning system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041028/> rdfs:label "broadband cavity-enhanced absorption spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04228/> rdfs:label "in-situ sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041107/> rdfs:label "optical backscatter sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041025/> rdfs:label "Hygroscopic Tandem Differential Mobility Analyser"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04146/> rdfs:label "cosine-collector upwelling 490nm radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04307/> rdfs:label "reversing thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0445/> rdfs:label "ADCP bottom tracking"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041104/> rdfs:label "nitrite analysis system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0442/> rdfs:label "30cm path length transparency meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04143/> rdfs:label "cosine-collector radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04304/> rdfs:label "aneroid barometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041022/> rdfs:label "bench fast repetition rate fluorometer (FRRF)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04222/> rdfs:label "in-situ optical attenuance measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041101/> rdfs:label "laser diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041098/> rdfs:label "sieving, settling tube method and laser diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04140/> rdfs:label "condensation nuclei counting"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04301/> rdfs:label "radiance sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04298/> rdfs:label "psychrometer dry bulb"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041177/> rdfs:label "model prediction of fluorescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04377/> rdfs:label "method of Edmondson (1971)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041095/> rdfs:label "ammonia analysis system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04108/> rdfs:label "Winkler titration"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041174/> rdfs:label "spectrophotometry (external electrode)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04374/> rdfs:label "method of Yebra and Hernandez-Leon modified by Yebra et al. (2005)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041092/> rdfs:label "nitrate analysis system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04105/> rdfs:label "WET Labs transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041171/> rdfs:label "identification and counting by manual image analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04371/> rdfs:label "in-situ current meter beam 1"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04102/> rdfs:label "Trimble DGPS clock"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041139/> rdfs:label "in-situ flume experiment"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0477/> rdfs:label "Moore and Webb (1978) protocols"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04178/> rdfs:label "flow-injection chemiluminescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04339/> rdfs:label "thermistor flow meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041057/> rdfs:label "hand penetrometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04257/> rdfs:label "mass spectrometry on residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04418/> rdfs:label "in-situ anemometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041136/> rdfs:label "in-situ UV Aquatracka fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0474/> rdfs:label "Mie optical backscatter sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04336/> rdfs:label "telemetry buoy systems monitor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041054/> rdfs:label "WET Labs optical backscatter meter (green LED)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04254/> rdfs:label "manual analysis using the phenol and sodium nitrocyanoferrate method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04415/> rdfs:label "humidity sensor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041133/> rdfs:label "pyranometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04172/> rdfs:label "firefly enzyme luminescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0471/> rdfs:label "LISST scatterometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04333/> rdfs:label "starboard-mounted cosine-collector radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041051/> rdfs:label "Moderate Resolution Imaging Spectroradiometer (MODIS)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04251/> rdfs:label "magnetic susceptibility meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04412/> rdfs:label "in-situ chlorophyll fluorometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041130/> rdfs:label "temperature sensor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04330/> rdfs:label "spectrophotometry on residue before and after methanol pigment extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0439/> rdfs:label "25cm path length red light transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041019/> rdfs:label "carbon dioxide probe"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04137/> rdfs:label "colorimetric autoanalysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0436/> rdfs:label "20 or 25cm path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041016/> rdfs:label "sieving"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04216/> rdfs:label "in-situ conductivity cell"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04134/> rdfs:label "in-situ chlorophyll fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041013/> rdfs:label "water level gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0433/> rdfs:label "1m path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04213/> rdfs:label "in-situ suspended particulate material (SPM) meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041089/> rdfs:label "resistance thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04131/> rdfs:label "bubbler tide gauge half-tide sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041010/> rdfs:label "protocol of Charman and Warner (1992)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0430/> rdfs:label "10cm path length red light transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04289/> rdfs:label "potentiometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041168/> rdfs:label "scattering photometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041086/> rdfs:label "chitobiase assay"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04286/> rdfs:label "port-mounted PAR cosine-collector radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041165/> rdfs:label "starboard-mounted sonic anemometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04365/> rdfs:label "unspecified navigation system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041083/> rdfs:label "cosine-collector downwelling spectral radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04283/> rdfs:label "physical measurement and stratigraphic dating"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041162/> rdfs:label "C-Nav3050 satellite positioning system receiver"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04362/> rdfs:label "unknown instrument"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041080/> rdfs:label "in-situ current meter beam 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04169/> rdfs:label "expendable bathythermograph (XBT)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041048/> rdfs:label "piezoelectric P-wave transducer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0468/> rdfs:label "GLONASS satellite navigation system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04248/> rdfs:label "in-situ Aquatracka chlorophyll fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04409/> rdfs:label "SCUFA turbidity meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041127/> rdfs:label "in-situ conductivity cell (fifth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04166/> rdfs:label "echo sounder (SV=4800ft/s)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041045/> rdfs:label "optically stimulated luminescence dating"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04327/> rdfs:label "spectrophotometry following Takahashi and Ichimura 1968 protocol"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0465/> rdfs:label "Decca navigation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04245/> rdfs:label "linear-response phycoerythrin fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04406/> rdfs:label "infra-red laser rangefinder (infra-red LIDAR)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041124/> rdfs:label "in-situ thermistor (fifteenth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04163/> rdfs:label "dry bulb thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0462/> rdfs:label "Dataring sensor 1"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041042/> rdfs:label "CARD-FISH with DAPI staining and epifluorescence microscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04242/> rdfs:label "isotope spiking and ingrowth"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04403/> rdfs:label "in-situ electromagnetic vector averaging current meter (VACM)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041121/> rdfs:label "in-situ thermistor (twelfth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04160/> rdfs:label "digital thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04321/> rdfs:label "sieving and settling tube method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041200/> rdfs:label "cell size measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04400/> rdfs:label "shipborne acoustic doppler current profiler (ADCP) beam 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04397/> rdfs:label "radar water level recorder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0427/> rdfs:label "quantitative PCR"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041007/> rdfs:label "spectrophotometry on residue before and after NaOCl bleaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04394/> rdfs:label "laser ablation and mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04207/> rdfs:label "high temperature catalytic oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04125/> rdfs:label "bench fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041004/> rdfs:label "in-situ acoustic backscatter measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0424/> rdfs:label "optical microscopy and stratigraphic dating"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04204/> rdfs:label "high performance liquid chromatography (HPLC)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04391/> rdfs:label "YSI in-situ oxygen and temperature probe"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04122/> rdfs:label "barometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0421/> rdfs:label "not specified"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04359/> rdfs:label "turbulence profiler shear sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041159/> rdfs:label "microfluidic flow capillary raman spectroscopy and holography"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04198/> rdfs:label "fixed half-tide pressure sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04201/> rdfs:label "hand-held thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0497/> rdfs:label "SonTek current meter beam 1"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0500/> rdfs:label "permanganate oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041077/> rdfs:label "two-dimensional seismic survey array"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04277/> rdfs:label "pH electrode"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041156/> rdfs:label "colony-forming units assay"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041074/> rdfs:label "identification and counting by polarized light microscopy and automated image analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04195/> rdfs:label "gasometric assay of acid-liberated CO2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04356/> rdfs:label "turbulence profiler"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0494/> rdfs:label "Seatex Seapath DGPS"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04435/> rdfs:label "directional range-gated radar"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041153/> rdfs:label "20 or 25cm path length transmissometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0491/> rdfs:label "SeaTech light backscatter nephelometer (LBSS)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04192/> rdfs:label "gas chromatography-electron capture detection"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04353/> rdfs:label "transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041071/> rdfs:label "cavity ring-down spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04271/> rdfs:label "nanomolar ammonium system after Jones (1991)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04432/> rdfs:label "CTD (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041150/> rdfs:label "in-situ acoustic current meter beam 4"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04350/> rdfs:label "tide gauge ambient temperature sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041039/> rdfs:label "fluorescence induction and relaxation (FIRe) fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0459/> rdfs:label "CTD or STD"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04239/> rdfs:label "inverted echo sounder"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041118/> rdfs:label "in-situ thermistor (ninth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041036/> rdfs:label "1-(2-pyridylazo)-2-naphthol (PAN)-Mn 560nm colorimetric autoanalysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04157/> rdfs:label "dead reckoning based on GPS and em-log or ADCP"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04318/> rdfs:label "shipborne acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0456/> rdfs:label "CO2 quantification by indicator photometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04236/> rdfs:label "inductively-coupled plasma mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041115/> rdfs:label "in-situ thermistor (sixth sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04154/> rdfs:label "counting liberated gas"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041033/> rdfs:label "ice profiler"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0453/> rdfs:label "Ashtech GPS"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041112/> rdfs:label "in-situ thermistor (third sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04312/> rdfs:label "semi-fixed moored SBE MicroCAT"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0450/> rdfs:label "Acclaim barometer temperature sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041030/> rdfs:label "aerosol mass spectrometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S049/> rdfs:label "epifluorescence microscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04230/> rdfs:label "in-situ sonic anemometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04388/> rdfs:label "hypobromate oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04119/> rdfs:label "atomic absorption spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S046/> rdfs:label "flow cytometry and protein fluorescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0418/> rdfs:label "method of Mackas and Bohrer (1976)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04385/> rdfs:label "beta spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041182/> rdfs:label "aerial photography, GIS analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04116/> rdfs:label "advanced very high resolution radiometer (AVHRR)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0415/> rdfs:label "image analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S043/> rdfs:label "accelerator mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04382/> rdfs:label "Topcon 5Hz real-time kinematic GPS"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04113/> rdfs:label "acidification weight loss"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04189/> rdfs:label "gas chromatography"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0488/> rdfs:label "Sea-Bird SBE 43 sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041068/> rdfs:label "4-pi scalar radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04110/> rdfs:label "X-ray diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04268/> rdfs:label "moored acoustic doppler current profiler (ADCP) beam 4"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04429/> rdfs:label "turbulence profiler shear sensor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041147/> rdfs:label "in-situ current meter (third sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041065/> rdfs:label "cone penetrometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04186/> rdfs:label "formaldoxime 460nm colorimetric autoanalysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04347/> rdfs:label "through-flow nephelometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0485/> rdfs:label "SUV-6 in-situ nitrate analyser at 220nm"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04265/> rdfs:label "moored acoustic doppler current profiler (ADCP) beam 1"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04426/> rdfs:label "2-pi scalar radiometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041144/> rdfs:label "turbidity meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04183/> rdfs:label "fluorometer temperature sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0482/> rdfs:label "Interocean S4 wave gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041062/> rdfs:label "maximum thermometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04344/> rdfs:label "thermosalinograph hull sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04505/> rdfs:label "optode"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04262/> rdfs:label "methylene blue colorimetric analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04423/> rdfs:label "in-situ sensor (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041141/> rdfs:label "acoustic doppler current profiler (ADCP) beam 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04180/> rdfs:label "flow-injection gas diffusion"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04341/> rdfs:label "thermosalinograph"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04502/> rdfs:label "acoustic doppler wave array"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04420/> rdfs:label "in-situ microelectrode (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041109/> rdfs:label "synchrotron x-ray fluorescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04148/> rdfs:label "cosine-collector upwelling 670nm radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04309/> rdfs:label "scattering photometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041027/> rdfs:label "laser-induced fluorescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04227/> rdfs:label "in-situ rain gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041106/> rdfs:label "conductivity measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04306/> rdfs:label "redox electrode"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04145/> rdfs:label "cosine-collector upwelling 440nm radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0444/> rdfs:label "600kHz broadband acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041024/> rdfs:label "Position and Orientation Systems for Marine Vessels"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04224/> rdfs:label "in-situ particle sizer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041103/> rdfs:label "wet laser diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041021/> rdfs:label "25cm path length blue light transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04142/> rdfs:label "cosine-collector downwelling PAR radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04303/> rdfs:label "barometric altimeter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0441/> rdfs:label "300kHz broadband acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041179/> rdfs:label "model prediction of Visible Infrared Imaging Radiometer Suite (VIIRS) output"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04221/> rdfs:label "in-situ nutrient analysis system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041100/> rdfs:label "settling tube method and laser diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04379/> rdfs:label "CTD (sensor 2)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041097/> rdfs:label "sieving and wet laser diffraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04300/> rdfs:label "pyranometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04297/> rdfs:label "psychrometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041176/> rdfs:label "model prediction of Moderate Resolution Imaging Spectroradiometer (MODIS) output"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04376/> rdfs:label "Plankton Visual Analyser"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041094/> rdfs:label "phosphate analysis system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04107/> rdfs:label "WET Labs optical backscatter meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041173/> rdfs:label "spectrophotometry (internal electrode)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04373/> rdfs:label "cold vapour atomic absorption spectroscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041091/> rdfs:label "multiple turnover pulse-amplitude modulation (PAM) fluorometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04104/> rdfs:label "WET Labs 25cm path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041170/> rdfs:label "in-situ fluorometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04370/> rdfs:label "wavestaff"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041059/> rdfs:label "Advanced Microwave Scanning Radiometer for EOS (AMSRE-E)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0479/> rdfs:label "PML/Chelsea Instruments 2-pi PAR downwelling light meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04101/> rdfs:label "Trimble DGPS"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04259/> rdfs:label "measurement of winch wire out"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041138/> rdfs:label "in-situ optical turbidity measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04177/> rdfs:label "flow-injection analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041056/> rdfs:label "synthetic aperture radar"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04256/> rdfs:label "mass spectrometry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04417/> rdfs:label "in-situ Beckmann probe (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041135/> rdfs:label "nephelometry using an infrared light source"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04335/> rdfs:label "submarine cable voltage measurement"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0473/> rdfs:label "LORAN navigation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041053/> rdfs:label "WET Labs optical backscatter meter (red LED)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04253/> rdfs:label "manual analysis using the diacetylmonoxime method"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04414/> rdfs:label "dry bulb thermometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041132/> rdfs:label "cosine-collector radiometer (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0470/> rdfs:label "Iridium telecommunications"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04332/> rdfs:label "starboard-mounted PAR cosine-collector radiometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041050/> rdfs:label "non-contact resistivity"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04250/> rdfs:label "lumogallion fluorescence"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04411/> rdfs:label "SeaPoint turbidity meter (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04139/> rdfs:label "compass"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0438/> rdfs:label "20cm path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041018/> rdfs:label "low temperature UV persulphate oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04218/> rdfs:label "in-situ fast repetition rate fluorometer (FRRF)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04136/> rdfs:label "colorimetric analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041015/> rdfs:label "75kHz broadband acoustic doppler current profiler (ADCP)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0435/> rdfs:label "2.5cm path length transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04215/> rdfs:label "in-situ anemometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04133/> rdfs:label "cathodic stripping voltammetry"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S0432/> rdfs:label "1m path length red light transmissometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041012/> rdfs:label "in-situ UV absorption spectrometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041088/> rdfs:label "pH sensor"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04130/> rdfs:label "bubbler tide gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04288/> rdfs:label "port-mounted pyranometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041167/> rdfs:label "port-mounted sonic anemometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04367/> rdfs:label "visual observation in a flume"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041085/> rdfs:label "strain gauge"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041164/> rdfs:label "starboard-mounted anemometer"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04364/> rdfs:label "unspecified GPS system"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041082/> rdfs:label "Biospherical Instruments 2-pi PAR upwelling light meter"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04282/> rdfs:label "physical measurement and radiocarbon dating"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S041161/> rdfs:label "Ashtech GPS (second sensor)"@en .
+  <http://vocab.nerc.ac.uk/collection/S04/current/S04361/> rdfs:label "underwater vehicle with pressure sensor and altimeter"@en .
