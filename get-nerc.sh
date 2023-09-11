@@ -2,15 +2,21 @@
 
 set -e
 
+USAGE="$ ./get-nerc.sh S04"
+
+if [ -z $1 ] || [ ! -z $2 ]; then
+  echo "Usage: $USAGE"; exit 1
+fi
+
 cd "$(dirname "$0")"
 
 mkdir -p out
 
-wget -O temp/S04.ttl 'https://vocab.nerc.ac.uk/collection/S04/current/?_profile=nvs&_mediatype=text/turtle'
-rapper -i turtle -o ntriples temp/S04.ttl \
+wget -O temp/$1.ttl "https://vocab.nerc.ac.uk/collection/$1/current/?_profile=nvs&_mediatype=text/turtle"
+rapper -i turtle -o ntriples temp/$1.ttl \
   | grep ' <http://www.w3.org/2004/02/skos/core#prefLabel> .*@en .$' \
   | sed -r 's|(<.*>) <http://www.w3.org/2004/02/skos/core#prefLabel> (.*)$|  \1 rdfs:label \2|' \
-  > out/S04-labels.ttl
+  > out/$1-labels.ttl
 
 (
   echo "@prefix : <http://purl.org/nanopub/temp/uberon-lifecycles-labels/> ."
@@ -30,7 +36,7 @@ rapper -i turtle -o ntriples temp/S04.ttl \
   echo "}"
   echo ""
   echo ":assertion {"
-  cat out/S04-labels.ttl
+  cat out/$1-labels.ttl
   echo "}"
   echo ""
   echo ":provenance {"
@@ -40,8 +46,8 @@ rapper -i turtle -o ntriples temp/S04.ttl \
   echo ":pubinfo {"
   echo "  : dct:creator orcid:0000-0002-1267-0234 ."
   echo "}"
-) > out/S04-labels.trig
+) > out/$1-labels.trig
 
-./np sign out/S04-labels.trig
+./np sign out/$1-labels.trig
 
-./np check out/signed.S04-labels.trig
+./np check out/signed.$1-labels.trig
