@@ -1,0 +1,253 @@
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050051/> rdfs:label "laboratory calibration against formazin"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050109/> rdfs:label "computation using P-EXEC algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050202/> rdfs:label "using the epsilon notation"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050124/> rdfs:label "correction for atmospheric pressure"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050046/> rdfs:label "expressed to unspecified datum by subtraction of a constant"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050061/> rdfs:label "computation from concentration"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050119/> rdfs:label "conversion to WMO code using table 1555"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050212/> rdfs:label "transformation from OSGB36 northing"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050134/> rdfs:label "correction to a path length of 1m"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050056/> rdfs:label "NO salt correction"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050071/> rdfs:label "computation from DMS concentration and shipboard wind speed"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050207/> rdfs:label "using 0 or 1 binary classification"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050129/> rdfs:label "correction for bacterial chlorophyll c+d following Caraco & Puccoon 1986 and Golterman et al. 1978 protocols"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050222/> rdfs:label "classification using GEBCO Grid Source Data Type Identifier (SDN:GGT::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050144/> rdfs:label "dark current baseline correction"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050066/> rdfs:label "automated record analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050081/> rdfs:label "computation from concentration using Benson and Krause algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050217/> rdfs:label "correction for bacteriochlorophyll c+d following Caraco and Puccoon 1986, and Golterman et al. 1978"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050139/> rdfs:label "correction to true North"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050232/> rdfs:label "computation of carbon biomass from abundance using the equations of Menden-Deuer and Lessard (2000)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050154/> rdfs:label "processing after Wright and Coffin (1984)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050076/> rdfs:label "computation of carbon from calcium"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050091/> rdfs:label "computation from pressure, salinity and IPTS-68 temperature using UNESCO algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050227/> rdfs:label "classification to a term from the Marine Strategy Framework Directive broad habitat types (Commission Decision (EU)2017/848)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050149/> rdfs:label "volume computation from mass and mean density"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050242/> rdfs:label "computation using equations from Legendre and Gosseline (1996)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050164/> rdfs:label "subtraction of value predicted by tidal analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050086/> rdfs:label "computation from fast microstructure temperature"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050237/> rdfs:label "classification to a term from the HELCOM 'HUB' Underwater Biotope and Habitat Classification System (SDN:M23::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050010/> rdfs:label "calibration against sample data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050159/> rdfs:label "standardisation to NBS scale"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050252/> rdfs:label "classification to a term from Nanson et al. (2023)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050174/> rdfs:label "verification against independent measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050096/> rdfs:label "computation from salinity and temperature using UNESCO algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050005/> rdfs:label "lipid normalisation (wet weight cct/lipid proportion) and weaning correction"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050247/> rdfs:label "computation using the haversine formula"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050020/> rdfs:label "algal1 algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050169/> rdfs:label "taking the average value from two or more sensors"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050184/> rdfs:label "computation using UNESCO 1983 algorithm and calibration against independent measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050015/> rdfs:label "laboratory calibration applied"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050030/> rdfs:label "normalisation to organic carbon and lutum content (RIKZ 'standard sediment')"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050179/> rdfs:label "computation using Takahashi correction to in-situ temperature"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050194/> rdfs:label "cell averaging"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050103/> rdfs:label "correction using co-located air pressure data expressed to unspecified datum by subtraction of a constant"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050025/> rdfs:label "differencing the results from 0.4um and 10**4 Dalton filtered water"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050040/> rdfs:label "division of in-situ resistivity by resistivity of overlying water"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050189/> rdfs:label "up-crossing analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050113/> rdfs:label "computation using UNESCO algorithm and calibration against independent measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050035/> rdfs:label "differencing of the measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050050/> rdfs:label "geometric statistics computation"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050199/> rdfs:label "automated record analysis using the zero-crossing method"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050108/> rdfs:label "computation of rate of change from variable incubation durations"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050201/> rdfs:label "computation using protocol of Barstow et al. (1991)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050123/> rdfs:label "conversion to seawater depth using UNESCO algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050045/> rdfs:label "expressed as PPi"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050060/> rdfs:label "computation from air temperature and relative humidity data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050118/> rdfs:label "conversion to WMO code using table 0885/0877"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050211/> rdfs:label "transformation from OSGB36 easting"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050133/> rdfs:label "correction to a common scale"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050055/> rdfs:label "NO correction or calibration of raw count rates"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050070/> rdfs:label "computation from 1st order Fourier coefficients of directional distribution of energy, A1 and B1"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050206/> rdfs:label "computation from total mass of suspended solids and bulk density"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050128/> rdfs:label "correction based on measured sound velocity profile"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050221/> rdfs:label "differencing results from two size-fractions"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050143/> rdfs:label "correction using Matthew's tables"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050065/> rdfs:label "analysis of cumulative settling rate curve after Folk and Ward (1957)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050080/> rdfs:label "computation after Folk and Ward (1957)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050216/> rdfs:label "correction for divinyl chlorophyll forms"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050138/> rdfs:label "correction to sea level and subtraction of value predicted by tidal analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050231/> rdfs:label "computation of carbon biomass using the equation of Alcaraz et al. (2003)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050153/> rdfs:label "processing following SCOR protocol"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050075/> rdfs:label "computation from rate of change of concentration in overlying water"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050090/> rdfs:label "computation from phi size distribution"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050226/> rdfs:label "classification to a term from the EMODnet Human Activities vocabulary (SDN:HA2::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050148/> rdfs:label "differencing carbon uptake with and without nitrification inhibitor"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050241/> rdfs:label "manufacturer's calibration and laboratory calibration against TRIS-buffer applied"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050163/> rdfs:label "subtraction of tidal height sensor2 value from tidal height sensor1 value"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050085/> rdfs:label "computation from CTD temperature profile"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050236/> rdfs:label "classification to a term from the OSPAR Commission's List of Threatened and/or Declining Species and Habitats (SDN:M22::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050158/> rdfs:label "smoothed"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050251/> rdfs:label "computation from manufacturer's stated ping standard deviation divided by the squared root of the number of good pings in an ensemble"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050173/> rdfs:label "unspecified prediction algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050095/> rdfs:label "computation from salinity and potential temperature using UNESCO algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050004/> rdfs:label "lipid normalisation (wet weight cct/lipid proportion)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050246/> rdfs:label "standardisation to 25 degrees Celsius"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050168/> rdfs:label "correction to in-situ temperature after Takahashi"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050183/> rdfs:label "computation using UNESCO 1983 algorithm and NO calibration against independent measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050014/> rdfs:label "calibration against Ca analyses with correction for chlorophyll interference"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050178/> rdfs:label "computation from pCO2 following correction to dry air and calibration against standards"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050193/> rdfs:label "correction for atmospheric stability and to a height of 10m"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050009/> rdfs:label "computation"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050102/> rdfs:label "computation from volume scatter data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050024/> rdfs:label "computation from the ratio of upwelled irradiance at 440 and 570 nm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050188/> rdfs:label "down-crossing analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050019/> rdfs:label "manufacturer's calibration applied"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050112/> rdfs:label "computation using UNESCO algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050034/> rdfs:label "differencing DOC before and after incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050198/> rdfs:label "classification to a term from the JNCC's Marine Habitat Classification for Britain and Ireland Version 15.03 (SDN:M21::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050107/> rdfs:label "computation of depth using unspecified drop rate algorithm converted to pressure using UNESCO algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050029/> rdfs:label "summation of size-fractionated values and profile integration"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050200/> rdfs:label "Tucker-Draper method"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050122/> rdfs:label "conversion to WMO code using table 4677/4501"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050044/> rdfs:label "estimation from surface roughness"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050117/> rdfs:label "conversion to WMO code"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050039/> rdfs:label "differencing the results from 0.4um and 10**4 Dalton filtered water"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050210/> rdfs:label "calibration to read zero in clear water with computation from volume scatter"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050132/> rdfs:label "correction for seawater compressibility"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050054/> rdfs:label "multiplication by 10**7"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050205/> rdfs:label "computation from regression line of suspended sediment concentration versus water flow velocity"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050127/> rdfs:label "correction after Wilson"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050220/> rdfs:label "derivation from GEBCO_08 30 arc-second global grid"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050049/> rdfs:label "computation using Fourier analysis with NO depth attenuation correction"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050142/> rdfs:label "correction using co-located air pressure and subtraction of value predicted by tidal analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050064/> rdfs:label "analysis of cumulative settling rate curve"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050215/> rdfs:label "computation from the wave velocity cell recorded burst"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050137/> rdfs:label "correction to sea level and averaging of multiple sensors"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050059/> rdfs:label "computation of carbon produced from amino acid uptake, abundance and cell volume data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050230/> rdfs:label "computation using the eddy covariance method"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050152/> rdfs:label "normalisation with biomass expressed as nitrogen"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050074/> rdfs:label "computation from potassium concentration"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050225/> rdfs:label "processing in near real-time"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050147/> rdfs:label "derivation from the raw data from the light chamber to Kolber et al 1998 biophysical model using Laney v4 2003 software"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050069/> rdfs:label "computation of carbon biomass from measured weight and profile integration"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050240/> rdfs:label "manufacturer's calibration and correction against independent temperature and salinity measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050162/> rdfs:label "subtraction of Synechococcus+Prochlorococcus from total bacteria"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050084/> rdfs:label "computation from CTD density profile"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050235/> rdfs:label "computation from true wind speed using the COARE3.5 model (Edson et al. 2013)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050157/> rdfs:label "salt correction"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050079/> rdfs:label "calibration using protocols of Deines (1999)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050250/> rdfs:label "computation from areal extent multiplied by coverage ratio"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050172/> rdfs:label "transformation from WGS84 to Irish National Grid Reference System"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050094/> rdfs:label "computation from PvI data and measured wavelength-dependent phytoplankton absorption coefficients"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050003/> rdfs:label "not specified"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050245/> rdfs:label "computation using the published OC4Me algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050167/> rdfs:label "summation of vehicle depth below water column surface and height above bed"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050089/> rdfs:label "computation from pH and alkalinity"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050182/> rdfs:label "computation using UNESCO 1983 algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050013/> rdfs:label "no calibration against sample data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050177/> rdfs:label "correction for lithogenic Ba contribution"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050099/> rdfs:label "computation from travel time averaged from all operational beams and unknown sound velocity profile"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050008/> rdfs:label "concentration to activity conversion based on half life"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050192/> rdfs:label "expressed at measurement altitude"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050101/> rdfs:label "computation from variation of light intensity with depth"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050023/> rdfs:label "derivation from the raw data from the dark chamber with calibration against sample data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050187/> rdfs:label "categorisation using EMODnet chemistry reporting protocol"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050018/> rdfs:label "profile integration"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050111/> rdfs:label "computation using stereometrical configurations of Edler(1979) and carbon factor of Gonzalez and Smetacek(1994)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050033/> rdfs:label "differencing DMSO before and after incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050197/> rdfs:label "classification to a term from the JNCC's Marine Habitat Classification for Britain and Ireland Version 04.05 (SDN:M20::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050106/> rdfs:label "computation of density reciprocal from pressure, temperature and salinity"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050028/> rdfs:label "synthesis from multiple satellite sensors"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050121/> rdfs:label "conversion to WMO code using table 3700"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050043/> rdfs:label "estimation from phytoplankton spectral absorption coefficients after Dubinsky (1980)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050116/> rdfs:label "conversion to depth using unspecified algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050038/> rdfs:label "differencing results from acidified and unacidified samples, summation of size fractionated data and profile integration"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050131/> rdfs:label "correction for hydrolysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050053/> rdfs:label "most probable number analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050204/> rdfs:label "conversion from height above seabed using bathymetric depth"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050126/> rdfs:label "correction after Kuwahara"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050048/> rdfs:label "computation using Fourier analysis after Nolte and Hsu (1972)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050141/> rdfs:label "correction using Carter's tables"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050063/> rdfs:label "analysis of cumulative frequency ordered by phi (coarse to fine)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050214/> rdfs:label "computation from ash-free dry weight and temperature using a general allometric equation (Edgar, 1991)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050136/> rdfs:label "correction to sea level"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050058/> rdfs:label "computation of carbon biomass from abundance"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050151/> rdfs:label "normalisation with biomass expressed as carbon"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050073/> rdfs:label "computation from Fm and Fo fluorescence yields from the light chamber"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050209/> rdfs:label "computation using the Blackburn-Caperon model"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050224/> rdfs:label "conversion to WMO code using table 4300"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050146/> rdfs:label "derivation from the raw data from the dark chamber to Kolber et al 1998 biophysical model using Laney v4 2003 software"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050068/> rdfs:label "averaging values from multiple core segments"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050161/> rdfs:label "subtraction of measured atmospheric pressure and conversion to depth using unspecified algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050083/> rdfs:label "computation from cross spectra"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050219/> rdfs:label "derivation from GEBCO_14 30 arc-second global grid"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050234/> rdfs:label "computation of carbon biomass from displacement volumes"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050156/> rdfs:label "recomputation to water location at fixed time using POL NSP model"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050078/> rdfs:label "calibration to read zero in clear water"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050171/> rdfs:label "tidal analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050093/> rdfs:label "computation from PvI data and measured light profile"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050229/> rdfs:label "computation using resultant velocity components from beams 2 and 4"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050002/> rdfs:label "computation of Blundell and Barber (2005)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050244/> rdfs:label "computation using the published OC3V algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050166/> rdfs:label "summation of size-fractions and differencing results from acidified and unacidified samples"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050088/> rdfs:label "computation from moments as defined by Cartwright and Longuet-Higgins (1956)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050181/> rdfs:label "normalisation from per cell to per cell volume"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050239/> rdfs:label "normalisation at zero pressure and 25 degrees Celsius"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050012/> rdfs:label "processed following the protocol of Yentsch+Menzel"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050176/> rdfs:label "computation from wet bulk density"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050098/> rdfs:label "computation from the ratio of horizontal translation to heave"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050191/> rdfs:label "computation using stereometric formulas"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050007/> rdfs:label "decay correction to sampling time"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050100/> rdfs:label "computation from turbulent kinetic energy and density"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050249/> rdfs:label "correction based on re-calculated zero baseline"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050022/> rdfs:label "calibration against independent measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050186/> rdfs:label "computation by morphometric method"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050017/> rdfs:label "computation from the ratio of upwelled irradiance at 490 and 570 nm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050110/> rdfs:label "computation using stereometrical configurations of Edler (1979)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050032/> rdfs:label "differencing determinations on sample before and after 400C ignition"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050196/> rdfs:label "computation from PvI and the absorption of photosynthetically active radiation (PAR) data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050105/> rdfs:label "computation from wet and dry bulb thermometer data"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050027/> rdfs:label "computation using OC5 algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050120/> rdfs:label "conversion to WMO code using table 3155"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050042/> rdfs:label "empirical correction for optics fouling and Saunders compressibility correction"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050115/> rdfs:label "conversion to Beaufort scale"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050037/> rdfs:label "differencing results from acidified and unacidified samples and profile integration"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050130/> rdfs:label "correction for drift"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050052/> rdfs:label "manual record analysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050203/> rdfs:label "using the delta notation"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050125/> rdfs:label "correction to read zero at sea level"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050047/> rdfs:label "computation using Fourier analysis after Goda (1970)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050140/> rdfs:label "correction to zero at sea level and conversion to depth using unspecified algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050062/> rdfs:label "computation of carbon biomass from abundance using the equation of Putt and Stoecker (1989)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050213/> rdfs:label "classification according to Rowles et al (2001)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050135/> rdfs:label "correction to a path length of 1m and for seawater compressibility"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050057/> rdfs:label "NO verification against independent measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050150/> rdfs:label "volume computation from weight loss on drying and salt correction"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050072/> rdfs:label "computation from Fm and Fo fluorescence yields from the dark chamber"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050208/> rdfs:label "using P or N binary classification"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050223/> rdfs:label "classification to a term from the JNCC's Marine Habitat Classification for Britain and Ireland Version 97.06 (SDN:M24::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050145/> rdfs:label "derivation from GEBCO centenary edition 1-minute global grid"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050067/> rdfs:label "averaging of all functional beams"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050160/> rdfs:label "correction after Stuiver and Reimer"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050082/> rdfs:label "computation from concentration using Weiss algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050218/> rdfs:label "derivation from GEBCO_19 15 arc-second global grid"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050233/> rdfs:label "computation of carbon biomass using the equation of Andr\u00E1ssy (1956)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050155/> rdfs:label "recomputation to potential temperature using pCO2*EXP((Theta - T)*0.0423)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050077/> rdfs:label "calibration against sample data and computation from concentration using Benson and Krause algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050170/> rdfs:label "taking the maximum value from two or more sensors"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050092/> rdfs:label "computation from probe free-fall time using unspecified algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050228/> rdfs:label "computation using resultant velocity components from beams 1 and 3"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050001/> rdfs:label "protocol of Rasmussen et al. (2006)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050243/> rdfs:label "computation using the published OC3M algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050165/> rdfs:label "summation of staged leachate analyses"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050087/> rdfs:label "computation from horizontal co-spectra translation after Kuik et al. (1988)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050180/> rdfs:label "computation from biovolume using equations from Menden-Deuer and Lessard (2000)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050238/> rdfs:label "classification to a term from the Everyone's Gliding Observatories (EGO) format reference list (https://doi.org/10.13155/34980)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050011/> rdfs:label "corrected for the dissolution of lithogenic minerals"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050253/> rdfs:label "computation from Equivalent Spherical Diameter (ESD)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050175/> rdfs:label "computation from wet bulk density and assumed mineral grain and seawater densities"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050097/> rdfs:label "computation from temperature and salinity by unspecified algorithm"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050006/> rdfs:label "corrected for the detrital contribution"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050190/> rdfs:label "correction for variation in surface illumination"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050248/> rdfs:label "conversion to ESAS code using the visibility table"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050021/> rdfs:label "correction for nitrite"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050185/> rdfs:label "computation using Andrassy (1956) formula"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050016/> rdfs:label "summation of size-fractionated values"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050031/> rdfs:label "subtraction of nominal ambient pressure value"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050195/> rdfs:label "classification to a term from the NVS SeaDataCloud Flow Cytometry Standardised Cluster Names Vocabulary (SDN:F02::)"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050104/> rdfs:label "correction after Del Grosso"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050026/> rdfs:label "processing following the Lorenzen protocol"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050041/> rdfs:label "division of upwelling irradiance by downwelling irradiance"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050114/> rdfs:label "computation using UNESCO algorithm and NO calibration against independent measurements"@en .
+  <http://vocab.nerc.ac.uk/collection/S05/current/S050036/> rdfs:label "differencing results from acidified and unacidified samples"@en .

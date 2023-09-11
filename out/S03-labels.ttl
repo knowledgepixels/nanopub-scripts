@@ -1,0 +1,292 @@
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03223/> rdfs:label "wet sieving, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03145/> rdfs:label "on-deck light and dark bottle incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0389/> rdfs:label "extraction by squeezing, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03465/> rdfs:label "acid digestion of leached sample residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03160/> rdfs:label "sediment trapping, acetone extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0313/> rdfs:label "methanol extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03218/> rdfs:label "volume measurement, drying"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03233/> rdfs:label "unfiltered seawater incubation in the dark"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0399/> rdfs:label "filtration, acid digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03475/> rdfs:label "strong acid with HF acid digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0401/> rdfs:label "isotope-labelled tracer addition, pulse-chase incubations, fixation, SYBR Green I staining, flow sorting"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0323/> rdfs:label "polymerase chain reaction with p1-7 primer; serial dilution"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03228/> rdfs:label "micromilling"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03165/> rdfs:label "sediment trapping, methanol extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0318/> rdfs:label "on-deck incubation with nutrients"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03180/> rdfs:label "isotope-labelled tracer addition, antibiotic poisoning, incubation in the dark, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0333/> rdfs:label "unspecified staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03175/> rdfs:label "tracer doping, antibiotic poisoning, incubation at 100uE/m2/s light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0328/> rdfs:label "screening, in-situ incubation dilution experiment"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03404/> rdfs:label "high temperature reduction in contact with zinc"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03190/> rdfs:label "tracer doping, incubation at 188uE/m2/s light level, diffusion extraction of gas"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0343/> rdfs:label "1M sodium acetate leaching at pH 5"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03185/> rdfs:label "isotope-labelled tracer addition, in-situ incubation, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S034/> rdfs:label "acridine orange staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0338/> rdfs:label "14C-glucose doping, incubation in the dark, purging with air, acid washing"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03414/> rdfs:label "filtration, water leaching, acid hydrolysis of the leachate"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0353/> rdfs:label "Millipore prefiltration purging, cryogenic trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03409/> rdfs:label "filtration, DNA extraction, PicoGreen staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03195/> rdfs:label "tracer doping, incubation at 80uE/m2/s light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0348/> rdfs:label "Ce-AS reaction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03104/> rdfs:label "filtration, combustion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03424/> rdfs:label "separation in bromoform"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0363/> rdfs:label "acid liberation, purification and trapping CO2"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S039/> rdfs:label "identification by optical microscopy"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03419/> rdfs:label "filtration, incubation at unspecified light level, purging, cryogenic trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0358/> rdfs:label "PvI incubation, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03114/> rdfs:label "filtration, no acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03434/> rdfs:label "filtration, acidification, pre-concentration, ion-exchange chromatography"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0373/> rdfs:label "centrifugation, acid digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03109/> rdfs:label "filtration, incubation in natural sunlight, purging, cryogenic trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03429/> rdfs:label "filtration, acidification, UV irradiation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03202/> rdfs:label "isotope-labelled tracer addition, incubation at unspecified light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03124/> rdfs:label "filtration, hydrolysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0368/> rdfs:label "centrifugal extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03444/> rdfs:label "isotope-labelled tracer addition, incubation, filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0383/> rdfs:label "diffusive gel thin-film (DGT) sampling, extraction into HNO3"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03119/> rdfs:label "filtration, reaction with orthophthalic acid"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03439/> rdfs:label "isotope-labelled tracer addition, on-deck incubation at simulated in-situ light level, filtration, acidification, gas trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03212/> rdfs:label "tracer doping, on-deck incubation at full natural light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0378/> rdfs:label "chloroform extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03134/> rdfs:label "incubation at full natural light level"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03454/> rdfs:label "filtration, precipitation, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0393/> rdfs:label "filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03207/> rdfs:label "tracer doping, incubation in the dark"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03129/> rdfs:label "in-situ light and dark bottle incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03449/> rdfs:label "filtration, denitrification to N2O by cultured bacteria"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03222/> rdfs:label "wet sieving, acid digestion, stannous chloride reduction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03144/> rdfs:label "on-deck incubation without nutrients, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0388/> rdfs:label "equilibration with air, drying"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03464/> rdfs:label "leaching with H2O2 + 1M ammonium acetate at pH 2 of leached sample residue from stage 4 in Chester et al (1988)"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0312/> rdfs:label "incubation in filtered seawater"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03217/> rdfs:label "isotope-labelled tracer addition, on-deck incubation at simulated in-situ light level, filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03139/> rdfs:label "no acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03459/> rdfs:label "leaching with 1M sodium acetate at pH 5 + 0.25M hydroxylamine hydrochloride of leached sample residue from stage 2 in Chester et al (1988)"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03154/> rdfs:label "polyacrylamide gel probe sampling"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0398/> rdfs:label "filtration, acetone extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03474/> rdfs:label "passive sampling"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0400/> rdfs:label "cascade filtration, acetone extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0322/> rdfs:label "polymerase chain reaction with True Agg58 primer; serial dilution"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03227/> rdfs:label "melting of core section"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03149/> rdfs:label "oxalic acid extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03469/> rdfs:label "distillation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03164/> rdfs:label "sediment trapping, combustion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0317/> rdfs:label "on-deck incubation dilution experiment"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0332/> rdfs:label "size fractionation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03174/> rdfs:label "isotope-labelled tracer addition, DCMU poisoning, incubation at unspecified light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03403/> rdfs:label "protocol of Barber et al. (1994)"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0342/> rdfs:label "1M sodium acetate at pH 5 + 0.25M hydroxylamine hydrochloride leaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03169/> rdfs:label "sediment trapping, volume measurement, drying"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03184/> rdfs:label "isotope-labelled tracer addition, in-situ incubation, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S033/> rdfs:label "acetone extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0337/> rdfs:label "14C leucine doping, incubation, acidification, purging and trapping CO2"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03413/> rdfs:label "filtration, water leaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0352/> rdfs:label "Millipore prefiltration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03179/> rdfs:label "isotope-labelled tracer addition, antibiotic poisoning, incubation in the dark, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03408/> rdfs:label "laboratory rock sample leaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03194/> rdfs:label "tracer doping, incubation at 530uE/m2/s light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03103/> rdfs:label "filtration, acidification, chelation, solvent extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0347/> rdfs:label "AgI precipitation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03423/> rdfs:label "preservation, filtration, SYBR Green I staining, flow sorting"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0362/> rdfs:label "acid leaching of filter residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03189/> rdfs:label "tracer doping, incubation at 188uE/m2/s light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S038/> rdfs:label "grazing experiment based on the method of Gifford (1993)"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03418/> rdfs:label "solvent extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0357/> rdfs:label "PvI incubation, acidification to remove residual inorganic 14C"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03113/> rdfs:label "filtration, methanol extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03433/> rdfs:label "anion exchange chromatography"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0372/> rdfs:label "centrifugation, acetone extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03108/> rdfs:label "filtration, incubation in natural sunlight, enzyme reduction to DMS"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03428/> rdfs:label "purging, sorbent tube trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0367/> rdfs:label "antibody doping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03123/> rdfs:label "hydrolysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03443/> rdfs:label "isotope-labelled tracer addition, incubation, filtration, acidification, gas trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0382/> rdfs:label "compression into pellets"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03118/> rdfs:label "filtration, purging, cryogenic trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03438/> rdfs:label "filtration, N, N-dimethylformamide extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03211/> rdfs:label "tracer doping, on-deck incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03133/> rdfs:label "incubation in the dark"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0377/> rdfs:label "centrifugation, no acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03453/> rdfs:label "epibenthic sampling"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0392/> rdfs:label "extraction, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03128/> rdfs:label "in-situ incubation dilution experiment"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03448/> rdfs:label "filtration, acid leaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03221/> rdfs:label "wet sieving, acid digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03143/> rdfs:label "on-deck incubation with nutrients, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0387/> rdfs:label "enzyme digestion, purging, cryogenic trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03463/> rdfs:label "filtration, pH adjusted to 8.05"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0311/> rdfs:label "incubation at constant temperature"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03216/> rdfs:label "isotope-labelled tracer addition, on-deck incubation at simulated in-situ light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03138/> rdfs:label "mesocosm simulated resuspension"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03458/> rdfs:label "leaching with 1M sodium acetate at pH 5 of leached sample residue from stage 1 of Chester et al (1988)"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03231/> rdfs:label "eosin staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03153/> rdfs:label "plating"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0397/> rdfs:label "filtration, Mn absorption"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03473/> rdfs:label "carbon-13 isotope-labelled tracer addition, dawn-to-dawn on-deck incubation at simulated in-situ light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0321/> rdfs:label "picking"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03226/> rdfs:label "wet sieving, no acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03468/> rdfs:label "15N-tracer addition, incubation, fixation, gas purging and trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03163/> rdfs:label "sediment trapping, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0316/> rdfs:label "not specified"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0331/> rdfs:label "sieving and picking under an optical microscope"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03236/> rdfs:label "parallel screened water incubations with and without added grazers, grazer removal, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03173/> rdfs:label "isotope-labelled tracer addition, DCMU poisoning, incubation at unspecified light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0326/> rdfs:label "preservation and no staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03402/> rdfs:label "drying, grinding, NaOH extraction and filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0341/> rdfs:label "leaching with 1M ammonium acetate at pH 7"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03168/> rdfs:label "sediment trapping, solvent extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03183/> rdfs:label "isotope-labelled tracer addition, azide poisoning, incubation at unspecified light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S032/> rdfs:label "DAPI/proflavine staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0336/> rdfs:label "0.25M hydroxylamine hydrochloride + 25% acetic acid leaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03412/> rdfs:label "cascade impaction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0351/> rdfs:label "H2O2 + 1M ammonium acetate leaching at pH 2"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03178/> rdfs:label "tracer doping, antibiotic poisoning, incubation at 188uE/m2/s light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03407/> rdfs:label "high temperature reduction in contact with carbon"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03193/> rdfs:label "tracer doping, incubation at 530uE/m2/s light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0346/> rdfs:label "35-S DMSP doping, incubation in the dark, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03102/> rdfs:label "filtration, alkali hydrolysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03422/> rdfs:label "preservation, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0361/> rdfs:label "acid digestion of filter residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03188/> rdfs:label "tracer doping, incubation at 100uE/m2/s light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S037/> rdfs:label "fixed volume sampling, sieving, picking"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03417/> rdfs:label "filtration, leaching with pH 4.7 ammonium acetate buffer"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03112/> rdfs:label "filtration, incubation in ultra-violet light, enzyme reduction to DMS"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03432/> rdfs:label "filtration, DNA extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0371/> rdfs:label "centrifugation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03198/> rdfs:label "isotope-labelled tracer addition, incubation at different light levels, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03107/> rdfs:label "filtration, incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03427/> rdfs:label "isotopic dilution time-series incubations, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03200/> rdfs:label "isotope-labelled tracer addition, incubation at unspecified light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03122/> rdfs:label "flux-diluted fused bead preparation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0366/> rdfs:label "acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03442/> rdfs:label "filtration, ethanol extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0381/> rdfs:label "combustion at 375C and acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03117/> rdfs:label "filtration, plating"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03437/> rdfs:label "on-deck incubation at simulated in-situ light level, DCMU poisoning"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03210/> rdfs:label "isotope-labelled tracer addition, incubation in the dark, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0376/> rdfs:label "centrifugation, combustion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03132/> rdfs:label "in-situ pore water sampling, filtration, chelation, solvent extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03452/> rdfs:label "acidification, NaOH hydrolysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0391/> rdfs:label "extraction by squeezing, filtration, barium/gelatine treatment"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03205/> rdfs:label "tracer doping, incubation at unspecified light levels, filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03127/> rdfs:label "in-situ incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03447/> rdfs:label "acid digestion of leached filter residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03220/> rdfs:label "wet sieving"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03142/> rdfs:label "on-deck incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0386/> rdfs:label "drying"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03462/> rdfs:label "filtration, pH adjusted to 7.6"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0310/> rdfs:label "incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03215/> rdfs:label "isotope-labelled tracer addition, on-deck incubation at simulated in-situ light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03137/> rdfs:label "light and dark bottle incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03457/> rdfs:label "filtration, ultrasonication extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03230/> rdfs:label "bulk aerosol extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0396/> rdfs:label "filtration, HgCl2 preservation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03152/> rdfs:label "digestion, purification, plating"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03472/> rdfs:label "drying, wet sieving <63um, dry sieving >63um"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0320/> rdfs:label "parallel incubations with and without grazers, acridine orange staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03225/> rdfs:label "wet sieving, ignition at 400C"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03467/> rdfs:label "leaching with citrate dithionite of ascorbic acid-leached sample residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03162/> rdfs:label "sediment trapping, acid hydrolysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0315/> rdfs:label "no staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0330/> rdfs:label "sediment trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03235/> rdfs:label "parallel screened water incubations with and without added grazers, grazer removal, filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03172/> rdfs:label "siphoning"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0403/> rdfs:label "centrifugal extraction, filtration, oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0325/> rdfs:label "polymerase chain reaction with universal primer; serial dilution"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03401/> rdfs:label "isotope-labelled tracer addition, on-deck incubation at simulated in-situ light level, cascade filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0340/> rdfs:label "14CO3 doping, incubation in the dark, acidification, scintillant addition"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03167/> rdfs:label "sediment trapping, oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03182/> rdfs:label "isotope-labelled tracer addition, azide poisoning, incubation at unspecified light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S031/> rdfs:label "DAPI staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0335/> rdfs:label "variable volume sampling, sieving, picking"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03411/> rdfs:label "Soxhlet extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03177/> rdfs:label "tracer doping, antibiotic poisoning, incubation at 188uE/m2/s light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03406/> rdfs:label "SYBR Green I staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03192/> rdfs:label "tracer doping, incubation at 23uE/m2/s light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0345/> rdfs:label "35-S DMS tracer doping, incubation in the dark, filtration, purging of volatiles"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03101/> rdfs:label "filtration, acidification, combustion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03421/> rdfs:label "isotope-labelled tracer addition, incubation, filtration, sudan-1 synthesis, SPE extraction, HPLC purification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0360/> rdfs:label "acid digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03187/> rdfs:label "tracer doping, incubation at 100uE/m2/s light level, diffusion extraction of gas"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03416/> rdfs:label "photolytic conversion to NO"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0355/> rdfs:label "PvI Incubation, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03111/> rdfs:label "filtration, incubation in the dark, purging, cryogenic trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03431/> rdfs:label "sediment trapping, digestion, purification, plating"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0370/> rdfs:label "centrifugal extraction, filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03197/> rdfs:label "isotope-labelled tracer addition, incubation at different light levels, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03106/> rdfs:label "filtration, in-line preconcentration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03426/> rdfs:label "filtration, light and dark bottle incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0365/> rdfs:label "acidification, combustion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03121/> rdfs:label "filtration, thin-film preparation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03441/> rdfs:label "isotope-labelled tracer addition, incubation, filtration, indophenol synthesis, SPE extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0380/> rdfs:label "combustion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03116/> rdfs:label "filtration, oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03436/> rdfs:label "filtration, acidification, isotope dilution"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0375/> rdfs:label "centrifugation, acidification, combustion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03131/> rdfs:label "in-situ pore water sampling, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03451/> rdfs:label "acidification, NaOH hydrolysis, NaBH4 reduction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0390/> rdfs:label "extraction by squeezing, filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03204/> rdfs:label "tracer doping, incubation at unspecified light level, filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03446/> rdfs:label "filtration, UV digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0385/> rdfs:label "doping with fluorescine diacetate, incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03461/> rdfs:label "filtration, pH adjusted to 7.2"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03214/> rdfs:label "tracer doping, on-deck incubation at simulated in-situ light level"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03136/> rdfs:label "leaching"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03456/> rdfs:label "marine snow catcher sampling, settling"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03151/> rdfs:label "persulphate digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0395/> rdfs:label "filtration with Teflon filter"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03471/> rdfs:label "round-mesh sieving, picking"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03224/> rdfs:label "wet sieving, drying"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03146/> rdfs:label "on-deck mesocosm incubation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03466/> rdfs:label "leaching with ascorbic acid"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03161/> rdfs:label "sediment trapping, acid digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0314/> rdfs:label "no preservation and no staining"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03219/> rdfs:label "3H leucine doping, incubation in the dark, centrifugation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03234/> rdfs:label "parallel incubations with and without added grazers"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03156/> rdfs:label "purging, cryogenic trapping"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0402/> rdfs:label "filtration, drying"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03171/> rdfs:label "shower-head equilibration with air, drying"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0324/> rdfs:label "polymerase chain reaction with p3-42 primer; serial dilution"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03166/> rdfs:label "sediment trapping, no acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0319/> rdfs:label "on-deck incubation without nutrients"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03181/> rdfs:label "tracer doping, azide poisoning, incubation at 100uE/m2/s light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0334/> rdfs:label "vacuum filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03410/> rdfs:label "filtration, DNA extraction, PicoGreen staining, primer selection"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03176/> rdfs:label "tracer doping, antibiotic poisoning, incubation at 100uE/m2/s light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0329/> rdfs:label "screening, on-deck incubation dilution experiment"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03405/> rdfs:label "equilibration with and cryogenic trapping of CO2"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03191/> rdfs:label "tracer doping, incubation at 188uE/m2/s light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0344/> rdfs:label "35-S DMS doping, incubation in the dark, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03100/> rdfs:label "filtration, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03420/> rdfs:label "filtration, sudan-1 synthesis, SPE extraction, HPLC purification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03186/> rdfs:label "tracer doping, incubation at 100uE/m2/s light level, cascade filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S035/> rdfs:label "dilution experiment incubations"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0339/> rdfs:label "14CO3 doping, incubation at 100uE/m2/s, acidification, scintillant addition"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03415/> rdfs:label "filtration, water leaching, acid hydrolysis of the residue"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0354/> rdfs:label "NaOH hydrolysis"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03110/> rdfs:label "filtration, incubation in the dark, enzyme reduction to DMS"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03430/> rdfs:label "denitrification to N2O by cultured bacteria"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03196/> rdfs:label "tracer doping, incubation at 80uE/m2/s light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0349/> rdfs:label "EDTA/SDS extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03105/> rdfs:label "filtration, freon extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03425/> rdfs:label "filtration, Bligh and Dyer extraction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03120/> rdfs:label "filtration, suspension of residue in buffer solution, collection of liberated DMS"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03440/> rdfs:label "filtration, indophenol synthesis, SPE extraction, HPLC purification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03115/> rdfs:label "filtration, ortho-phthalaldehyde reaction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0359/> rdfs:label "UV digestion"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03435/> rdfs:label "acidification, isotope dilution"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0374/> rdfs:label "centrifugation, acidification"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03450/> rdfs:label "filtration, NaOH hydrolysis, NaBH4 reduction"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03125/> rdfs:label "ignition at 400C"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0369/> rdfs:label "centrifugal extraction, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03445/> rdfs:label "15N2-enriched seawater addition, on-deck incubation at simulated in-situ light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03140/> rdfs:label "not applicable"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0384/> rdfs:label "disaggregation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03460/> rdfs:label "leaching with 0.25M hydroxylamine hydrochloride + 25% acetic acid of leached sample residue from stage 3 in Chester et al (1988)"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03213/> rdfs:label "tracer doping, on-deck incubation at full natural light level, filtration"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03135/> rdfs:label "incubation under ultra-violet light"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03455/> rdfs:label "sieving, picking"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S0394/> rdfs:label "filtration with acid impregnated filter"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03150/> rdfs:label "oxidation"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03470/> rdfs:label "square-mesh sieving, picking"@en .
+  <http://vocab.nerc.ac.uk/collection/S03/current/S03208/> rdfs:label "tracer doping, incubation in the dark, cascade filtration"@en .
