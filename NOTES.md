@@ -15,3 +15,4 @@ Snapshots:
 - 24 July 2023: http://purl.org/np/RAtoc9gvPKKPu2kziwXaWHQS0FtSSOZbON9uyl9x9MsEw
 - 30 August 2023: http://purl.org/np/RAwX0vH7QDwgJgTeaSNbCEIbk64rcnEg8TV66y45-gKDo
 - 6 December 2023: https://w3id.org/np/RAGcCIA0LLWxFz28K0KgnIdE3hCBopeMjFjv2hGU4ol1w
+- 6 December 2023 (fixed 2nd version): https://w3id.org/np/RAfF4tXMqapK7Ep-DXewCvU1Wy76uBsI-tmJmv1AqOVX0
