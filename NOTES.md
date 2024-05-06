@@ -17,3 +17,4 @@ Snapshots:
 - 6 December 2023: https://w3id.org/np/RAGcCIA0LLWxFz28K0KgnIdE3hCBopeMjFjv2hGU4ol1w
 - 6 December 2023 (fixed 2nd version): https://w3id.org/np/RAfF4tXMqapK7Ep-DXewCvU1Wy76uBsI-tmJmv1AqOVX0
 - 12 December 2023: https://w3id.org/np/RA7FV8oeRDzPSkeolX94gL5H6sCWtKEP796zXBmsRbySE
+- 6 May 2024: https://w3id.org/np/RA6TO7MqolsbyusupCsNegN7-UwadTH16CltNNxn2PdTI

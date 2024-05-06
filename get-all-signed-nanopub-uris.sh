@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 mkdir -p out
 rm -f out/all-signed-nanopub-uris.latest.txt
 
-for PAGE in {1..50}; do
+for PAGE in {1..60}; do
   echo "Downloading page $PAGE"
   curl -s -H "Accept: text/csv" "https://grlc.nps.knowledgepixels.com/api/local/local/find_signed_nanopubs?page=$PAGE" \
     | sed 1d \
