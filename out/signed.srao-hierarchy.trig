@@ -1,0 +1,1025 @@
+@prefix this: <http://purl.org/np/RArRAOwj4QOppEPCR8WVvOBmrX7oRKOrPi-asX-7AY66I> .
+@prefix sub: <http://purl.org/np/RArRAOwj4QOppEPCR8WVvOBmrX7oRKOrPi-asX-7AY66I#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  <http://aims.fao.org/aos/agrovoc/c_10967> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_7132>,
+      <http://aims.fao.org/aos/agrovoc/c_8672> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_11669> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_3731>,
+      <http://purl.obolibrary.org/obo/OMIT_0007039> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_1335455465014> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_1344> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000198> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_16129> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_16379> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203>,
+      <http://edamontology.org/topic_0780> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_1648> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_177f109f> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_2018> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_211> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_203> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4318> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_211> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_2468> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_2481>,
+      <http://purl.obolibrary.org/obo/NCIT_C17167> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_2481> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000041> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_24848> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414>,
+      <http://purl.obolibrary.org/obo/OMIT_0007039> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_25187> rdfs:subClassOf <http://edamontology.org/topic_3300>,
+      <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_25189> rdfs:subClassOf <http://edamontology.org/topic_0780> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_2638> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000243> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_27925> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203>,
+      <http://edamontology.org/topic_3390> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_28633> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0008715> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_28672> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_2481>,
+      <http://purl.obolibrary.org/obo/NCIT_C17735> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_2934> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4318> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_3228> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000198> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_3235> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_331401> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000243> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_331559> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345>,
+      <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_3671> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_3713> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_3731> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_37948> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_423> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_8532> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_4318> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0011790> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_4343> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_4682> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_4856> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0007039> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_49911> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4682>,
+      <http://edamontology.org/topic_3318> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_49985> rdfs:subClassOf <http://edamontology.org/topic_0780>,
+      <http://purl.obolibrary.org/obo/NCIT_C16624> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_550> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_2934> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_5807> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000198> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_5836> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16633> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_5956> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_5963> rdfs:subClassOf <http://edamontology.org/topic_0780>,
+      <http://purl.obolibrary.org/obo/NCIT_C16526> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_6347> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_2481> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_6498> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000198> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_6707> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_694> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_7128> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16294> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_7132> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17735> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_7188> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_211>,
+      <http://purl.obolibrary.org/obo/NCIT_C16851>, <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_8320> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_8532> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_8672> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203>,
+      <http://aims.fao.org/aos/agrovoc/c_2481> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_8673> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_1648>,
+      <http://aims.fao.org/aos/agrovoc/c_203>, <http://aims.fao.org/aos/agrovoc/c_4682> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_9000089> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://aims.fao.org/aos/agrovoc/c_92381> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203>,
+      <http://purl.obolibrary.org/obo/NCIT_C16526> .
+  
+  <http://edamontology.org/topic_0084> rdfs:subClassOf <http://edamontology.org/topic_3299>,
+      <http://edamontology.org/topic_3307> .
+  
+  <http://edamontology.org/topic_0085> rdfs:subClassOf <http://edamontology.org/topic_3307>,
+      <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://edamontology.org/topic_0089> rdfs:subClassOf <http://edamontology.org/topic_0605> .
+  
+  <http://edamontology.org/topic_0194> rdfs:subClassOf <http://edamontology.org/topic_0084>,
+      <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://edamontology.org/topic_0208> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16974>,
+      <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://edamontology.org/topic_0209> rdfs:subClassOf <http://edamontology.org/topic_3336>,
+      <http://edamontology.org/topic_3371> .
+  
+  <http://edamontology.org/topic_0605> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://edamontology.org/topic_0637> rdfs:subClassOf <http://edamontology.org/topic_3299> .
+  
+  <http://edamontology.org/topic_0780> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_0781> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://edamontology.org/topic_0797> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://edamontology.org/topic_2258> rdfs:subClassOf <http://edamontology.org/topic_0605>,
+      <http://purl.obolibrary.org/obo/NCIT_C16345>, <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://edamontology.org/topic_2259> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_3047> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_3050> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16526>,
+      <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://edamontology.org/topic_3055> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624> .
+  
+  <http://edamontology.org/topic_3056> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624> .
+  
+  <http://edamontology.org/topic_3065> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16501> .
+  
+  <http://edamontology.org/topic_3067> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_3071> rdfs:subClassOf <http://edamontology.org/topic_0605> .
+  
+  <http://edamontology.org/topic_3172> rdfs:subClassOf <http://edamontology.org/topic_3391> .
+  
+  <http://edamontology.org/topic_3173> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C84343>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000316> .
+  
+  <http://edamontology.org/topic_3174> rdfs:subClassOf <http://edamontology.org/topic_3697>,
+      <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://edamontology.org/topic_3263> rdfs:subClassOf <http://edamontology.org/topic_3071> .
+  
+  <http://edamontology.org/topic_3292> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345>,
+      <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://edamontology.org/topic_3293> rdfs:subClassOf <http://edamontology.org/topic_0084>,
+      <http://purl.obolibrary.org/obo/NCIT_C16624> .
+  
+  <http://edamontology.org/topic_3297> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_3298> rdfs:subClassOf <http://edamontology.org/topic_3299>,
+      <http://edamontology.org/topic_3391> .
+  
+  <http://edamontology.org/topic_3299> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://edamontology.org/topic_3300> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3304> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://edamontology.org/topic_3307> rdfs:subClassOf <http://edamontology.org/topic_3316>,
+      <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_3308> rdfs:subClassOf <http://edamontology.org/topic_3321>,
+      <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://edamontology.org/topic_3315> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0011790> .
+  
+  <http://edamontology.org/topic_3316> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://edamontology.org/topic_3318> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0011790> .
+  
+  <http://edamontology.org/topic_3321> rdfs:subClassOf <http://edamontology.org/topic_3307>,
+      <http://purl.obolibrary.org/obo/NCIT_C16624> .
+  
+  <http://edamontology.org/topic_3336> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000318> .
+  
+  <http://edamontology.org/topic_3342> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3368> rdfs:subClassOf <http://edamontology.org/topic_3297>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000236> .
+  
+  <http://edamontology.org/topic_3369> rdfs:subClassOf <http://edamontology.org/topic_3371>,
+      <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_3370> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://edamontology.org/topic_3371> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://edamontology.org/topic_3373> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000318> .
+  
+  <http://edamontology.org/topic_3374> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000318> .
+  
+  <http://edamontology.org/topic_3387> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0018052> .
+  
+  <http://edamontology.org/topic_3388> rdfs:subClassOf <http://edamontology.org/topic_3342> .
+  
+  <http://edamontology.org/topic_3390> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C15188> .
+  
+  <http://edamontology.org/topic_3391> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://edamontology.org/topic_3396> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3397> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3399> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3401> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3402> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3403> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3405> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3406> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3410> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3414> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3415> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17206> .
+  
+  <http://edamontology.org/topic_3418> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3423> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3569> rdfs:subClassOf <http://edamontology.org/topic_3315> .
+  
+  <http://edamontology.org/topic_3570> rdfs:subClassOf <http://edamontology.org/topic_3315> .
+  
+  <http://edamontology.org/topic_3571> rdfs:subClassOf <http://edamontology.org/topic_3071> .
+  
+  <http://edamontology.org/topic_3573> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0018052> .
+  
+  <http://edamontology.org/topic_3574> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3575> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3576> rdfs:subClassOf <http://edamontology.org/topic_3297> .
+  
+  <http://edamontology.org/topic_3577> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://edamontology.org/topic_3697> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16526>,
+      <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://edamontology.org/topic_3941> rdfs:subClassOf <http://edamontology.org/topic_3308>,
+      <http://edamontology.org/topic_3697> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C105692> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C105699> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17173> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C119712> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17964>,
+      <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C142491> rdfs:subClassOf <http://edamontology.org/topic_3071> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C142642> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000318> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C15188> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345>,
+      <http://purl.obolibrary.org/obo/NCIT_C19199> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C15206> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000318> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C15245> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17039> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C15308> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C153192> rdfs:subClassOf <http://edamontology.org/topic_3292>,
+      <http://edamontology.org/topic_3391>, <http://purl.obolibrary.org/obo/NCIT_C17964> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16294> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141>,
+      <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16304> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_1648> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16309> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16345> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4318> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16349> rdfs:subClassOf <http://edamontology.org/topic_3318>,
+      <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16413> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000219> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16414> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0011790> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16417> rdfs:subClassOf <http://edamontology.org/topic_3370>,
+      <http://purl.obolibrary.org/obo/NCIT_C19199>, <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16419> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16421> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16439> rdfs:subClassOf <http://edamontology.org/topic_0605>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16478> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16495> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16500> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16501> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16526> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16540> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16910> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16548> rdfs:subClassOf <http://www.w3.org/2002/07/owl#Thing> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16550> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16556> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17039> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16591> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16603> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16624> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16633> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16658> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16673> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16715> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16851> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16902> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16908> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C95096>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16910> rdfs:subClassOf <http://edamontology.org/topic_3300>,
+      <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16922> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17059> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16928> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16931> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16939> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C95096>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C16974> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17026> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17027> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000041> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17028> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17027> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17030> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17027>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000042> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17038> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17026>,
+      <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17039> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17055> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17059> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17099> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0010991> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17141> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000041> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17147> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17167> rdfs:subClassOf <http://edamontology.org/topic_3315> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17173> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17174> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17173>,
+      <http://purl.obolibrary.org/obo/NCIT_C19199> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17193> rdfs:subClassOf <http://edamontology.org/topic_3318> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17206> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16974>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000318>, <http://www.fairsharing.org/ontology/subject/SRAO_0000319> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17243> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17269> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17606> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17735> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17837> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17940> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624>,
+      <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17964> rdfs:subClassOf <http://edamontology.org/topic_0605>,
+      <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C17992> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18011> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C15188> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18076> rdfs:subClassOf <http://edamontology.org/topic_3297>,
+      <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18088> rdfs:subClassOf <http://edamontology.org/topic_3304> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18097> rdfs:subClassOf <http://edamontology.org/topic_3307> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18111> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16345> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18189> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18220> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18470> rdfs:subClassOf <http://edamontology.org/topic_3316>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000173> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18478> rdfs:subClassOf <http://edamontology.org/topic_3316>,
+      <http://edamontology.org/topic_3318>, <http://www.fairsharing.org/ontology/subject/SRAO_0000236>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000298> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18633> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624>,
+      <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18645> rdfs:subClassOf <http://edamontology.org/topic_3292> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18701> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C18011> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18729> rdfs:subClassOf <http://edamontology.org/topic_3071> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18740> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16501>,
+      <http://purl.obolibrary.org/obo/NCIT_C17027> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18873> rdfs:subClassOf <http://edamontology.org/topic_3300>,
+      <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18874> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C15188>,
+      <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C18948> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16419>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000178> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C19199> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4318> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C19349> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C19638> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4682>,
+      <http://edamontology.org/topic_3318> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C20085> rdfs:subClassOf <http://edamontology.org/topic_3391>,
+      <http://purl.obolibrary.org/obo/NCIT_C17964> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C20126> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17964>,
+      <http://purl.obolibrary.org/obo/NCIT_C18111>, <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C20179> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17206>,
+      <http://purl.obolibrary.org/obo/NCIT_C17964>, <http://purl.obolibrary.org/obo/NCIT_C84343> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C20609> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16421> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C26633> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000318> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C39794> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141>,
+      <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C54625> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C84343> rdfs:subClassOf <http://edamontology.org/topic_3391> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C86055> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C93254> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C95096> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C15188> .
+  
+  <http://purl.obolibrary.org/obo/OBI_0200111> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0001094> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000047> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0002286> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16294> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0002494> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0002286> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0002540> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000015> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0002710> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000207> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0004711> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000066> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0004713> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0008715> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0007039> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0007951> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000002> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0008715> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000041> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0009577> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4318> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0009732> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000230> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0010809> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0010991> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0011166> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0019137>,
+      <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0011270> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C15188> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0011594> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0011790> rdfs:subClassOf <http://www.w3.org/2002/07/owl#Thing> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0012123> rdfs:subClassOf <http://edamontology.org/topic_3315>,
+      <http://purl.obolibrary.org/obo/NCIT_C16495>, <http://purl.obolibrary.org/obo/NCIT_C16556> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0012276> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0012532> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17028>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0013823> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_7132>,
+      <http://purl.obolibrary.org/obo/NCIT_C17039> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0015767> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17039> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0018016> rdfs:subClassOf <http://edamontology.org/topic_3315>,
+      <http://edamontology.org/topic_3318> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0018052> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0018936> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17055>,
+      <http://purl.obolibrary.org/obo/NCIT_C17837> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0019137> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4318> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0021467> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0024194> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C54625>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000004> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0024195> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C54625> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0026346> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0026522> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_694>,
+      <http://edamontology.org/topic_3318> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0026615> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0011790> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0026929> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0027237> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000318> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0027298> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C18076> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0027812> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://purl.obolibrary.org/obo/OMIT_0028546> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16673> .
+  
+  <http://purl.obolibrary.org/obo/PO_0025131> rdfs:subClassOf <http://edamontology.org/topic_0780> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000002> rdfs:subClassOf <http://www.w3.org/2002/07/owl#Thing> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000004> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16478>,
+      <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000005> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C54625>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000004> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000006> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000004> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000009> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000004> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000012> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000013> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000013> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C54625> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000014> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C54625> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000015> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000016> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C54625>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000015> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000017> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000015> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000018> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000015> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000020> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_1335455465014>,
+      <http://purl.obolibrary.org/obo/NCIT_C16294>, <http://purl.obolibrary.org/obo/NCIT_C17027>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000042>, <http://www.fairsharing.org/ontology/subject/SRAO_0000054> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000022> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_1335455465014> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000023> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0007951> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000024> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000023> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000025> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000023> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000026> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000023> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000027> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000023> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000030> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000031> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000032> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000033> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000033> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000035> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0021467> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000036> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0021467> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000038> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C39794> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000039> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C39794> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000040> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C39794> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000041> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000002> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000042> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000041> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000044> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000042> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000045> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000042> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000047> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17027>,
+      <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000049> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17027> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000050> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17027> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000052> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000053> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000054> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000055> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000057> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_2481> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000060> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_2481> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000062> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_2481>,
+      <http://purl.obolibrary.org/obo/NCIT_C54625> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000064> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C39794>,
+      <http://purl.obolibrary.org/obo/OMIT_0008715> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000065> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0008715> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000066> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0008715> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000083> rdfs:subClassOf <http://edamontology.org/topic_0780> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000085> rdfs:subClassOf <http://edamontology.org/topic_0780>,
+      <http://edamontology.org/topic_3292> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000086> rdfs:subClassOf <http://edamontology.org/topic_0780>,
+      <http://purl.obolibrary.org/obo/NCIT_C17992> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000092> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17269> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000097> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000098> rdfs:subClassOf <http://edamontology.org/topic_3297>,
+      <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000099> rdfs:subClassOf <http://edamontology.org/topic_3047>,
+      <http://purl.obolibrary.org/obo/NCIT_C15188>, <http://purl.obolibrary.org/obo/NCIT_C16851> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000103> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16439>,
+      <http://purl.obolibrary.org/obo/NCIT_C17039>, <http://purl.obolibrary.org/obo/NCIT_C17167> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000109> rdfs:subClassOf <http://edamontology.org/topic_3292>,
+      <http://purl.obolibrary.org/obo/NCIT_C16417>, <http://purl.obolibrary.org/obo/NCIT_C18189> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000128> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17173> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000134> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16349>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000136> rdfs:subClassOf <http://edamontology.org/topic_3047>,
+      <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000137> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000139> rdfs:subClassOf <http://edamontology.org/topic_2259>,
+      <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000140> rdfs:subClassOf <http://edamontology.org/topic_3304> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000142> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000144> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000153> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000161> rdfs:subClassOf <http://edamontology.org/topic_3397> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000164> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000165> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000164> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000166> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16419>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000164> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000169> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16421>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000236> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000172> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16421> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000173> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000176> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414>,
+      <http://purl.obolibrary.org/obo/OMIT_0027298> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000177> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000178> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000236> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000180> rdfs:subClassOf <http://edamontology.org/topic_3318>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000178> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000183> rdfs:subClassOf <http://edamontology.org/topic_3318> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000184> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000183> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000185> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000183> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000186> rdfs:subClassOf <http://edamontology.org/topic_3318> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000187> rdfs:subClassOf <http://edamontology.org/topic_3318> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000188> rdfs:subClassOf <http://edamontology.org/topic_3318>,
+      <http://purl.obolibrary.org/obo/NCIT_C16345>, <http://purl.obolibrary.org/obo/NCIT_C16421> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000189> rdfs:subClassOf <http://edamontology.org/topic_3318> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000198> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_3235> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000202> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16633> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000203> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0026615> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000206> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000207> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000206> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000208> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000207> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000209> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000207> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000211> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000207> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000218> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000225> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000219> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000221> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16414>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000219> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000222> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000219> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000223> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16413> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000224> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000218> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000225> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000227> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C19638> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000230> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000231> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009732>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000219> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000232> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000230> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000233> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000230> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000234> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000230> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000235> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000230> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000236> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000238> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16413>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000236> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000239> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000236> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000240> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000236> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000243> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000244> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000243> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000245> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000243> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000246> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000243> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000248> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000243> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000250> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C19349> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000251> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C19349> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000252> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C19349> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000254> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000258> rdfs:subClassOf <http://edamontology.org/topic_3316> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000259> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_1648> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000260> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16304> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000261> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000262> rdfs:subClassOf <http://edamontology.org/topic_3318>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000263> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000264> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C19638>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000265> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000282> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000283> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16548> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000285> rdfs:subClassOf <http://edamontology.org/topic_0605>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000286> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000259> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000287> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16304> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000288> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16304> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000290> rdfs:subClassOf <http://edamontology.org/topic_0605>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000236> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000294> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624>,
+      <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000295> rdfs:subClassOf <http://edamontology.org/topic_3316>,
+      <http://purl.obolibrary.org/obo/NCIT_C95096> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000296> rdfs:subClassOf <http://edamontology.org/topic_3315>,
+      <http://purl.obolibrary.org/obo/NCIT_C17027> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000297> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17027> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000298> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16421> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000299> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_1335455465014>,
+      <http://purl.obolibrary.org/obo/NCIT_C16294>, <http://purl.obolibrary.org/obo/NCIT_C16478>,
+      <http://purl.obolibrary.org/obo/NCIT_C16633>, <http://purl.obolibrary.org/obo/NCIT_C54625>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000023>, <http://www.fairsharing.org/ontology/subject/SRAO_0000055> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000300> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000301> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000302> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000303> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000033> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000304> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000320> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000305> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000015>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000306> rdfs:subClassOf <http://edamontology.org/topic_3071> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000307> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_203>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000223> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000308> rdfs:subClassOf <http://edamontology.org/topic_3318>,
+      <http://purl.obolibrary.org/obo/NCIT_C17167> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000309> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000310> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C54625>,
+      <http://purl.obolibrary.org/obo/OMIT_0008715> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000311> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000023> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000312> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16478>,
+      <http://purl.obolibrary.org/obo/OMIT_0002286>, <http://www.fairsharing.org/ontology/subject/SRAO_0000023> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000313> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000004>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000299> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000314> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17173>,
+      <http://purl.obolibrary.org/obo/OMIT_0010991> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000315> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0013823> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000316> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C16624> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000318> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C15188> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000319> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17141>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000206> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000320> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000400> rdfs:subClassOf <http://edamontology.org/topic_0781>,
+      <http://purl.obolibrary.org/obo/OMIT_0009577> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000402> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4682> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000403> rdfs:subClassOf <http://edamontology.org/topic_3697> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000404> rdfs:subClassOf <http://edamontology.org/topic_3697>,
+      <http://purl.obolibrary.org/obo/NCIT_C20085> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000406> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000189> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000407> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000189> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000408> rdfs:subClassOf <http://edamontology.org/topic_3318> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000409> rdfs:subClassOf <http://aims.fao.org/aos/agrovoc/c_4856> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000410> rdfs:subClassOf <http://purl.obolibrary.org/obo/OMIT_0010809>,
+      <http://www.fairsharing.org/ontology/subject/SRAO_0000411> .
+  
+  <http://www.fairsharing.org/ontology/subject/SRAO_0000411> rdfs:subClassOf <http://www.fairsharing.org/ontology/subject/SRAO_0000203> .
+}
+
+sub:provenance {
+  sub:assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/SRAO.owl> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "YUG5/zvLe2oCM1qLaPWn9YIQpbZCIzvZphi59PPlgfS5HDH9V+q0m4KC96XTU460TkwZEx8rlFYXqt9M/qiylVhoHnBFT7e2RiFi2Sf74Yy1lZDXrmRnXjSiLjMMxVGStf6IRh8Smo0j31ALxFNX65BIeKxGy2Z3f8DsJO8Hc14=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:creator orcid:0000-0002-1267-0234;
+    npx:hasNanopubType <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+}
