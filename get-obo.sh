@@ -48,6 +48,8 @@ cat out/obo-$1.ttl
   echo "}"
   echo ""
   echo ":pubinfo {"
+  echo '  : rdfs:label "Labels for OBO classes under '"$1"'" .'
+  echo "  : npx:hasNanopubType rdfs:label ."
   echo "  : dct:creator orcid:0000-0002-1267-0234 ."
   echo '  : dct:created "'$(./np now)'"^^xsd:dateTime .'
   echo "}"

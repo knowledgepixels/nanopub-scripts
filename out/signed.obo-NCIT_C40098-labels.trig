@@ -1,13 +1,13 @@
-@prefix this: <https://w3id.org/np/RAZa_o1iW0b10zj8KHqCAWyJ7GxamIQblu-Xqyn9vQd4w> .
-@prefix sub: <https://w3id.org/np/RAZa_o1iW0b10zj8KHqCAWyJ7GxamIQblu-Xqyn9vQd4w#> .
+@prefix this: <https://w3id.org/np/RAuDzWoXFV_PkLWD_u3wzAiALvsAJFAmHSagjBlemiDOE> .
+@prefix sub: <https://w3id.org/np/RAuDzWoXFV_PkLWD_u3wzAiALvsAJFAmHSagjBlemiDOE#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix orcid: <https://orcid.org/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix npx: <http://purl.org/nanopub/x/> .
 
 sub:Head {
   this: a np:Nanopublication;
@@ -85,9 +85,11 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "lgfIGRXNkVvelhQ1j/KbNK4cmsjm71TAtp/v8r860l6V4ikYsvB/C9ALXJ6rqJwUjr+WdJXJ/VISffbm0qXbf1d2XN/XLkcwt/vdwLsaSMclZ9DC/Xyknr6TKPeQYyLY2IAB3cfkQ9NSaYaoNH39H9KbbiateO3zRa2qsZEar5c=";
+    npx:hasSignature "KTwuyhOAbgYouEQ/IK4WYlyaGizA0jyqRTu8us5gSYVO/hC5ZtT/kqeyQT0UzoflrGz+LisQtuavMCsGQ/MdkzLaGiWG9/XJJewfXJzcSNPiM2+aM9Vms8vyHJMcQ9IgPn4QfJgHkQxU+bEl1W9gGKl6X3M70O6CMKaj+IsAQd8=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2024-07-05T09:17:05.750+02:00"^^xsd:dateTime;
-    dct:creator orcid:0000-0002-1267-0234 .
+  this: dct:created "2024-07-05T09:48:35.160+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234;
+    npx:hasNanopubType rdfs:label;
+    rdfs:label "Labels for OBO classes under NCIT_C40098" .
 }
