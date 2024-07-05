@@ -1,0 +1,174 @@
+@prefix : <http://purl.org/nanopub/temp/srao-hierarchy/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+:Head {
+  : np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo ;
+    a np:Nanopublication .
+}
+
+:assertion {
+<http://purl.obolibrary.org/obo/NCIT_C179767> <http://www.w3.org/2000/01/rdf-schema#label> "Clade" .
+<http://purl.obolibrary.org/obo/NCIT_C45290> <http://www.w3.org/2000/01/rdf-schema#label> "Family" .
+<http://purl.obolibrary.org/obo/NCIT_C62688> <http://www.w3.org/2000/01/rdf-schema#label> "Forma" .
+<http://purl.obolibrary.org/obo/NCIT_C45292> <http://www.w3.org/2000/01/rdf-schema#label> "Genus" .
+<http://purl.obolibrary.org/obo/NCIT_C45286> <http://www.w3.org/2000/01/rdf-schema#label> "Infraclass" .
+<http://purl.obolibrary.org/obo/NCIT_C45289> <http://www.w3.org/2000/01/rdf-schema#label> "Infraorder" .
+<http://purl.obolibrary.org/obo/NCIT_C45276> <http://www.w3.org/2000/01/rdf-schema#label> "Kingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C62686> <http://www.w3.org/2000/01/rdf-schema#label> "No Rank" .
+<http://purl.obolibrary.org/obo/NCIT_C45287> <http://www.w3.org/2000/01/rdf-schema#label> "Order" .
+<http://purl.obolibrary.org/obo/NCIT_C62689> <http://www.w3.org/2000/01/rdf-schema#label> "Parvorder" .
+<http://purl.obolibrary.org/obo/NCIT_C45277> <http://www.w3.org/2000/01/rdf-schema#label> "Phylum" .
+<http://purl.obolibrary.org/obo/NCIT_C45293> <http://www.w3.org/2000/01/rdf-schema#label> "Species" .
+<http://purl.obolibrary.org/obo/NCIT_C62690> <http://www.w3.org/2000/01/rdf-schema#label> "Species Group" .
+<http://purl.obolibrary.org/obo/NCIT_C62691> <http://www.w3.org/2000/01/rdf-schema#label> "Species Subgroup" .
+<http://purl.obolibrary.org/obo/NCIT_C45285> <http://www.w3.org/2000/01/rdf-schema#label> "Subclass" .
+<http://purl.obolibrary.org/obo/NCIT_C45291> <http://www.w3.org/2000/01/rdf-schema#label> "Subfamily" .
+<http://purl.obolibrary.org/obo/NCIT_C62692> <http://www.w3.org/2000/01/rdf-schema#label> "Subgenus" .
+<http://purl.obolibrary.org/obo/NCIT_C62701> <http://www.w3.org/2000/01/rdf-schema#label> "Subkingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C45288> <http://www.w3.org/2000/01/rdf-schema#label> "Suborder" .
+<http://purl.obolibrary.org/obo/NCIT_C45278> <http://www.w3.org/2000/01/rdf-schema#label> "Subphylum" .
+<http://purl.obolibrary.org/obo/NCIT_C62700> <http://www.w3.org/2000/01/rdf-schema#label> "Subspecies" .
+<http://purl.obolibrary.org/obo/NCIT_C62703> <http://www.w3.org/2000/01/rdf-schema#label> "Subtribe" .
+<http://purl.obolibrary.org/obo/NCIT_C62704> <http://www.w3.org/2000/01/rdf-schema#label> "Superclass" .
+<http://purl.obolibrary.org/obo/NCIT_C62705> <http://www.w3.org/2000/01/rdf-schema#label> "Superfamily" .
+<http://purl.obolibrary.org/obo/NCIT_C62706> <http://www.w3.org/2000/01/rdf-schema#label> "Superkingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C62707> <http://www.w3.org/2000/01/rdf-schema#label> "Superorder" .
+<http://purl.obolibrary.org/obo/NCIT_C62708> <http://www.w3.org/2000/01/rdf-schema#label> "Superphylum" .
+<http://purl.obolibrary.org/obo/NCIT_C45280> <http://www.w3.org/2000/01/rdf-schema#label> "Taxonomic Class" .
+<http://purl.obolibrary.org/obo/NCIT_C62702> <http://www.w3.org/2000/01/rdf-schema#label> "Tribe" .
+<http://purl.obolibrary.org/obo/NCIT_C62709> <http://www.w3.org/2000/01/rdf-schema#label> "Variety" .
+}
+
+:provenance {
+  :assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/SRAO.owl> .
+}
+
+:pubinfo {
+  : dct:creator orcid:0000-0002-1267-0234 .
+  : npx:hasNanopubType <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+}
+@prefix : <http://purl.org/nanopub/temp/srao-hierarchy/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+:Head {
+  : np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo ;
+    a np:Nanopublication .
+}
+
+:assertion {
+<http://purl.obolibrary.org/obo/NCIT_C179767> <http://www.w3.org/2000/01/rdf-schema#label> "Clade" .
+<http://purl.obolibrary.org/obo/NCIT_C45290> <http://www.w3.org/2000/01/rdf-schema#label> "Family" .
+<http://purl.obolibrary.org/obo/NCIT_C62688> <http://www.w3.org/2000/01/rdf-schema#label> "Forma" .
+<http://purl.obolibrary.org/obo/NCIT_C45292> <http://www.w3.org/2000/01/rdf-schema#label> "Genus" .
+<http://purl.obolibrary.org/obo/NCIT_C45286> <http://www.w3.org/2000/01/rdf-schema#label> "Infraclass" .
+<http://purl.obolibrary.org/obo/NCIT_C45289> <http://www.w3.org/2000/01/rdf-schema#label> "Infraorder" .
+<http://purl.obolibrary.org/obo/NCIT_C45276> <http://www.w3.org/2000/01/rdf-schema#label> "Kingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C62686> <http://www.w3.org/2000/01/rdf-schema#label> "No Rank" .
+<http://purl.obolibrary.org/obo/NCIT_C45287> <http://www.w3.org/2000/01/rdf-schema#label> "Order" .
+<http://purl.obolibrary.org/obo/NCIT_C62689> <http://www.w3.org/2000/01/rdf-schema#label> "Parvorder" .
+<http://purl.obolibrary.org/obo/NCIT_C45277> <http://www.w3.org/2000/01/rdf-schema#label> "Phylum" .
+<http://purl.obolibrary.org/obo/NCIT_C45293> <http://www.w3.org/2000/01/rdf-schema#label> "Species" .
+<http://purl.obolibrary.org/obo/NCIT_C62690> <http://www.w3.org/2000/01/rdf-schema#label> "Species Group" .
+<http://purl.obolibrary.org/obo/NCIT_C62691> <http://www.w3.org/2000/01/rdf-schema#label> "Species Subgroup" .
+<http://purl.obolibrary.org/obo/NCIT_C45285> <http://www.w3.org/2000/01/rdf-schema#label> "Subclass" .
+<http://purl.obolibrary.org/obo/NCIT_C45291> <http://www.w3.org/2000/01/rdf-schema#label> "Subfamily" .
+<http://purl.obolibrary.org/obo/NCIT_C62692> <http://www.w3.org/2000/01/rdf-schema#label> "Subgenus" .
+<http://purl.obolibrary.org/obo/NCIT_C62701> <http://www.w3.org/2000/01/rdf-schema#label> "Subkingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C45288> <http://www.w3.org/2000/01/rdf-schema#label> "Suborder" .
+<http://purl.obolibrary.org/obo/NCIT_C45278> <http://www.w3.org/2000/01/rdf-schema#label> "Subphylum" .
+<http://purl.obolibrary.org/obo/NCIT_C62700> <http://www.w3.org/2000/01/rdf-schema#label> "Subspecies" .
+<http://purl.obolibrary.org/obo/NCIT_C62703> <http://www.w3.org/2000/01/rdf-schema#label> "Subtribe" .
+<http://purl.obolibrary.org/obo/NCIT_C62704> <http://www.w3.org/2000/01/rdf-schema#label> "Superclass" .
+<http://purl.obolibrary.org/obo/NCIT_C62705> <http://www.w3.org/2000/01/rdf-schema#label> "Superfamily" .
+<http://purl.obolibrary.org/obo/NCIT_C62706> <http://www.w3.org/2000/01/rdf-schema#label> "Superkingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C62707> <http://www.w3.org/2000/01/rdf-schema#label> "Superorder" .
+<http://purl.obolibrary.org/obo/NCIT_C62708> <http://www.w3.org/2000/01/rdf-schema#label> "Superphylum" .
+<http://purl.obolibrary.org/obo/NCIT_C45280> <http://www.w3.org/2000/01/rdf-schema#label> "Taxonomic Class" .
+<http://purl.obolibrary.org/obo/NCIT_C62702> <http://www.w3.org/2000/01/rdf-schema#label> "Tribe" .
+<http://purl.obolibrary.org/obo/NCIT_C62709> <http://www.w3.org/2000/01/rdf-schema#label> "Variety" .
+}
+
+:provenance {
+  :assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/SRAO.owl> .
+}
+
+:pubinfo {
+  : dct:creator orcid:0000-0002-1267-0234 .
+  : npx:hasNanopubType <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+}
+@prefix : <http://purl.org/nanopub/temp/srao-hierarchy/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+:Head {
+  : np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo ;
+    a np:Nanopublication .
+}
+
+:assertion {
+<http://purl.obolibrary.org/obo/NCIT_C179767> <http://www.w3.org/2000/01/rdf-schema#label> "Clade" .
+<http://purl.obolibrary.org/obo/NCIT_C45290> <http://www.w3.org/2000/01/rdf-schema#label> "Family" .
+<http://purl.obolibrary.org/obo/NCIT_C62688> <http://www.w3.org/2000/01/rdf-schema#label> "Forma" .
+<http://purl.obolibrary.org/obo/NCIT_C45292> <http://www.w3.org/2000/01/rdf-schema#label> "Genus" .
+<http://purl.obolibrary.org/obo/NCIT_C45286> <http://www.w3.org/2000/01/rdf-schema#label> "Infraclass" .
+<http://purl.obolibrary.org/obo/NCIT_C45289> <http://www.w3.org/2000/01/rdf-schema#label> "Infraorder" .
+<http://purl.obolibrary.org/obo/NCIT_C45276> <http://www.w3.org/2000/01/rdf-schema#label> "Kingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C62686> <http://www.w3.org/2000/01/rdf-schema#label> "No Rank" .
+<http://purl.obolibrary.org/obo/NCIT_C45287> <http://www.w3.org/2000/01/rdf-schema#label> "Order" .
+<http://purl.obolibrary.org/obo/NCIT_C62689> <http://www.w3.org/2000/01/rdf-schema#label> "Parvorder" .
+<http://purl.obolibrary.org/obo/NCIT_C45277> <http://www.w3.org/2000/01/rdf-schema#label> "Phylum" .
+<http://purl.obolibrary.org/obo/NCIT_C45293> <http://www.w3.org/2000/01/rdf-schema#label> "Species" .
+<http://purl.obolibrary.org/obo/NCIT_C62690> <http://www.w3.org/2000/01/rdf-schema#label> "Species Group" .
+<http://purl.obolibrary.org/obo/NCIT_C62691> <http://www.w3.org/2000/01/rdf-schema#label> "Species Subgroup" .
+<http://purl.obolibrary.org/obo/NCIT_C45285> <http://www.w3.org/2000/01/rdf-schema#label> "Subclass" .
+<http://purl.obolibrary.org/obo/NCIT_C45291> <http://www.w3.org/2000/01/rdf-schema#label> "Subfamily" .
+<http://purl.obolibrary.org/obo/NCIT_C62692> <http://www.w3.org/2000/01/rdf-schema#label> "Subgenus" .
+<http://purl.obolibrary.org/obo/NCIT_C62701> <http://www.w3.org/2000/01/rdf-schema#label> "Subkingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C45288> <http://www.w3.org/2000/01/rdf-schema#label> "Suborder" .
+<http://purl.obolibrary.org/obo/NCIT_C45278> <http://www.w3.org/2000/01/rdf-schema#label> "Subphylum" .
+<http://purl.obolibrary.org/obo/NCIT_C62700> <http://www.w3.org/2000/01/rdf-schema#label> "Subspecies" .
+<http://purl.obolibrary.org/obo/NCIT_C62703> <http://www.w3.org/2000/01/rdf-schema#label> "Subtribe" .
+<http://purl.obolibrary.org/obo/NCIT_C62704> <http://www.w3.org/2000/01/rdf-schema#label> "Superclass" .
+<http://purl.obolibrary.org/obo/NCIT_C62705> <http://www.w3.org/2000/01/rdf-schema#label> "Superfamily" .
+<http://purl.obolibrary.org/obo/NCIT_C62706> <http://www.w3.org/2000/01/rdf-schema#label> "Superkingdom" .
+<http://purl.obolibrary.org/obo/NCIT_C62707> <http://www.w3.org/2000/01/rdf-schema#label> "Superorder" .
+<http://purl.obolibrary.org/obo/NCIT_C62708> <http://www.w3.org/2000/01/rdf-schema#label> "Superphylum" .
+<http://purl.obolibrary.org/obo/NCIT_C45280> <http://www.w3.org/2000/01/rdf-schema#label> "Taxonomic Class" .
+<http://purl.obolibrary.org/obo/NCIT_C62702> <http://www.w3.org/2000/01/rdf-schema#label> "Tribe" .
+<http://purl.obolibrary.org/obo/NCIT_C62709> <http://www.w3.org/2000/01/rdf-schema#label> "Variety" .
+}
+
+:provenance {
+  :assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/SRAO.owl> .
+}
+
+:pubinfo {
+  : dct:creator orcid:0000-0002-1267-0234 .
+  : npx:hasNanopubType <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+}

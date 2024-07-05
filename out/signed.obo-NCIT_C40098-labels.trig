@@ -1,0 +1,92 @@
+@prefix this: <http://purl.org/np/RAIPFbeboDyUD1zhpbgoU0f_VevuOZ8fgbPL3asYqz14o> .
+@prefix sub: <http://purl.org/np/RAIPFbeboDyUD1zhpbgoU0f_VevuOZ8fgbPL3asYqz14o#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+sub:Head {
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+  obo:NCIT_C179767 rdfs:label "Clade" .
+  
+  obo:NCIT_C45276 rdfs:label "Kingdom" .
+  
+  obo:NCIT_C45277 rdfs:label "Phylum" .
+  
+  obo:NCIT_C45278 rdfs:label "Subphylum" .
+  
+  obo:NCIT_C45280 rdfs:label "Taxonomic Class" .
+  
+  obo:NCIT_C45285 rdfs:label "Subclass" .
+  
+  obo:NCIT_C45286 rdfs:label "Infraclass" .
+  
+  obo:NCIT_C45287 rdfs:label "Order" .
+  
+  obo:NCIT_C45288 rdfs:label "Suborder" .
+  
+  obo:NCIT_C45289 rdfs:label "Infraorder" .
+  
+  obo:NCIT_C45290 rdfs:label "Family" .
+  
+  obo:NCIT_C45291 rdfs:label "Subfamily" .
+  
+  obo:NCIT_C45292 rdfs:label "Genus" .
+  
+  obo:NCIT_C45293 rdfs:label "Species" .
+  
+  obo:NCIT_C62686 rdfs:label "No Rank" .
+  
+  obo:NCIT_C62688 rdfs:label "Forma" .
+  
+  obo:NCIT_C62689 rdfs:label "Parvorder" .
+  
+  obo:NCIT_C62690 rdfs:label "Species Group" .
+  
+  obo:NCIT_C62691 rdfs:label "Species Subgroup" .
+  
+  obo:NCIT_C62692 rdfs:label "Subgenus" .
+  
+  obo:NCIT_C62700 rdfs:label "Subspecies" .
+  
+  obo:NCIT_C62701 rdfs:label "Subkingdom" .
+  
+  obo:NCIT_C62702 rdfs:label "Tribe" .
+  
+  obo:NCIT_C62703 rdfs:label "Subtribe" .
+  
+  obo:NCIT_C62704 rdfs:label "Superclass" .
+  
+  obo:NCIT_C62705 rdfs:label "Superfamily" .
+  
+  obo:NCIT_C62706 rdfs:label "Superkingdom" .
+  
+  obo:NCIT_C62707 rdfs:label "Superorder" .
+  
+  obo:NCIT_C62708 rdfs:label "Superphylum" .
+  
+  obo:NCIT_C62709 rdfs:label "Variety" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/SRAO.owl> .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "CpjswT2vcZZhgrKHxSnsFlkffTJ81yi5NrKMqxrJ7HdaYGymm12k9jSKAyF1ByED4NfDB6KqmtO5PPj/x1pUzBdusAZqHJu9QrbTKKhxuTqgUYr1Nz6Ytlo1NhLpxVA4hfACG0MolUxuFAbc01P2X0PlizO1pvUdEhjGVWrMQ2A=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:creator orcid:0000-0002-1267-0234;
+    npx:hasNanopubType <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> .
+}
