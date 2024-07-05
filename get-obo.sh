@@ -22,7 +22,7 @@ curl -L "https://ontobee.org/ontology/catalog/NCIT?iri=http://purl.obolibrary.or
 cat out/obo-$1.ttl
 
 (
-  echo "@prefix : <http://purl.org/nanopub/temp/srao-hierarchy/> ."
+  echo "@prefix : <http://purl.org/nanopub/temp/obo-labels/> ."
   echo "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> ."
   echo "@prefix np: <http://www.nanopub.org/nschema#> ."
   echo "@prefix dct: <http://purl.org/dc/terms/> ."
@@ -44,14 +44,14 @@ cat out/obo-$1.ttl
   echo "}"
   echo ""
   echo ":provenance {"
-  echo "  :assertion prov:wasDerivedFrom <https://raw.githubusercontent.com/FAIRsharing/subject-ontology/master/SRAO.owl> ."
+  echo "  :assertion prov:wasDerivedFrom <https://ontobee.org/ontology/catalog/NCIT> ."
   echo "}"
   echo ""
   echo ":pubinfo {"
   echo "  : dct:creator orcid:0000-0002-1267-0234 ."
-  echo "  : npx:hasNanopubType <https://w3id.org/fair/fip/terms/FAIR-Implementation-Community> ."
+  echo '  : dct:created "'$(./np now)'"^^xsd:dateTime .'
   echo "}"
-) >> out/obo-$1-labels.trig
+) > out/obo-$1-labels.trig
 
 ./np sign out/obo-$1-labels.trig
 
