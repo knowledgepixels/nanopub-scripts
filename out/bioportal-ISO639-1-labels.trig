@@ -1,0 +1,222 @@
+@prefix : <http://purl.org/nanopub/temp/bioportal-labels/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+:Head {
+  : np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo ;
+    a np:Nanopublication .
+}
+
+:assertion {
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/aa> rdfs:label "Afar"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ab> rdfs:label "Abkhazian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ae> rdfs:label "Avestan"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/af> rdfs:label "Afrikaans"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ak> rdfs:label "Akan"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/am> rdfs:label "Amharic"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/an> rdfs:label "Aragonese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ar> rdfs:label "Arabic"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/as> rdfs:label "Assamese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/av> rdfs:label "Avaric"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ay> rdfs:label "Aymara"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/az> rdfs:label "Azerbaijani"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ba> rdfs:label "Bashkir"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/be> rdfs:label "Belarusian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/bg> rdfs:label "Bulgarian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/bh> rdfs:label "Bihari"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/bi> rdfs:label "Bislama"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/bm> rdfs:label "Bambara"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/bn> rdfs:label "Bengali (Bangla)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/bo> rdfs:label "Tibetan"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/br> rdfs:label "Breton"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/bs> rdfs:label "Bosnian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ca> rdfs:label "Catalan"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ce> rdfs:label "Chechen"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ch> rdfs:label "Chamorro"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/co> rdfs:label "Corsican"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/cr> rdfs:label "Cree"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/cs> rdfs:label "Czech"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/cu> rdfs:label "Old Church Slavonic, Old Bulgarian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/cv> rdfs:label "Chuvash"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/cy> rdfs:label "Welsh"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/da> rdfs:label "Danish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/de> rdfs:label "German"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/dv> rdfs:label "Divehi, Dhivehi, Maldivian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/dz> rdfs:label "Dzongkha"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ee> rdfs:label "Ewe"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/el> rdfs:label "Greek"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/en> rdfs:label "English"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/eo> rdfs:label "Esperanto"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/es> rdfs:label "Spanish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/et> rdfs:label "Estonian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/eu> rdfs:label "Basque"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/fa> rdfs:label "Persian (Farsi)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ff> rdfs:label "Fula, Fulah, Pulaar, Pular"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/fi> rdfs:label "Finnish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/fj> rdfs:label "Fijian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/fo> rdfs:label "Faroese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/fr> rdfs:label "French"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/fy> rdfs:label "Western Frisian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ga> rdfs:label "Irish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/gd> rdfs:label "Gaelic (Scottish)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/gl> rdfs:label "Galician"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/gn> rdfs:label "Guarani"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/gu> rdfs:label "Gujarati"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/gv> rdfs:label "Gaelic (Manx)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/gv> rdfs:label "Manx"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ha> rdfs:label "Hausa"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/he> rdfs:label "Hebrew"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/hi> rdfs:label "Hindi"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ho> rdfs:label "Hiri Motu"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/hr> rdfs:label "Croatian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ht> rdfs:label "Haitian Creole"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/hu> rdfs:label "Hungarian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/hy> rdfs:label "Armenian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/hz> rdfs:label "Herero"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ia> rdfs:label "Interlingua"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/id> rdfs:label "Indonesian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ie> rdfs:label "Interlingue"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ig> rdfs:label "Igbo"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ii> rdfs:label "Nuosu"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ii> rdfs:label "Sichuan Yi"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ik> rdfs:label "Inupiak"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/in> rdfs:label "Indonesian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/io> rdfs:label "Ido"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/is> rdfs:label "Icelandic"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/it> rdfs:label "Italian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/iu> rdfs:label "Inuktitut"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ja> rdfs:label "Japanese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ji> rdfs:label "Yiddish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/jv> rdfs:label "Javanese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ka> rdfs:label "Georgian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kg> rdfs:label "Kongo"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ki> rdfs:label "Kikuyu"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kj> rdfs:label "Kwanyama"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kk> rdfs:label "Kazakh"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kl> rdfs:label "Greenlandic"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kl> rdfs:label "Kalaallisut, Greenlandic"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/km> rdfs:label "Khmer"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kn> rdfs:label "Kannada"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ko> rdfs:label "Korean"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kr> rdfs:label "Kanuri"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ks> rdfs:label "Kashmiri"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ku> rdfs:label "Kurdish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kv> rdfs:label "Komi"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/kw> rdfs:label "Cornish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ky> rdfs:label "Kyrgyz"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/la> rdfs:label "Latin"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/lb> rdfs:label "Luxembourgish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/lg> rdfs:label "Luganda, Ganda"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/li> rdfs:label "Limburgish ( Limburger)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ln> rdfs:label "Lingala"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/lo> rdfs:label "Lao"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/lt> rdfs:label "Lithuanian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/lu> rdfs:label "Luga-Katanga"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/lv> rdfs:label "Latvian (Lettish)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mg> rdfs:label "Malagasy"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mh> rdfs:label "Marshallese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mi> rdfs:label "Maori"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mk> rdfs:label "Macedonian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ml> rdfs:label "Malayalam"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mn> rdfs:label "Mongolian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mo> rdfs:label "Moldavian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mr> rdfs:label "Marathi"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ms> rdfs:label "Malay"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/mt> rdfs:label "Maltese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/my> rdfs:label "Burmese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/na> rdfs:label "Nauru"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/nb> rdfs:label "Norwegian bokm\u00C3\u00A5l"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/nd> rdfs:label "Northern Ndebele"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ne> rdfs:label "Nepali"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ng> rdfs:label "Ndonga"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/nl> rdfs:label "Dutch"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/nn> rdfs:label "Norwegian nynorsk"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/no> rdfs:label "Norwegian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/nr> rdfs:label "Southern Ndebele"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/nv> rdfs:label "Navajo"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ny> rdfs:label "Chichewa, Chewa, Nyanja"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/oc> rdfs:label "Occitan"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/oj> rdfs:label "Ojibwe"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/om> rdfs:label "Oromo (Afaan Oromo)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/or> rdfs:label "Oriya"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/os> rdfs:label "Ossetian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/pa> rdfs:label "Punjabi (Eastern)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/pi> rdfs:label "P\u00C4\u0081li"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/pl> rdfs:label "Polish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ps> rdfs:label "Pashto, Pushto"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/pt> rdfs:label "Portuguese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/qu> rdfs:label "Quechua"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/rm> rdfs:label "Romansh"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/rn> rdfs:label "Kirundi"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ro> rdfs:label "Romanian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ru> rdfs:label "Russian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/rw> rdfs:label "Kinyarwanda (Rwanda)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sa> rdfs:label "Sanskrit"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sd> rdfs:label "Sindhi"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/se> rdfs:label "Sami"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sg> rdfs:label "Sango"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sh> rdfs:label "Serbo-Croatian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/si> rdfs:label "Sinhalese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sk> rdfs:label "Slovak"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sl> rdfs:label "Slovenian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sm> rdfs:label "Samoan"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sn> rdfs:label "Shona"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/so> rdfs:label "Somali"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sq> rdfs:label "Albanian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sr> rdfs:label "Serbian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ss> rdfs:label "Siswati"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ss> rdfs:label "Swati"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/st> rdfs:label "Sesotho"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/su> rdfs:label "Sundanese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sv> rdfs:label "Swedish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/sw> rdfs:label "Swahili (Kiswahili)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ta> rdfs:label "Tamil"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/te> rdfs:label "Telugu"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/tg> rdfs:label "Tajik"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/th> rdfs:label "Thai"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ti> rdfs:label "Tigrinya"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/tk> rdfs:label "Turkmen"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/tl> rdfs:label "Tagalog"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/tn> rdfs:label "Setswana"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/to> rdfs:label "Tonga"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/tr> rdfs:label "Turkish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ts> rdfs:label "Tsonga"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/tt> rdfs:label "Tatar"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/tw> rdfs:label "Twi"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ty> rdfs:label "Tahitian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ug> rdfs:label "Uyghur"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/uk> rdfs:label "Ukrainian"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ur> rdfs:label "Urdu"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/uz> rdfs:label "Uzbek"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/ve> rdfs:label "Venda"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/vi> rdfs:label "Vietnamese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/vo> rdfs:label "Volap\u00C3\u00BCk"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/wa> rdfs:label "Wallon"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/wo> rdfs:label "Wolof"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/xh> rdfs:label "Xhosa"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/yi> rdfs:label "Yiddish"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/yo> rdfs:label "Yoruba"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/za> rdfs:label "Zhuang, Chuang"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/zh> rdfs:label "Chinese"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/zh-Hans> rdfs:label "Chinese (Simplified)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/zh-Hant> rdfs:label "Chinese (Traditional)"@en .
+  <https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/zu> rdfs:label "Zulu"@en .
+}
+
+:provenance {
+  :assertion prov:wasDerivedFrom <https://ontobee.org/ontology/catalog/NCIT> .
+}
+
+:pubinfo {
+  : rdfs:label "Labels for BioPortal classes under ISO639-1" .
+  : npx:hasNanopubType rdfs:label .
+  : dct:creator orcid:0000-0002-1267-0234 .
+  : dct:created "/home/tk/Code/nanopub-scripts/nanopub-1.77-jar-with-dependencies.jar 2025-06-20T13:45:32.002+02:00"^^xsd:dateTime .
+}
