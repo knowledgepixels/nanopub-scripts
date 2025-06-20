@@ -1,5 +1,5 @@
-@prefix this: <https://w3id.org/np/RAQgIjThdywudb1duQAOJuPmKkcwYx74AhTn_Gmq7y3c8> .
-@prefix sub: <https://w3id.org/np/RAQgIjThdywudb1duQAOJuPmKkcwYx74AhTn_Gmq7y3c8/> .
+@prefix this: <https://w3id.org/np/RAYPBYYrhOUsVwLHuXmh-GZ2WCEZ4JOVlTDq9Md6L3Hic> .
+@prefix sub: <https://w3id.org/np/RAYPBYYrhOUsVwLHuXmh-GZ2WCEZ4JOVlTDq9Md6L3Hic/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix npx: <http://purl.org/nanopub/x/> .
@@ -406,13 +406,13 @@ sub:provenance {
 }
 
 sub:pubinfo {
-  this: dct:created "/home/tk/Code/nanopub-scripts/nanopub-1.77-jar-with-dependencies.jar 2025-06-20T13:45:32.002+02:00"^^xsd:dateTime;
+  this: dct:created "2025-06-20T13:53:31.524+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234;
     npx:hasNanopubType rdfs:label;
     rdfs:label "Labels for BioPortal classes under ISO639-1" .
   
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "m4E4KyDAWCpV5fL982YdwBIMSc/pYwkabhq/iHSSvYosY5MU+sDmJxK0A9mjUqn2tj7ugHKzq7HcvK9jEtx12LnnP/Ng3MNuD18DngbR2zrn65MwfLM2wWZxb4ZNaoCbmNV391Y7JJKmyqowLne4yrd3Eo7LR6uTCNt8QL9xML4=";
+    npx:hasSignature "UizPFG6II/BrFSG/do691FW6OeGJamLBcZKKQ2yB0U3uTam18HxiGlyQ8NFv9vkB9NT3P8BTKM37qHp6cRL5D7Xka21/EIRbv+0HUGbGaK50qg+3T72ruKzHZ4FbyClFpuHu3VC2DsHM3JXAXsGNWqT7oCUMHFPNDxvWutyaKJA=";
     npx:hasSignatureTarget this: .
 }
