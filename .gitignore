@@ -1,3 +1,4 @@
 /temp
 /dumps
 *.jar
+.project
